@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SWACKYCOMICS! - Trivia</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" href="/img/icon.png">
+        <meta name="theme-color" content="#f26411">
+        <meta property="og:type" content="article">
+
+        <meta property="og:title" content="SWACKYCOMICS">
+        <meta property="og:site_name" content="comics.swackygcf.serv00.net">
+        <meta property="og:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="og:image" content="/img/default.png">
+
+        <meta property="twitter:title" content="SWACKYCOMICS">
+        <meta property="twitter:site" content="comics.swackygcf.serv00.net">
+        <meta property="twitter:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="twitter:image" content="/img/default.png">
+    </head>
+    <body>
+        <script src="/js/generic.js"></script>
+
+        <div class="main align-center" id="content">
+            <div>
+                <img src="/img/triviatitle.png" style="width:35%; min-width:350px; margin-bottom:64px;"></img>
+            </div>
+            <script>
+                function shuffle(array) {
+                    let currentIndex = array.length;
+
+                    // While there remain elements to shuffle...
+                    while (currentIndex != 0) {
+
+                        // Pick a remaining element...
+                        let randomIndex = Math.floor(Math.random() * currentIndex);
+                        currentIndex--;
+
+                        // And swap it with the current element.
+                        [array[currentIndex], array[randomIndex]] = [
+                        array[randomIndex], array[currentIndex]];
+                    }
+                }
+
+                let triviadata = [
+                    "Jimmy's Comical Journey was originally published on the swackygames discord server.",
+                    "There exists multiple scrapped versions of Jimmy comics, some of them featured polar opposites of Dr. Vegg and Jimmy.",
+                    "All of the comics on this website were made in Macromedia Flash 8!",
+                    "The idea to create Jimmy's Comical Journey came to me when I had no internet connection and was bored out of my mind.",
+                    "The guest character in Jimmy Comic 2 is from a now deleted game called JASKINSCAPE.",
+                    "The fonts used in these comics are SF Cartoonist Hand and Pink Chicken.",
+                    "Roydent and Rett from The RedBidd Comics originated from RedBidd Fun Facts. Back then they were called \"other mice\".",
+                    "DynamiteHead from DynamiteHead comics originated in Jimmy's Lost Fruits Journey 2.",
+                    "Misterio and NoWayKing from The RedBidd Comics were originally called The Royal Spy and The King, respectively.",
+                    "Nameless is the only character who's aware of being in a comic.",
+                    "SXDG has been completely wiped off from the world of Jimmy's Comical Journey. Not a single trace was left of him.",
+                    "Dr. Vegg Mini-comics were originally published on Twitter.",
+                    "Jimmy's Grumpy dog from Comic 7 was supposed to star in Jimmy's Lost Fruits Journey 2 as a playable character.",
+                    "CrasherHead's design took inspiration from THE. EXE CRASHER from THE .EXECUTIONER by swackyGCF",
+                    "EvilBidd is inspired by Evil Jim from the Earthworm Jim cartoon series",
+                ]
+
+                shuffle(triviadata)
+
+                //write trivia
+                document.write( '<div class=\"trivia-grid\">\n' );
+                for(var i = 0; i < triviadata.length; i++){
+                    document.write( '                <div>\n' );
+                    document.write( '                    <p>'+triviadata[i]+'</p>\n' );
+                    document.write( '                </div>\n' );
+                }
+                document.write( '            </div>' );
+            </script>
+            <script src="/js/footer.js"></script>
+        </div>
+    </body>
+</html>

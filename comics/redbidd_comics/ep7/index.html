@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="theme-color" content="#f26411">
+        <title>SWACKYCOMICS!</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" href="/img/icon.png">
+        <abbr id="curcomic">redbidd,7</abbr>
+        <script type="text/javascript" src="/comicdata.js"></script>
+        <script type="text/javascript" src="/comicinfo.js"></script>
+
+        <meta name="theme-color" content="#f50c33">
+        <meta property="og:type" content="article">
+
+        <meta property="og:title" content="SEWERSTUCK">
+        <meta property="og:site_name" content="comics.swackygcf.serv00.net">
+        <meta property="og:description" content="Sewers. Yep. That's where RedBidd and his Pals are. This task ain't gonna be an easy one. AS REDBIDD PALS GOT TRICKED BY MISTERIO IN A ''SMILINGMAN'' DISGUISE. THEY NOW HAVE TO FIND THEIR WAY OUT OF THE SEWER PLACE before drowning in whatever is in those pipes.">
+        <meta property="og:image" content="/img/icons/rb_7.png">
+
+        <meta property="og:title" content="SEWERSTUCK">
+        <meta property="twitter:site" content="comics.swackygcf.serv00.net">
+        <meta property="twitter:description" content="Sewers. Yep. That's where RedBidd and his Pals are. This task ain't gonna be an easy one. AS REDBIDD PALS GOT TRICKED BY MISTERIO IN A ''SMILINGMAN'' DISGUISE. THEY NOW HAVE TO FIND THEIR WAY OUT OF THE SEWER PLACE before drowning in whatever is in those pipes.">
+        <meta property="og:image" content="/img/icons/rb_7.png">
+    </head>
+    <body>
+        <script src="/js/generic.js"></script>
+        <div class="main align-center" id="content">
+            <script type="text/javascript" src="/comicinfo.js"></script>
+            <script src="/js/loadcomic.js"></script>
+            <script>
+                if(parseInt(episode) <= 1){
+                    var prev = document.getElementById('prev');
+                    prev.style.display = 'none';
+                }
+                if(parseInt(episode) >= Object.values(Object.values(comicjson)[seriesnum]).length){
+                    var next = document.getElementById('next');
+                    next.style.display = 'none';
+                }
+            </script>
+
+            <script src="/js/footer.js"></script>
+        </div>
+    </body>
+</html>

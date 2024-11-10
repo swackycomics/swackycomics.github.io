@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="theme-color" content="#f26411">
+        <title>SWACKYCOMICS!</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" href="/img/icon.png">
+        <abbr id="curcomic">jimmy,7</abbr>
+        <script type="text/javascript" src="/comicdata.js"></script>
+        <script type="text/javascript" src="/comicinfo.js"></script>
+
+        <meta name="theme-color" content="#0439cc">
+        <meta property="og:type" content="article">
+
+        <meta property="og:title" content="RENTED OUT">
+        <meta property="og:site_name" content="comics.swackygcf.serv00.net">
+        <meta property="og:description" content="Dr. Vegg accidentally blows up his castle and becomes homeless.">
+        <meta property="og:image" content="/img/icons/jim_7.png">
+
+        <meta property="og:title" content="RENTED OUT">
+        <meta property="twitter:site" content="comics.swackygcf.serv00.net">
+        <meta property="twitter:description" content="Dr. Vegg accidentally blows up his castle and becomes homeless.">
+        <meta property="og:image" content="/img/icons/jim_7.png">
+    </head>
+    <body>
+        <script src="/js/generic.js"></script>
+        <div class="main align-center" id="content">
+            <script type="text/javascript" src="/comicinfo.js"></script>
+            <script src="/js/loadcomic.js"></script>
+            <script>
+                if(parseInt(episode) <= 1){
+                    var prev = document.getElementById('prev');
+                    prev.style.display = 'none';
+                }
+                if(parseInt(episode) >= Object.values(Object.values(comicjson)[seriesnum]).length){
+                    var next = document.getElementById('next');
+                    next.style.display = 'none';
+                }
+            </script>
+
+            <script src="/js/footer.js"></script>
+        </div>
+    </body>
+</html>

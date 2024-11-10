@@ -1,0 +1,666 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url("/img/tiledbg.png");
+    background-repeat: repeat;
+    color: #FFFFFF;
+    font-family: 'pinkchicken';
+    font-size: 28px;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    padding-top: 120px;
+    width: 60%;
+    min-height: 100vh;
+}
+
+.left-border {
+    background-image: url("/img/borderl.png");
+    background-repeat: repeat-y;
+    background-size:auto;
+}
+.right-border {
+    background-image: url("/img/borderr.png");
+    background-repeat: repeat-y;
+    background-size:auto;
+}
+.on-top {
+    position: fixed;
+    z-index: 99;
+}
+.align-left {
+    margin: 0;
+    text-align: left;
+}
+.align-center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.align-right {
+    right: 0;
+    text-align: right;
+}
+.bottom {
+    margin-top: 10%;
+    bottom: 0;
+    display: inline-block;
+}
+
+.header {
+    background-color: #000000;
+    text-align: left;
+    padding-right: 5px;
+    height: 75px;
+}
+.header a {
+    background-repeat: no-repeat;
+    padding-right: 5px;
+    text-decoration: none;
+    display:inline-block;
+    height: 70px;
+    width: 200px;
+}
+#header1 {
+    background-image: url("/img/header1.png");
+    background-size: 200px auto;
+}
+#header2 {
+    background-image: url("/img/header2.png");
+    background-size: 200px auto;
+}
+#header3 {
+    background-image: url("/img/header3.png");
+    background-size: 200px auto;
+}
+#header4 {
+    background-image: url("/img/header4.png");
+    background-size: 200px auto;
+}
+#header5 {
+    background-image: url("/img/header5.png");
+    background-size: 200px auto;
+}
+#header1:hover {
+    background-image: url("/img/header1-talk.gif");
+    background-size: 200px auto;
+}
+#header2:hover {
+    background-image: url("/img/header2-on.png");
+    background-size: 200px auto;
+}
+#header3:hover {
+    background-image: url("/img/header3-on.png");
+    background-size: 200px auto;
+}
+#header4:hover {
+    background-image: url("/img/header4-on.png");
+    background-size: 200px auto;
+}
+#header5:hover {
+    background-image: url("/img/header5-on.png");
+    background-size: 200px auto;
+}
+
+.dropdown-content {
+    margin-top: -30px;
+    padding: 5px 5px;
+    display: none;
+    position: fixed;
+    background-color: #000000;
+    left: 440px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: 'pinkchicken';
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    z-index: 2;
+    width: 100%;
+    height: 50%;
+}
+
+.dropdown-content a:hover {background-color: #FFFFFF;color: #000000;}
+
+.show {display:block;}
+
+.grid div{
+    width:20vw;
+    height:20vw;
+    margin-right:1vw;
+    margin-bottom:2vw;
+    position: relative;
+    background-image: url("/img/comicframe.png");
+    background-size: 20vw 20vw;
+}
+.grid div:hover{
+    background-image: url("/img/comicframe-on.png");
+}
+.grid table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid div {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid tr {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid p {
+    font-size: 2vw;
+}
+#pbottom {
+    margin-top:-12%;
+    margin-bottom: 12%;
+}
+#pbottom2 {
+    margin-top:-8%;
+    margin-bottom: 20%;
+}
+.grid div a img {
+    position: absolute;
+    top: 13.3%;
+    left: 13.9%;
+}
+
+.recent div{
+    width:20vw;
+    height:20vw;
+    margin-right:1vw;
+    margin-bottom:2vw;
+    position: relative;
+    background-image: url("/img/comicframenew.png");
+    background-size: 20vw 20vw;
+}
+.recent div:hover{
+    background-image: url("/img/comicframenew-on.png");
+}
+.recent table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.recent div {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recent tr {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recent p {
+    font-size: 2vw;
+}
+.recent a {
+    text-decoration: none; color:#FFFFFF;
+}
+.recent div a img {
+    position: absolute;
+    top: 13.3%;
+    left: 13.9%;
+}
+#new {
+    background-image: url('/img/new.png');
+    background-size: 20vw 20vw;
+}
+
+.mobiletable {
+    display: none;
+}
+
+#curcomic {
+    display: none;
+}
+
+.comicdiv {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 640px;
+    overflow: auto;
+}
+.comicdiv img {
+    width: 100%;
+    height: 100%;
+    min-width: 50%;
+}
+
+.prevnext {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+}
+.prevnext table {
+    align-self: center;
+}
+.prevnext div {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prevnext tr {
+    display: table-row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prevnext a {
+    background-size: 200px auto;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    display:inline-block;
+    height: 70px;
+    width: 200px;
+}
+#prev {
+    background-image: url("/img/prev.png");
+}
+#prev:hover {
+    background-image: url("/img/prev-on.png");
+}
+#next {
+    background-image: url("/img/next.png");
+}
+#next:hover {
+    background-image: url("/img/next-on.png");
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.download table {
+    align-self: center;
+}
+.download div {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.download tr {
+    display: table-row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.download a {
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    display:inline-block;
+    height: 52px;
+    width: 300px;
+}
+
+.mobiledownload {
+    display: none;
+}
+
+#pdf {
+    background-image: url("/img/downloadpdf.png");
+}
+#fla {
+    background-image: url("/img/downloadfla.png");
+}
+
+.trivia-grid div{
+    width:500px;
+    height:180px;
+    position: relative;
+    background-image: url("/img/triviaframe.png");
+    background-size: 100% 100%;
+}
+.trivia-grid table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.trivia-grid div {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trivia-grid tr {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trivia-grid p {
+    position: absolute;
+    font-size: 24px;
+    text-align: left;
+    width: 88%;
+    height: 100%;
+    top: 32%;
+    left: 6%;
+}
+
+.big-text {
+    font-size: 60px;
+}
+.medium-text {
+    font-size: 30px;
+}
+.small-text {
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1020px) {
+    .left-border {
+        display: none;
+    }
+    .right-border {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    #header1 {
+        display: none;
+    }
+    .dropdown-content {
+        left: 230px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .header {
+        padding: 7px;
+        height: 54px;
+    }
+    .header a {
+        padding-right: 0px;
+        width: 150px;
+        height: 54px;
+    }
+    #header2 {
+        background-size: 145px auto;
+    }
+    #header3 {
+        background-size: 145px auto;
+    }
+    #header4 {
+        background-size: 145px auto;
+    }
+    #header5 {
+        background-size: 145px auto;
+    }
+    #header5:hover {
+        background-size: 145px auto;
+    }
+    #header2:hover {
+        background-size: 145px auto;
+    }
+    #header3:hover {
+        background-size: 145px auto;
+    }
+    .dropdown-content {
+        left: 170px;
+    }
+    #header4:hover {
+        background-size: 145px auto;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .header a {
+        padding-right: 0px;
+        width: 90px;
+    }
+    #header2 {
+        background-image: url("/img/header2_m.png");
+        background-size: 80px auto;
+    }
+    #header2:hover {
+        background-image: url("/img/header2_m-on.png");
+        background-size: 80px auto;
+    }
+    #header3 {
+        background-image: url("/img/header3_m.png");
+        background-size: 80px auto;
+    }
+    #header3:hover {
+        background-image: url("/img/header3_m-on.png");
+        background-size: 80px auto;
+    }
+    #header4 {
+        background-image: url("/img/header4_m.png");
+        background-size: 80px auto;
+    }
+    #header4:hover {
+        background-image: url("/img/header4_m-on.png");
+        background-size: 80px auto;
+    }
+    #header5 {
+        background-image: url("/img/header5_m.png");
+        background-size: 80px auto;
+    }
+    #header5:hover {
+        background-image: url("/img/header5_m-on.png");
+        background-size: 80px auto;
+    }
+    .dropdown-content {
+        left: 130px;
+    }
+}
+
+@media only screen and (hover: none) and (pointer: coarse){
+    .header a {
+        padding-right: 0px;
+        width: 90px;
+    }
+    #header2 {
+        background-image: url("/img/header2_m.png");
+        background-size: 80px auto;
+    }
+    #header2:hover {
+        background-image: url("/img/header2_m-on.png");
+        background-size: 80px auto;
+    }
+    #header3 {
+        background-image: url("/img/header3_m.png");
+        background-size: 80px auto;
+    }
+    #header3:hover {
+        background-image: url("/img/header3_m-on.png");
+        background-size: 80px auto;
+    }
+    #header4 {
+        background-image: url("/img/header4_m.png");
+        background-size: 80px auto;
+    }
+    #header4:hover {
+        background-image: url("/img/header4_m-on.png");
+        background-size: 80px auto;
+    }
+    #header5 {
+        background-image: url("/img/header5_m.png");
+        background-size: 80px auto;
+    }
+    #header5:hover {
+        background-image: url("/img/header5_m-on.png");
+        background-size: 80px auto;
+    }
+    .dropdown-content {
+        left: 130px;
+    }
+
+    .bottom p {
+        font-size: 40px;
+    }
+
+    .pctable {
+        display: none;
+    }
+    .mobiletable {
+        display: block;
+    }
+    .grid {
+        width: 12vw;
+    }
+    .grid div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .recent div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .grid p {
+        font-size: 42px;
+    }
+    .grid div{
+        width:50vw;
+        height:50vw;
+        background-size: 50vw 50vw;
+    }
+    .recent p {
+        padding-top: 4%;
+        font-size: 42px;
+    }
+    .recent div{
+        width:50vw;
+        height:50vw;
+        background-size: 50vw 50vw;
+    }
+    #new {
+        background-size: 50vw 50vw;
+    }
+    #pbottom{
+        margin-top:-4%;
+    }
+    .dropdown-content a {
+        font-size: 2vw;
+    }
+    .main {
+        width:100vw;
+    }
+    .comicdiv {
+        width: 540px;
+    }
+    .prevnext a {
+        text-align: left;
+    }
+    .download a {
+        text-align: left;
+    }
+    .pcdownload {
+        display: none;
+    }
+    .mobiledownload {
+        width: 500px;
+        display: block;
+        margin-top: 76px;
+        margin-bottom: 70px;
+    }
+    .download a {
+        background-size: 500px auto;
+        height: 100px;
+        width: 500px;
+    }
+    .trivia-grid p {
+        font-size: 36px;
+    }
+    .trivia-grid div{
+        width:800px;
+        height:300px;
+        background-size: 100% 100%;
+    }
+    p {
+        width: 100vw;
+    }
+    .header {
+      height: 105px;
+    }
+    .header a {
+      padding-right: 24px;
+      width: 140px;
+      height: 110px;
+    }
+    #header2 {
+      background-size: 160px auto;
+    }
+    #header3 {
+      background-size: 160px auto;
+    }
+    #header4 {
+      background-size: 160px auto;
+    }
+    #header5 {
+      background-size: 160px auto;
+    }
+    #header2:hover {
+      background-size: 160px auto;
+    }
+    #header3:hover {
+      background-size: 160px auto;
+    }
+    #header4:hover {
+      background-size: 160px auto;
+    }
+    #header5:hover {
+      background-size: 160px auto;
+    }
+    .dropdown-content {
+        margin-top: -80px;
+        width: 70%;
+        height: 300px;
+    }
+    .dropdown-content a {
+        width: 100%;
+        height: 70px;
+        font-size: 40px;
+    }
+    .prevnext {
+        width: 350px;
+        height: 130px;
+    }
+    .prevnext a {
+        width: 350px;
+        height: 130px;
+        background-size: 350px auto;
+    }
+    .comicdiv {
+        width: 100vw;
+    }
+    .bigtext {
+        font-size: 90px;
+    }
+    .mediumtext {
+        font-size: 60px;
+    }
+    .smalltext {
+        font-size: 30px;
+    }
+}
+
+@font-face {
+    font-family: 'pinkchicken';
+    src: url('./font/PinkChicken-Regular.ttf')  format('truetype');
+    src: url('./font/PinkChicken-Regular.woff') format('woff');
+}

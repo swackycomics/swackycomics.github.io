@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="theme-color" content="#f26411">
+        <title>SWACKYCOMICS!</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" href="/img/icon.png">
+        <abbr id="curcomic">redbidd,2</abbr>
+        <script type="text/javascript" src="/comicdata.js"></script>
+        <script type="text/javascript" src="/comicinfo.js"></script>
+
+        <meta name="theme-color" content="#f50c33">
+        <meta property="og:type" content="article">
+
+        <meta property="og:title" content="LURKIN' OUT THERE">
+        <meta property="og:site_name" content="comics.swackygcf.serv00.net">
+        <meta property="og:description" content="In this episode, RedBidd (The Man, The Legend) fights off those PESKY lurking creeps, who give off a vibe like they haven't seen sunlight in 32 years. After successfully conquering his fear of yellow men chasing him, RedBidd finds a strange machine. Wonder what THAT could be used for...">
+        <meta property="og:image" content="/img/icons/rb_2.png">
+
+        <meta property="og:title" content="LURKIN' OUT THERE">
+        <meta property="twitter:site" content="comics.swackygcf.serv00.net">
+        <meta property="twitter:description" content="In this episode, RedBidd (The Man, The Legend) fights off those PESKY lurking creeps, who give off a vibe like they haven't seen sunlight in 32 years. After successfully conquering his fear of yellow men chasing him, RedBidd finds a strange machine. Wonder what THAT could be used for...">
+        <meta property="og:image" content="/img/icons/rb_2.png">
+    </head>
+    <body>
+        <script src="/js/generic.js"></script>
+        <div class="main align-center" id="content">
+            <script type="text/javascript" src="/comicinfo.js"></script>
+            <script src="/js/loadcomic.js"></script>
+            <script>
+                if(parseInt(episode) <= 1){
+                    var prev = document.getElementById('prev');
+                    prev.style.display = 'none';
+                }
+                if(parseInt(episode) >= Object.values(Object.values(comicjson)[seriesnum]).length){
+                    var next = document.getElementById('next');
+                    next.style.display = 'none';
+                }
+            </script>
+
+            <script src="/js/footer.js"></script>
+        </div>
+    </body>
+</html>
