@@ -1,3 +1,4 @@
+/* main stuff */
 body {
     margin: 0;
     padding: 0;
@@ -18,6 +19,8 @@ p {
     margin: 0;
     padding: 0;
 }
+
+/* classes */
 
 .main {
     position: relative;
@@ -73,51 +76,49 @@ p {
     height: 70px;
     width: 200px;
 }
+
+.header-button {
+	background-size: 200px auto;
+}
+
+/* tags */
+
 #header1 {
     background-image: url("/img/header1.png");
-    background-size: 200px auto;
 }
 #header2 {
     background-image: url("/img/header2.png");
-    background-size: 200px auto;
 }
 #header3 {
     background-image: url("/img/header3.png");
-    background-size: 200px auto;
 }
 #header4 {
     background-image: url("/img/header4.png");
-    background-size: 200px auto;
 }
 #header5 {
     background-image: url("/img/header5.png");
-    background-size: 200px auto;
 }
 #header1:hover {
     background-image: url("/img/header1-talk.gif");
-    background-size: 200px auto;
 }
 #header2:hover {
     background-image: url("/img/header2-on.png");
-    background-size: 200px auto;
 }
 #header3:hover {
     background-image: url("/img/header3-on.png");
-    background-size: 200px auto;
 }
 #header4:hover {
     background-image: url("/img/header4-on.png");
-    background-size: 200px auto;
 }
 #header5:hover {
     background-image: url("/img/header5-on.png");
-    background-size: 200px auto;
 }
+
+/* dropdown */
 
 .dropdown-content {
     margin-top: -30px;
     padding: 5px 5px;
-    display: none;
     position: fixed;
     background-color: #000000;
     left: 440px;
@@ -137,6 +138,8 @@ p {
 .dropdown-content a:hover {background-color: #FFFFFF;color: #000000;}
 
 .show {display:block;}
+
+/* grids */
 
 .grid div{
     width:20vw;
@@ -180,6 +183,8 @@ p {
     top: 13.3%;
     left: 13.9%;
 }
+
+/* recent comic */
 
 .recent div{
     width:20vw;
@@ -227,6 +232,8 @@ p {
     display: none;
 }
 
+/* comics */
+
 #curcomic {
     display: none;
 }
@@ -243,6 +250,8 @@ p {
     height: 100%;
     min-width: 50%;
 }
+
+/* comic buttons */
 
 .prevnext {
     display: flex;
@@ -287,6 +296,8 @@ p {
     background-image: url("/img/next-on.png");
 }
 
+/* download buttons */
+
 .download {
     display: flex;
     justify-content: center;
@@ -329,6 +340,8 @@ p {
     background-image: url("/img/downloadfla.png");
 }
 
+/* trivia css */
+
 .trivia-grid div{
     width:500px;
     height:180px;
@@ -360,6 +373,44 @@ p {
     left: 6%;
 }
 
+/* news css */
+#news-container {
+	margin: 6px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	width: 100%;
+	min-height: 32px;
+	background-color: rgba(0,0,0,.6);
+	border: 5px solid #ffb812;
+}
+#news-container a {
+	color: #ffb812;
+	text-decoration: underline;
+}
+#news-container img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+	padding: 12px;
+}
+
+#news-container .big-text {
+	color: #ffb812;
+	font-size: 40px;
+}
+#news-container .medium-text {
+	font-size: 28px;
+}
+#news-container .small-text {
+	color: #bf1123;
+	font-size: 24px;
+}
+
+/* text types */
+
 .big-text {
     font-size: 60px;
 }
@@ -369,6 +420,8 @@ p {
 .small-text {
     font-size: 15px;
 }
+
+/* mobile/width stuff */
 
 @media only screen and (max-width: 1020px) {
     .left-border {
@@ -398,32 +451,13 @@ p {
         width: 150px;
         height: 54px;
     }
-    #header2 {
-        background-size: 145px auto;
-    }
-    #header3 {
-        background-size: 145px auto;
-    }
-    #header4 {
-        background-size: 145px auto;
-    }
-    #header5 {
-        background-size: 145px auto;
-    }
-    #header5:hover {
-        background-size: 145px auto;
-    }
-    #header2:hover {
-        background-size: 145px auto;
-    }
-    #header3:hover {
-        background-size: 145px auto;
-    }
+	
+	.header-button {
+		background-size: 145px auto;
+	}
+	
     .dropdown-content {
         left: 170px;
-    }
-    #header4:hover {
-        background-size: 145px auto;
     }
 }
 
@@ -432,37 +466,34 @@ p {
         padding-right: 0px;
         width: 90px;
     }
+	
+	.header-button {
+		background-size: 80px auto;
+	}
+	
     #header2 {
         background-image: url("/img/header2_m.png");
-        background-size: 80px auto;
     }
     #header2:hover {
         background-image: url("/img/header2_m-on.png");
-        background-size: 80px auto;
     }
     #header3 {
         background-image: url("/img/header3_m.png");
-        background-size: 80px auto;
     }
     #header3:hover {
         background-image: url("/img/header3_m-on.png");
-        background-size: 80px auto;
     }
     #header4 {
         background-image: url("/img/header4_m.png");
-        background-size: 80px auto;
     }
     #header4:hover {
         background-image: url("/img/header4_m-on.png");
-        background-size: 80px auto;
     }
     #header5 {
         background-image: url("/img/header5_m.png");
-        background-size: 80px auto;
     }
     #header5:hover {
         background-image: url("/img/header5_m-on.png");
-        background-size: 80px auto;
     }
     .dropdown-content {
         left: 130px;
@@ -470,41 +501,47 @@ p {
 }
 
 @media only screen and (hover: none) and (pointer: coarse){
-    .header a {
+    body {
+		width: 100vw;
+	}
+	.left-border {
+        display: none;
+    }
+    .right-border {
+        display: none;
+    }
+	.header a {
         padding-right: 0px;
         width: 90px;
     }
+	
+	.header-button {
+		background-size: 80px auto;
+	}
+	
     #header2 {
         background-image: url("/img/header2_m.png");
-        background-size: 80px auto;
     }
     #header2:hover {
         background-image: url("/img/header2_m-on.png");
-        background-size: 80px auto;
     }
     #header3 {
         background-image: url("/img/header3_m.png");
-        background-size: 80px auto;
     }
     #header3:hover {
         background-image: url("/img/header3_m-on.png");
-        background-size: 80px auto;
     }
     #header4 {
         background-image: url("/img/header4_m.png");
-        background-size: 80px auto;
     }
     #header4:hover {
         background-image: url("/img/header4_m-on.png");
-        background-size: 80px auto;
     }
     #header5 {
         background-image: url("/img/header5_m.png");
-        background-size: 80px auto;
     }
     #header5:hover {
         background-image: url("/img/header5_m-on.png");
-        background-size: 80px auto;
     }
     .dropdown-content {
         left: 130px;
@@ -519,9 +556,6 @@ p {
     }
     .mobiletable {
         display: block;
-    }
-    .grid {
-        width: 12vw;
     }
     .grid div{
         margin-left: auto;
@@ -558,7 +592,7 @@ p {
         font-size: 2vw;
     }
     .main {
-        width:100vw;
+        width:100%;
     }
     .comicdiv {
         width: 540px;
@@ -591,9 +625,6 @@ p {
         height:300px;
         background-size: 100% 100%;
     }
-    p {
-        width: 100vw;
-    }
     .header {
       height: 105px;
     }
@@ -602,32 +633,12 @@ p {
       width: 140px;
       height: 110px;
     }
-    #header2 {
-      background-size: 160px auto;
-    }
-    #header3 {
-      background-size: 160px auto;
-    }
-    #header4 {
-      background-size: 160px auto;
-    }
-    #header5 {
-      background-size: 160px auto;
-    }
-    #header2:hover {
-      background-size: 160px auto;
-    }
-    #header3:hover {
-      background-size: 160px auto;
-    }
-    #header4:hover {
-      background-size: 160px auto;
-    }
-    #header5:hover {
-      background-size: 160px auto;
-    }
+	
+	.header-button {
+		background-size: 160px auto;
+	}
+	
     .dropdown-content {
-        margin-top: -80px;
         width: 70%;
         height: 300px;
     }
@@ -646,18 +657,52 @@ p {
         background-size: 350px auto;
     }
     .comicdiv {
-        width: 100vw;
+        width: 100%;
     }
-    .bigtext {
+    .big-text {
         font-size: 90px;
     }
-    .mediumtext {
+    .medium-text {
         font-size: 60px;
     }
-    .smalltext {
-        font-size: 30px;
+    .small-text {
+        font-size: 50px;
     }
+	
+	#swacktalk {
+		width: 90%;
+		min-width: 90%;
+	}
+	
+	#news-container{
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 12px;
+		width: 90%;
+	}
+	
+	#newstitle {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	#news-container img {
+		padding: 8px;
+		width: 96%;
+		min-width: 96%;
+	}
+	
+	#newsdate {
+		display: none;
+	}
 }
+
+/* font */
 
 @font-face {
     font-family: 'pinkchicken';

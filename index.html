@@ -4,6 +4,9 @@
         <title>SWACKYCOMICS!</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="./img/icon.png">
+		
+		<script src="/js/newsdata.js"></script>
+		
         <meta name="theme-color" content="#f26411">
         <meta property="og:type" content="article">
 
@@ -22,8 +25,18 @@
 
         <div class="main align-center" id="content">
             <div>
-                <img src="./img/swacktalk.png" style="max-width:680px;"></img>
+                <img id="swacktalk" src="./img/swacktalk.png" style="max-width:680px;"></img>
             </div>
+			<div>
+				<p class="medium-text">Latest from the swacknews:</p>
+				<a style="color: #FFFFFF; text-decoration: none;" href="/news/">
+				<div id="news-container" style="min-height: 72px;">
+					<script>
+						document.write('<div style="padding:8px"><p id ="newstitle">'+newsdata[0].title+'</p> <p id="newsdate" style="float: right">'+newsdata[0].date+'</p></div>');
+					</script>
+				</div>
+				<a/>
+			</div>
             <div>
                 <img src="./img/main1.png" style="width:55%; min-width:650px; margin-top:120px;"></img>
                 <p class="medium-text" style="margin-bottom:42px; min-width:500px;">Yep, here they are. Choose one from below</p>
