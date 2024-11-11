@@ -701,6 +701,11 @@ p {
 	#newsdate {
 		display: none;
 	}
+	
+	#404 {
+		width: 90%;
+		max-width: 90%;
+	}
 }
 
 /* font */
