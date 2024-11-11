@@ -73,45 +73,49 @@ p {
     padding-right: 5px;
     text-decoration: none;
     display:inline-block;
-    height: 70px;
-    width: 200px;
+	height: 100%;
 }
 
-.header-button {
-	background-size: 200px auto;
+#header1 {
+	width: 155px;
+	background-size: 100% auto;
+}
+.not-logo {
+	width: 70px;
+	background-size: 100% auto;
 }
 
 /* tags */
 
 #header1 {
-    background-image: url("/img/header1.png");
+    background-image: url("/img/header/header_logo.png");
 }
 #header2 {
-    background-image: url("/img/header2.png");
+    background-image: url("/img/header/header_news.png");
 }
 #header3 {
-    background-image: url("/img/header3.png");
+    background-image: url("/img/header/header_comics.png");
 }
 #header4 {
-    background-image: url("/img/header4.png");
+    background-image: url("/img/header/header_trivia.png");
 }
 #header5 {
-    background-image: url("/img/header5.png");
+    background-image: url("/img/header/header_funny.png");
 }
 #header1:hover {
-    background-image: url("/img/header1-talk.gif");
+    background-image: url("/img/header/header_logo_hover.png");
 }
 #header2:hover {
-    background-image: url("/img/header2-on.png");
+    background-image: url("/img/header/header_news_hover.png");
 }
 #header3:hover {
-    background-image: url("/img/header3-on.png");
+    background-image: url("/img/header/header_comics_hover.png");
 }
 #header4:hover {
-    background-image: url("/img/header4-on.png");
+    background-image: url("/img/header/header_trivia_hover.png");
 }
 #header5:hover {
-    background-image: url("/img/header5-on.png");
+    background-image: url("/img/header/header_funny_hover.png");
 }
 
 /* dropdown */
@@ -421,6 +425,14 @@ p {
     font-size: 15px;
 }
 
+/* mouse position follower */
+#mousediv {
+  position: fixed;
+  transition: transform 0.01s;
+  pointer-events: none;
+  z-index: 100;
+}
+
 /* mobile/width stuff */
 
 @media only screen and (max-width: 1020px) {
@@ -433,68 +445,18 @@ p {
 }
 
 @media only screen and (max-width: 1080px) {
-    #header1 {
-        display: none;
-    }
     .dropdown-content {
         left: 230px;
     }
 }
 
 @media only screen and (max-width: 870px) {
-    .header {
-        padding: 7px;
-        height: 54px;
-    }
-    .header a {
-        padding-right: 0px;
-        width: 150px;
-        height: 54px;
-    }
-	
-	.header-button {
-		background-size: 145px auto;
-	}
-	
     .dropdown-content {
         left: 170px;
     }
 }
 
 @media only screen and (max-width: 660px) {
-    .header a {
-        padding-right: 0px;
-        width: 90px;
-    }
-	
-	.header-button {
-		background-size: 80px auto;
-	}
-	
-    #header2 {
-        background-image: url("/img/header2_m.png");
-    }
-    #header2:hover {
-        background-image: url("/img/header2_m-on.png");
-    }
-    #header3 {
-        background-image: url("/img/header3_m.png");
-    }
-    #header3:hover {
-        background-image: url("/img/header3_m-on.png");
-    }
-    #header4 {
-        background-image: url("/img/header4_m.png");
-    }
-    #header4:hover {
-        background-image: url("/img/header4_m-on.png");
-    }
-    #header5 {
-        background-image: url("/img/header5_m.png");
-    }
-    #header5:hover {
-        background-image: url("/img/header5_m-on.png");
-    }
     .dropdown-content {
         left: 130px;
     }
@@ -511,39 +473,7 @@ p {
     .right-border {
         display: none;
     }
-	.header a {
-        padding-right: 0px;
-        width: 90px;
-    }
 	
-	.header-button {
-		background-size: 80px auto;
-	}
-	
-    #header2 {
-        background-image: url("/img/header2_m.png");
-    }
-    #header2:hover {
-        background-image: url("/img/header2_m-on.png");
-    }
-    #header3 {
-        background-image: url("/img/header3_m.png");
-    }
-    #header3:hover {
-        background-image: url("/img/header3_m-on.png");
-    }
-    #header4 {
-        background-image: url("/img/header4_m.png");
-    }
-    #header4:hover {
-        background-image: url("/img/header4_m-on.png");
-    }
-    #header5 {
-        background-image: url("/img/header5_m.png");
-    }
-    #header5:hover {
-        background-image: url("/img/header5_m-on.png");
-    }
     .dropdown-content {
         left: 130px;
     }
@@ -629,14 +559,13 @@ p {
     .header {
       height: 105px;
     }
-    .header a {
+    .not-logo {
       padding-right: 24px;
-      width: 140px;
-      height: 110px;
+      width: 105px;
+      height: auto;
     }
-	
-	.header-button {
-		background-size: 160px auto;
+	#header1 {
+		width: 210px;
 	}
 	
     .dropdown-content {
