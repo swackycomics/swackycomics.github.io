@@ -9,7 +9,7 @@ document.write("<div style=\"background-color: #000000\" id=\"mousediv\">\r\n  <
 
 document.addEventListener('mousemove', function(ev){
 	
-    document.getElementById('mousediv').style.transform = 'translateY('+(ev.clientY+12)+'px)';
+    document.getElementById('mousediv').style.transform = 'translateY('+(ev.clientY+180)+'%)';
     document.getElementById('mousediv').style.transform += 'translateX('+(ev.clientX-32)+'px)';            
 },false);
 
