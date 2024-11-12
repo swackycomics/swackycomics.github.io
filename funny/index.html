@@ -26,6 +26,11 @@
                 <img src="/img/funny.png" style="width:35%; min-width:350px; margin-bottom:64px;"></img>
             </div>
             <script>
+				var soundlen = 14;
+				var cursnd = Math.floor(Math.random()*soundlen)+1;
+				var audio = new Audio("/snd/funny"+cursnd+".wav");
+				audio.play();
+			
                 var len = 34;
                 var rand = Math.floor(Math.random()*len)+1;
                 document.write('<div>');

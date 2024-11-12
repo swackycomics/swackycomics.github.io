@@ -346,19 +346,22 @@ p {
 
 /* trivia css */
 
-.trivia-grid div{
-    width:500px;
+.trivia-grid div {
+    width:740px;
     height:180px;
-    position: relative;
+}
+#triviaback {
+	width:500px;
+	height:180px;
     background-image: url("/img/triviaframe.png");
     background-size: 100% 100%;
+	position: relative;
 }
 .trivia-grid table {
     margin-left: auto;
     margin-right: auto;
 }
 .trivia-grid div {
-    display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -375,6 +378,12 @@ p {
     height: 100%;
     top: 32%;
     left: 6%;
+}
+.pc-trivia {
+	display: inline-block;
+}
+.mobile-trivia {
+	display: none;
 }
 
 /* news css */
@@ -554,8 +563,20 @@ p {
     .trivia-grid div{
         width:800px;
         height:300px;
+    }
+	#triviaback{
+        width:800px;
+        height:300px;
         background-size: 100% 100%;
     }
+	
+	.pc-trivia {
+		display: none;
+	}
+	.mobile-trivia {
+		display: inline-block;
+	}
+	
     .header {
       height: 105px;
     }
