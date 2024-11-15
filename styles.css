@@ -102,6 +102,9 @@ p {
 #header5 {
     background-image: url("/img/header/header_funny.png");
 }
+#header6 {
+    background-image: url("/img/header/header_contact.png");
+}
 #header1:hover {
     background-image: url("/img/header/header_logo_hover.png");
 }
@@ -116,6 +119,9 @@ p {
 }
 #header5:hover {
     background-image: url("/img/header/header_funny_hover.png");
+}
+#header6:hover {
+    background-image: url("/img/header/header_contact_hover.png");
 }
 
 /* dropdown */
@@ -386,6 +392,10 @@ p {
 	display: none;
 }
 
+.yellow-border {
+	border: 5px solid #ffb812;
+}
+
 /* news css */
 #news-container {
 	margin: 6px;
@@ -396,7 +406,6 @@ p {
 	width: 100%;
 	min-height: 32px;
 	background-color: rgba(0,0,0,.6);
-	border: 5px solid #ffb812;
 }
 #news-container a {
 	color: #ffb812;
@@ -422,6 +431,45 @@ p {
 	font-size: 24px;
 }
 
+/* socials */
+.email-box {
+	background-color: rgba(0,0,0,0.6);
+	width:410px;
+	height:100px;
+	margin-top: 16px;
+}
+
+.social {
+	height: 96px;
+	background-size: 96px 96px;
+	flex-basis: 96px;
+}
+
+#social1 {
+	background-image: url("/img/social/social_yt.png");
+}
+#social1:hover {
+	background-image: url("/img/social/social_yt_hover.png");
+}
+#social2 {
+	background-image: url("/img/social/social_itch.png");
+}
+#social2:hover {
+	background-image: url("/img/social/social_itch_hover.png");
+}
+#social3 {
+	background-image: url("/img/social/social_bsky.png");
+}
+#social3:hover {
+	background-image: url("/img/social/social_bsky_hover.png");
+}
+#social4 {
+	background-image: url("/img/social/social_ng.png");
+}
+#social4:hover {
+	background-image: url("/img/social/social_ng_hover.png");
+}
+
 /* text types */
 
 .big-text {
@@ -432,6 +480,10 @@ p {
 }
 .small-text {
     font-size: 15px;
+}
+
+.yellow-text {
+	color: #ffb812;
 }
 
 /* mouse position follower */
@@ -651,6 +703,23 @@ p {
 	#newsdate {
 		display: none;
 	}
+	
+	.email-box {
+		width:80%;
+		height:140px;
+	}
+	
+	.email-box img {
+		width:130px;
+		height:130px;
+	}
+	
+	.social {
+		height: 150px;
+		background-size: 150px 150px;
+		flex-basis: 150px;
+	}
+
 	
 	#404 {
 		width: 90%;
