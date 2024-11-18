@@ -1,7 +1,7 @@
 var recent = {
-    "thumb": "rb_8",
-    "title": "The RedBidd Comics: EVILBIDD",
-    "href": "/comics/redbidd_comics/ep8/",
+    "thumb": "wiz_1",
+    "title": "SWACKZARDS!: The Nachos Quest",
+    "href": "/comics/swackzards_comics/ep1/",
 }
 
 var comicpages = [
@@ -9,12 +9,14 @@ var comicpages = [
     ["dh",[4,5,4,8,8]],
     ["jimmy",[14,13,14,14,10,12,18,18,20,14]],
     ["vegg",[4,4,4,4]],
+	["swackzards",[16]],
 ]
 var comictitles = [
 	"the_redbidd_comics",
 	"dynamitehead_comics",
 	"jimmys_comical_journey",
 	"vegg_n_nameless_comics",
+	"swackzards",
 ]
 
 var comicjson = {
@@ -295,32 +297,55 @@ var comicjson = {
             "date": "September 16, 2023",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar"]
         }
-    }
+    },
+	"swackzards": {
+		"comic1": {
+            "thumb": "wiz_1.png",
+            "series": "SWACKZARDS!",
+            "title": "THE NACHOS QUEST",
+            "pages": (comicpages[4][1][ 0 ]).toString(),
+            "desc": "Styx and Crius are up to NO GOOD - They're watching football on a sunday morning. Things were going great for these two, until it has been brought to their attention, that their NACHOS have all been devoured by the beast of hunger. Now it's all up to Crius to get things fixed.",
+            "download": ["/pdf/wizards1.pdf","https://drive.google.com/file/d/1E8LUK948P4N3KePhtV1OJjJ6K-4s4dnS/view?usp=sharing"],
+            "date": "November 18, 2024",
+            "font": ["Next Sunday","/font/Next Sunday.rar"]
+        }
+	}
 }
 
 var data = {
     "comic1": {
-        "thumb": "series1_thumb.png",
+        "thumb": "rbd_comics_thumb.png",
         "title": "The RedBidd Comics",
         "epiodes": Object.keys(comicjson.redbidd).length,
         "desc": "ARE YOU READY FOR THE MOST INSANE & DERANGED COMIC EVER MADE? The RedBidd Comics star the eponymous protagonist RedBidd, who goes on adventures to save his lands FOLLOW REDBIDD ON HIS MANIAC \"COLORLESS\" QUEST. FIND NEW CHARACTERS TO HATE OR EMPATHIZE WITH. Uh-oh! The color's gone! Now it's up to RedBidd to TRAVERSE MAGICAL LANDS FULL OF QUIRKY CREATURES. BEAT DANGEROUS, BLOODTHIRSTY FOES, WHO HATE REDBIDD WITH EVERY CELL OF THEIR BODY. Will he make it to the end? Find out in this series!",
-    },
+		"href": "/comics/the_redbidd_comics/",
+	},
     "comic2": {
-        "thumb": "series2_thumb.png",
+        "thumb": "dh_comics_thumb.png",
         "title": "DynamiteHead TNT-Comics",
         "epiodes": Object.keys(comicjson.dh).length,
         "desc": "Is it a bird? Is it a plane? NO!!! Look out, DynamiteHead's in town. And he's NOT FOOLIN' AROUND! Prepare for the ABSOLUTE TN-TASTIC action in this comic series.",
-    },
-    "comic3": {
-        "thumb": "series3_thumb.png",
+		"href": "/comics/dynamitehead_comics/",
+	},
+	"comic3": {
+        "thumb": "swackzards_comics_thumb.png",
+        "title": "SWACKZARDS!",
+        "epiodes": Object.keys(comicjson.swackzards).length,
+        "desc": "HUZZAH! It has been foretold by the ancient prophecies - That ONLY the most experienced and eldest of swackzards could take even the utmost mundane action, and twist it into a TERRIFIC adventure. Tune in, as Styx and Crius spend their days in the middle of nowhere, trying to make ends meet... Hopefully, without casualties.",
+		"href": "/comics/swackzards/",
+	},
+    "comic4": {
+        "thumb": "jimmy_comics_thumb.png",
         "title": "Jimmy's Comical Journey (Discontinued)",
         "epiodes": Object.keys(comicjson.jimmy).length,
         "desc": "Jimmy's Comical Journey is a webcomic about a boy named Jimmy who has to deal with Dr. Vegg (an anthropomorphic carrot) and his sidekick Nameless' shenanigans. Find Jimmy and his friends going on crazy adventures to save the day once again!",
-    },
-    "comic4": {
-        "thumb": "series4_thumb.png",
+		"href": "/comics/jimmys_comical_journey/",
+	},
+    "comic5": {
+        "thumb": "vegg_comics_thumb.png",
         "title": "Dr. Vegg 'n Nameless Comics (Discontinued)",
         "epiodes": Object.keys(comicjson.vegg).length,
         "desc": "Ever wondered what the evil Dr. Vegg and his sidekick Nameless are up to in their spare time? Check out this mini-comic series where their weekend shenanigans range from playing chess to watching horror movies, and so much more! These two know how to make a good comic.",
-    }
+		"href": "/comics/vegg_n_nameless_comics/",
+	},
 }
