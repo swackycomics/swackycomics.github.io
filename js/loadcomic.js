@@ -45,7 +45,7 @@ document.write( '<div class="align-center">\n' );
 document.write( '                <p class="big-text" style=\"margin-bottom:8px; min-width:500px;\">' +comic_.title+ '</p>\n' );
 document.write( '            </div>' );
 document.write( '<div class="align-center">\n' );
-document.write( '                <p>Creation date: '+comic_.date+'</p> <p class="medium-text" style=\"margin-bottom:64px; min-width:500px;\">' +comic_.desc+ '</p>\n' );
+document.write( '                <p>Creation date: '+comic_.date+'</p> <p class="medium-text" style=\"margin-bottom:64px; margin-left: auto; margin-right: auto; width:750px;\">' +comic_.desc+ '</p>\n' );
 document.write( '            </div>' );
 
 document.write( '<div class=\"align-center comicdiv\">\n' );

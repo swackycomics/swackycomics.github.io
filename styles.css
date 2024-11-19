@@ -77,6 +77,7 @@ p {
     text-align: center;
     padding-right: 5px;
     height: 75px;
+	white-space: nowrap;
 }
 .header a {
     background-repeat: no-repeat;
@@ -506,7 +507,7 @@ p {
 }
 
 /* news css */
-#news-container {
+.news-container {
 	position: relative;
 	margin: 6px;
 	padding-left: 12px;
@@ -518,11 +519,11 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 }
-#news-container a {
+.news-container a {
 	color: #ffb812;
 	text-decoration: underline;
 }
-#news-container img {
+.news-container img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -530,17 +531,31 @@ p {
 	padding: 12px;
 }
 
-#news-container .big-text {
+.news-container .big-text {
 	color: #ffb812;
 	font-size: 40px;
 }
-#news-container .medium-text {
+.news-container .medium-text {
 	font-size: 28px;
 }
-#news-container .small-text {
+.news-container .small-text {
 	color: #bf1123;
 	font-size: 24px;
 }
+
+#news-full {
+	width: 800px;
+}
+#news-preview {
+	width: 600px;
+}
+#newslink {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
 #newsdate {
 	position: absolute;
 	bottom: 0;
@@ -821,14 +836,24 @@ p {
 		min-width: 100%;
 	}
 	
-	#news-container{
+	.news-container{
 		margin: 0;
 		margin-left: auto;
 		margin-right: auto;
 		padding-left: 0;
 		padding-right: 0;
 		padding-bottom: 12px;
+	}
+	
+	#news-preview {
 		width: 90%;
+	}
+	#newslink {
+		width: 90%;
+	}
+	
+	#news-full {
+		width: 100%;
 	}
 	
 	#newstitle {
@@ -838,7 +863,7 @@ p {
 		text-align: center;
 	}
 	
-	#news-container img {
+	.news-container img {
 		padding: 8px;
 		width: 96%;
 		min-width: 96%;

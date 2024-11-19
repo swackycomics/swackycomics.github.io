@@ -30,7 +30,7 @@ let curcomic = 0;
 let columns = Math.ceil(array.length/rows);
 
 document.write( '            <div>\n' );
-document.write( '                <p class="medium-text" style=\"margin-bottom:42px; min-width:500px;\">'+Object.values(data)[comicnum].desc+'</p>\n' );
+document.write( '                <p class="medium-text" style=\"margin-bottom:42px; margin-left: auto; margin-right: auto; width:750px;\">'+Object.values(data)[comicnum].desc+'</p>\n' );
 document.write( '            </div>' );
 
 //pc version
