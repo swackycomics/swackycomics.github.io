@@ -10,6 +10,7 @@ var linkfla = comic_.download[1];
 
 if(linkpdf.length > 0 || linkfla.length > 0){
     document.write( '<div class=\"align-center pcdownload\">\n' );
+	document.write( '<div style="height: 20px;"></div>\n' );
     document.write( '                <table class=\"download\">\n' );
     document.write( '                    <tr>\n' );
     if(linkpdf.length > 0){
@@ -20,9 +21,11 @@ if(linkpdf.length > 0 || linkfla.length > 0){
     }
     document.write( '                    </tr>\n' );
     document.write( '                </table>\n' );
+	document.write( '<div style="height: 20px;"></div>\n' );
     document.write( '            </div>' );
 
     document.write( '<div class=\"align-center mobiledownload\">\n' );
+	document.write( '<div style="height: 70px;"></div>\n' );
     document.write( '                <table class=\"download\">\n' );
     if(linkpdf.length > 0){
         document.write( '                        <tr><td><a id=\"pdf\" target="_blank" href=\"'+comic_.download[0]+'\" download=\"\"></a></td></tr>\n' );
@@ -31,6 +34,7 @@ if(linkpdf.length > 0 || linkfla.length > 0){
         document.write( '                        <tr><td><a id=\"fla\" target="_blank" href=\"'+comic_.download[1]+'\"></a></td></tr>\n' );
     }
     document.write( '                </table>\n' );
+	document.write( '<div style="height: 50px;"></div>\n' );
     document.write( '            </div>' );
 }
 
