@@ -544,7 +544,7 @@ p {
 }
 
 #news-full {
-	width: 800px;
+	width: 820px;
 }
 #news-preview {
 	width: 600px;
@@ -628,7 +628,10 @@ p {
 
 /* mobile/width stuff */
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1260px) {
+	.main {
+		width: 100%
+	}
     .left-border {
         display: none;
     }
