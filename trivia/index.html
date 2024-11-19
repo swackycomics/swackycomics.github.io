@@ -23,7 +23,7 @@
 
         <div class="main align-center" id="content">
             <div>
-                <img src="/img/triviatitle.png" style="width:35%; min-width:350px; margin-bottom:64px;"></img>
+                <img src="/img/triviatitle.png" class="toptitle"></img>
             </div>
             <script>
                 function shuffle(array) {
@@ -72,6 +72,16 @@
 						float_ = ["right","left"];
 					}
 					
+					var marginX = 0;
+					var marginX_pic = 0;
+					if(i % 2 == 0){
+						marginX = 10;
+						marginX_pic = -74;
+					} else {
+						marginX = -10;
+						marginX_pic = 40;
+					}
+					
 					document.write( '                <div class="pc-trivia">\n');
 					document.write( '                <img src="/img/trivia/trivia'+(triviadata[i][0]+1)+'.png" style="display:inline; float:'+float_[0]+'">\n');
                     document.write( '                <div id="triviaback" style="display:inline; float:'+float_[1]+'">\n' );
@@ -80,8 +90,9 @@
 					document.write( '                </div>\n' );
 					
 					document.write( '                <div class="mobile-trivia">\n');
-                    document.write( '                <div id="triviaback">\n' );
+                    document.write( '                <div style="position: relative; margin-left: '+marginX+'%" id="triviaback">\n' );
                     document.write( '                    <p>'+triviadata[i][1]+'</p>\n' );
+					document.write( '                	 <img src="/img/trivia/trivia'+(triviadata[i][0]+1)+'.png" style="position: absolute; margin-left: '+marginX_pic+'%">\n');
                     document.write( '                </div>\n' );
 					document.write( '                </div>\n' );
                 }
