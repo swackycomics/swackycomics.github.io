@@ -1,6 +1,6 @@
 for(var i = 0; i < newsdata.length; i++){
 	var curnews = newsdata[i];
-	document.write('<div id="news-container" class="yellow-border align-center">');
+	document.write('<div id="news-container" style="width: 800px;" class="yellow-border align-center">');
 	document.write('<p class="big-text">' + curnews.title + '</p>');
 	document.write('<p class="small-text">' + curnews.date + '</p>');
 	for(var j = 0; j < curnews.fields.length; j++){
