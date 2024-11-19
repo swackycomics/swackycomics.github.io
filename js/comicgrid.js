@@ -6,33 +6,45 @@ let curcomic = 0;
 let columns = Math.ceil(array.length/rows);
 
 //pc version
-document.write("<div class=\"grid\">");
-document.write("<table class=\"pctable\" style=\"width:90%; min-width:500px;\">");
-
+document.write('		<div class="pctable">');
 for(var i = 0; i < columns; i++){
-    document.write("<tr>");
-    for(var j = 0; j < rows; j++){
-        document.write("<td><p id=\"ptop\">" + array[curcomic].title + "<\/p><div><a href=\""+array[curcomic].href +"\"><img src=\"" +"/img/"+array[curcomic].thumb+ "\" width=\"71.3%\" height=\"71.3%\"><\/a><\/div><p id=\"pbottom\">"+array[curcomic].epiodes+(array[curcomic].epiodes == 1 ? " EPISODE" : " EPISODES")+"<\/p><\/td>");
-        curcomic ++;
+	document.write('			<div class="new_comicgrid">');
+	for(var j = 0; j < rows; j++){
+		document.write('				<div class="new_comicbox">');
+		document.write('					<p id="new_comictop">'+array[curcomic].title+'</p>');
+		document.write('						<div class="new_comicframe align-center" id="new_frameregular">');
+		document.write('							<a href="'+array[curcomic].href+'">');
+		document.write('								<img id="new_comicimg" src="'+"/img/"+array[curcomic].thumb+'">');
+		document.write('							</a>');
+		document.write('						</div>');
+		document.write('					<p>'+array[curcomic].epiodes+(array[curcomic].epiodes == 1 ? " EPISODE" : " EPISODES")+'</p>');
+		document.write('				</div>');
+		
+		curcomic ++;
         if(curcomic >= array.length){
             break;
         }
-    }
-    document.write("<\/tr>");
+	}
+	document.write('			</div>');
 }
-document.write("<\/table>");
+document.write('		</div>');
 
 //mobile version
 curcomic = 0;
-document.write("<table class=\"mobiletable\" style=\"width:90%; min-width:500px;\">");
-for(var i = 0; i < columns; i++){
-    for(var j = 0; j < rows; j++){
-        document.write("<tr><td><p id=\"ptop\">" + array[curcomic].title + "<\/p><div><a href=\""+array[curcomic].href +"\"><img src=\"" +"/img/"+array[curcomic].thumb+ "\" width=\"71.3%\" height=\"71.3%\"><\/a><\/div><p id=\"pbottom\">"+array[curcomic].epiodes+(array[curcomic].epiodes == 1 ? " EPISODE" : " EPISODES")+"<\/p><\/td><\/tr>");
-        curcomic ++;
-        if(curcomic >= array.length){
-            break;
-        }
-    }
+document.write('		<div class="mobiletable">');
+for(var i = 0; i < array.length; i++){
+	document.write('				<div class="new_comicbox_mobile">');
+	document.write('					<p id="new_comictop">'+array[curcomic].title+'</p>');
+	document.write('						<div class="new_comicframe align-center" id="new_frameregular">');
+	document.write('							<a href="'+array[curcomic].href+'">');
+	document.write('								<img id="new_comicimg" src="'+"/img/"+array[curcomic].thumb+'">');
+	document.write('							</a>');
+	document.write('						</div>');
+	document.write('					<p id="new_comicbottom_mobile">'+array[curcomic].epiodes+(array[curcomic].epiodes == 1 ? " EPISODE" : " EPISODES")+'</p>');
+	document.write('				</div>');
+	curcomic ++;
+	if(curcomic >= array.length){
+		break;
+	}
 }
-document.write("<\/table>");
-document.write("<\/div>");
+document.write('		</div>');

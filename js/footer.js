@@ -1,1 +1,1 @@
-document.write("<div class=\"bottom\" style=\"height: 64px\">\r\n    <p>SWACKYCOMICS - WHEN THERE'S SWACK, THERE'S COMIC<\/p><p>2024<\/p><br\/>\r\n<\/div>");
+document.write("<div class=\"bottom\" style=\"width: 100%; text-align:center; height: 64px\">\r\n    <p>SWACKYCOMICS - WHEN THERE'S SWACK, THERE'S COMIC<\/p><p>2024<\/p><br\/>\r\n<\/div>");

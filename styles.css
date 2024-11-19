@@ -149,6 +149,73 @@ p {
 
 .show {display:block;}
 
+/* comic frames (new)*/
+.new_comicgrid {
+	display: flex;
+	flex-direction: row-gap;
+	justify-content: center;
+}
+
+.new_comicbox {
+	display: inline-block;
+	min-width: 300px;
+	max-width: 300px;
+	height: 415px;
+}
+
+.new_comicbox p {
+	font-size: 32px;
+}
+.new_comicbox_mobile {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.new_comicbox_mobile p {
+	font-size: 90px;
+}
+#new_comicbottom_mobile {
+	margin-bottom: 56px;
+}
+#new_comictop {
+	min-height: 78px;
+	display: grid;
+    align-items: center;
+}
+.new_comicframe {
+	position:relative;
+	width: 85%;
+	aspect-ratio: 1 / 1;
+}
+#new_comicimg {
+	position: static;
+	width: 73%;
+	aspect-ratio: 1 / 1;
+	background-size: 100% 100%;
+	margin-top: 12%;
+}
+#new_new {
+	position: absolute; 
+	width: 100%;
+	margin-left: -12%;
+	aspect-ratio: 1 / 1;
+	background-size: 100% 100%;
+}
+#new_frameregular {
+	background-image: url("/img/comicframe.png");
+	background-size: 100% 100%;
+}
+#new_frameregular:hover {
+	background-image: url("/img/comicframe-on.png");
+}
+#new_framerecent {
+	background-image: url("/img/comicframenew.png");
+	background-size: 100% 100%;
+}
+#new_framerecent:hover {
+	background-image: url("/img/comicframenew-on.png");
+}
+
 /* grids */
 
 .grid div{

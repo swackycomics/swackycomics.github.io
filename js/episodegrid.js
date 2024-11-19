@@ -34,32 +34,49 @@ document.write( '                <p class="medium-text" style=\"margin-bottom:42
 document.write( '            </div>' );
 
 //pc version
-document.write("<div class=\"grid\">");
-document.write("<table class=\"pctable\" style=\"width:90%; min-width:500px;\">");
+document.write('		<div class="pctable">');
 for(var i = 0; i < columns; i++){
-    document.write("<tr>");
-    for(var j = 0; j < rows; j++){
-        document.write("<td><p id=\"ptop\">" + "#"+(curcomic+1).toString()+": " + array[curcomic].title + "<\/p><div><a href=\"/comics/"+comic+"_comics/ep"+(curcomic+1).toString()+"\"><img src=\"" +"/img/icons/"+array[curcomic].thumb+ "\" width=\"71.3%\" height=\"71.3%\"><\/a><\/div><p style=\"padding-bottom:42px;\">"+array[curcomic].date+"<\/p><p id=\"pbottom\">"+array[curcomic].pages+" PAGES"+"<\/p><\/td>");
-        curcomic ++;
+	document.write('			<div class="new_comicgrid">');
+	for(var j = 0; j < rows; j++){
+		document.write('				<div class="new_comicbox">');
+		document.write('					<p id="new_comictop">'+ "#"+(curcomic+1).toString()+": " + array[curcomic].title +'</p>');
+		document.write('						<div class="new_comicframe align-center" id="new_frameregular">');
+		document.write('							<a href="/comics/'+comic+'_comics/ep'+(curcomic+1).toString()+'">');
+		document.write('								<img id="new_comicimg" src="'+"/img/icons/"+array[curcomic].thumb+'">');
+		document.write('							</a>');
+		document.write('						</div>');
+		document.write('					<p>'+array[curcomic].date+'</p>');
+		document.write('					<p>'+array[curcomic].pages+" PAGES"+'</p>');
+		document.write('				</div>');
+		
+		curcomic ++;
         if(curcomic >= array.length){
             break;
         }
-    }
-    document.write("<\/tr>");
+	}
+	document.write('			</div>');
+	document.write('			<div style="height:32px;"></div>');
 }
-document.write("<\/table>");
+document.write('		</div>');
 
 //mobile version
 curcomic = 0;
-document.write("<table class=\"mobiletable\" style=\"width:0%; min-width:500px;\">");
-for(var i = 0; i < columns; i++){
-    for(var j = 0; j < rows; j++){
-        document.write("<tr><td><p id=\"ptop\">" + "#"+(curcomic+1).toString()+": " + array[curcomic].title + "<\/p><div><a href=\"/comics/"+comic+"_comics/ep"+(curcomic+1).toString()+"\"><img src=\"" +"/img/icons/"+array[curcomic].thumb+ "\" width=\"71.3%\" height=\"71.3%\"><\/a><\/div><p style=\"padding-bottom:42px;\">"+array[curcomic].date+"<\/p><p id=\"pbottom\">"+array[curcomic].pages+" PAGES"+"<\/p><\/td><\/tr>");
-        curcomic ++;
-        if(curcomic >= array.length){
-            break;
-        }
-    }
+document.write('		<div class="mobiletable">');
+for(var i = 0; i < array.length; i++){
+	document.write('				<div class="new_comicbox_mobile">');
+	document.write('					<p id="new_comictop">'+ "#"+(curcomic+1).toString()+": " + array[curcomic].title +'</p>');
+	document.write('						<div class="new_comicframe align-center" id="new_frameregular">');
+	document.write('							<a href="/comics/'+comic+'_comics/ep'+(curcomic+1).toString()+'">');
+	document.write('								<img id="new_comicimg" src="'+"/img/icons/"+array[curcomic].thumb+'">');
+	document.write('							</a>');
+	document.write('						</div>');
+	document.write('					<p>'+array[curcomic].date+'</p>');
+	document.write('					<p id="new_comicbottom_mobile">'+array[curcomic].pages+" PAGES"+'</p>');
+	document.write('				</div>');
+	
+	curcomic ++;
+	if(curcomic >= array.length){
+		break;
+	}
 }
-document.write("<\/table>");
-document.write("<\/div>");
+document.write('		</div>');
