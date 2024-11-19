@@ -507,6 +507,10 @@ p {
 }
 
 /* news css */
+.mobilenews {
+	display: none;
+}
+
 .news-container {
 	position: relative;
 	margin: 6px;
@@ -837,6 +841,13 @@ p {
 	#swacktalk {
 		width: 100%;
 		min-width: 100%;
+	}
+	
+	.pcnews {
+		display: none;
+	}
+	.mobilenews {
+		display: block;
 	}
 	
 	.news-container{

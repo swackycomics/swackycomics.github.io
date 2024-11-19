@@ -39,17 +39,30 @@
                 <img src="/img/swacktalk.png"></img>
 			</div>
 			<div>
-				<p class="medium-text">Latest from the swacknews:</p>
-				<a id="newslink" style="color: #FFFFFF; text-decoration: none;" href="/news/">
-				<div class="news-container yellow-border" id="news-preview" style="min-height: 100px;">
-					<script>
-						document.write('<div style="padding:8px"><p id ="newstitle">'+newsdata[0].title+'</p> <p id="newsdate">'+newsdata[0].date+'</p></div>');
-					</script>
+				<div class="pcnews align-center" style="position: relative; width: 760px; left: -40px;">
+					<img src="/img/swacknews_preview.png" style="display:inline; float:left; position: absolute; margin-top: 3.5%; margin-left: -10%; height: 133px;">
+					<a id="newslink" style="text-align: left; display:inline; float:right; color: #FFFFFF; text-decoration: none;" href="/news/">
+						<p class="medium-text">Latest from the swacknews:</p>
+						<div class="news-container yellow-border" id="news-preview" style="min-height: 100px;">
+							<script>
+								document.write('<div style="padding:8px"><p id ="newstitle">'+newsdata[0].title+'</p> <p id="newsdate">'+newsdata[0].date+'</p></div>');
+							</script>
+						</div>
+					<a/>
 				</div>
-				<a/>
+				<div style="clear:both;"></div>
+				<div class="mobilenews align-center">
+					<a id="newslink" style="color: #FFFFFF; text-decoration: none;" href="/news/">
+						<div class="news-container yellow-border" id="news-preview" style="min-height: 100px;">
+							<script>
+								document.write('<div style="padding:8px"><p id ="newstitle">'+newsdata[0].title+'</p> <p id="newsdate">'+newsdata[0].date+'</p></div>');
+							</script>
+						</div>
+					</a>
+				</div>
 			</div>
             <div>
-                <img src="./img/main1.png" style="margin-top: 50px;" class="toptitle-big"></img>
+                <img src="./img/main1.png" style="margin-top: 50px; margin-bottom: unset;" class="toptitle-big"></img>
                 <p class="medium-text" style="margin-bottom:42px;">Yep, here they are. Choose one from below</p>
             </div>
             <script type="text/javascript" src="/comicdata.js"></script>

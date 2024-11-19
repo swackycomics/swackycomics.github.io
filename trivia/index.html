@@ -26,45 +26,28 @@
                 <img src="/img/triviatitle.png" class="toptitle"></img>
             </div>
             <script>
-                function shuffle(array) {
-                    let currentIndex = array.length;
-
-                    // While there remain elements to shuffle...
-                    while (currentIndex != 0) {
-
-                        // Pick a remaining element...
-                        let randomIndex = Math.floor(Math.random() * currentIndex);
-                        currentIndex--;
-
-                        // And swap it with the current element.
-                        [array[currentIndex], array[randomIndex]] = [
-                        array[randomIndex], array[currentIndex]];
-                    }
-                }
-
                 let triviadata = [
-                    [0,"Jimmy's Comical Journey was originally published on the swackygames discord server."],
-                    [1,"There exists multiple scrapped versions of Jimmy comics, some of them featured polar opposites of Dr. Vegg and Jimmy."],
-                    [2,"All of the comics on this website were made in Macromedia Flash 8!"],
-                    [3,"The idea to create Jimmy's Comical Journey came to me when I had no internet connection and was bored out of my mind."],
-                    [4,"The guest character in Jimmy Comic 2 is from a now deleted game called JASKINSCAPE."],
-                    [5,"The fonts used in these comics are SF Cartoonist Hand and Pink Chicken."],
-                    [6,"Roydent and Rett from The RedBidd Comics originated from RedBidd Fun Facts. Back then they were called \"other mice\"."],
-                    [7,"DynamiteHead from DynamiteHead comics originated in Jimmy's Lost Fruits Journey 2."],
-                    [8,"Misterio and NoWayKing from The RedBidd Comics were originally called The Royal Spy and The King, respectively."],
-                    [9,"Nameless is the only character in Jimmy's Comical Journey who's aware of being in a comic."],
-                    [10,"SXDG has been completely wiped off from the world of Jimmy's Comical Journey. Not a single trace was left of him."],
-                    [11,"Dr. Vegg Mini-comics were originally published on Twitter."],
-                    [12,"Jimmy's Grumpy dog from \"Rented out\" was supposed to star in Jimmy's Lost Fruits Journey 2 as a playable character."],
-                    [13,"CrasherHead's design took inspiration from THE. EXE CRASHER from THE .EXECUTIONER by swackyGCF."],
-                    [14,"EvilBidd is inspired by Evil Jim from the Earthworm Jim cartoon series."],
-                ]
-
-                shuffle(triviadata);
+                    "Jimmy's Comical Journey was originally published on the swackygames discord server.",
+                    "There exists multiple scrapped versions of Jimmy comics, some of them featured polar opposites of Dr. Vegg and Jimmy.",
+                    "All of the comics on this website were made in Macromedia Flash 8!",
+                    "The idea to create Jimmy's Comical Journey came to me when I had no internet connection and was bored out of my mind.",
+                    "The guest character in Jimmy Comic 2 is from a now deleted game called JASKINSCAPE.",
+                    "The fonts used in these comics are SF Cartoonist Hand and Pink Chicken.",
+                    "Roydent and Rett from The RedBidd Comics originated from RedBidd Fun Facts. Back then they were called \"other mice\".",
+                    "DynamiteHead from DynamiteHead comics originated in Jimmy's Lost Fruits Journey 2.",
+                    "Misterio and NoWayKing from The RedBidd Comics were originally called The Royal Spy and The King, respectively.",
+                    "Nameless is the only character in Jimmy's Comical Journey who's aware of being in a comic.",
+                    "SXDG has been completely wiped off from the world of Jimmy's Comical Journey. Not a single trace was left of him.",
+                    "Dr. Vegg Mini-comics were originally published on Twitter.",
+                    "Jimmy's Grumpy dog from \"Rented out\" was supposed to star in Jimmy's Lost Fruits Journey 2 as a playable character.",
+					"CrasherHead's design took inspiration from THE. EXE CRASHER from THE .EXECUTIONER by swackyGCF.",
+					"EvilBidd is inspired by Evil Jim from the Earthworm Jim cartoon series.",
+					"Swackzards initially appeared in The RedBidd Comics and were called Wacky Wizards. They also had much simpler designs.",
+				]
 
                 //write trivia
                 document.write( '<div class=\"trivia-grid\">\n' );
-                for(var i = 0; i < triviadata.length; i++){
+                for(var i = triviadata.length-1; i >= 0; i--){
 					var float_ = [];
 					if(i % 2 == 0){
 						float_ = ["left","right"];
@@ -75,24 +58,24 @@
 					var marginX = 0;
 					var marginX_pic = 0;
 					if(i % 2 == 0){
-						marginX = 12;
-						marginX_pic = -72;
+						marginX = 16;
+						marginX_pic = -76;
 					} else {
-						marginX = -8;
-						marginX_pic = 42;
+						marginX = -12;
+						marginX_pic = 46;
 					}
 					
 					document.write( '                <div class="pc-trivia">\n');
-					document.write( '                <img src="/img/trivia/trivia'+(triviadata[i][0]+1)+'.png" style="display:inline; float:'+float_[0]+'">\n');
+					document.write( '                <img src="/img/trivia/trivia'+(i+1)+'.png" style="display:inline; float:'+float_[0]+'">\n');
                     document.write( '                <div id="triviaback" style="display:inline; float:'+float_[1]+'">\n' );
-                    document.write( '                    <p>'+triviadata[i][1]+'</p>\n' );
+                    document.write( '                    <p>'+triviadata[i]+'</p>\n' );
                     document.write( '                </div>\n' );
 					document.write( '                </div>\n' );
 					
 					document.write( '                <div class="mobile-trivia">\n');
                     document.write( '                <div style="position: relative; margin-left: '+marginX+'%" id="triviaback">\n' );
-                    document.write( '                    <p>'+triviadata[i][1]+'</p>\n' );
-					document.write( '                	 <img src="/img/trivia/trivia'+(triviadata[i][0]+1)+'.png" style="position: absolute; margin-left: '+marginX_pic+'%">\n');
+                    document.write( '                    <p>'+triviadata[i]+'</p>\n' );
+					document.write( '                	 <img src="/img/trivia/trivia'+(i+1)+'.png" style="z-index: -1; position: absolute; margin-left: '+marginX_pic+'%">\n');
                     document.write( '                </div>\n' );
 					document.write( '                </div>\n' );
                 }
