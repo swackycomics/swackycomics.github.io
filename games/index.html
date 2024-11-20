@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SWACKYGAMES!</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" href="/img/icon.png">
+		
+        <meta name="theme-color" content="#f26411">
+        <meta property="og:type" content="article">
+
+        <meta property="og:title" content="SWACKYGAMES">
+        <meta property="og:site_name" content="swackycomics.github.io">
+        <meta property="og:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="og:image" content="/img/default.png">
+
+        <meta property="twitter:title" content="SWACKYGAMES">
+        <meta property="twitter:site" content="swackycomics.github.io">
+        <meta property="twitter:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="twitter:image" content="/img/default.png">
+		<meta property="twitter:card" content="summary_large_image">
+    </head>
+    <body>
+        <script src="/js/generic.js"></script>
+
+		<style>
+			.main {
+				width: 100%
+			}
+			.left-border {
+				display: none;
+			}
+			.right-border {
+				display: none;
+			}
+		</style>
+        <div class="main align-center" id="content">
+			<script>
+				var gamedata = [
+					{
+						"title": "DYNAMITEHEAD TNTSON",
+						"img": "/img/games/dhtntson_thumb.png",
+						"href": "https://swackygcf.itch.io/dynamitehead-tntson",
+						"target": true
+					},
+					{
+						"title": "JLFJ 2: Veggocalypse",
+						"img": "/img/games/jlfj2_thumb.png",
+						"href": "https://swackygcf.itch.io/jlfj2-veggocalypse",
+						"target": true
+					},
+					{
+						"title": "Jimmy's Lost Fruits Journey",
+						"img": "/img/games/jlfj_thumb.png",
+						"href": "https://swackygcf.itch.io/jimmys-lost-fruits-journey",
+						"target": true
+					},
+					{
+						"title": "Jim the Fruit Catcher",
+						"img": "/img/games/fruitcatch_thumb.png",
+						"href": "https://swackygcf.itch.io/jimmy-the-fruit-catcher-sgdk",
+						"target": true
+					},
+					{
+						"title": "RedBidd: A Colorful Revival",
+						"img": "/img/games/rbd2_thumb.png",
+						"href": "https://swackygcf.itch.io/redbidd-a-colorful-revival",
+						"target": true
+					},
+					{
+						"title": "RedBidd: A Squared Madness",
+						"img": "/img/games/rbd1_thumb.png",
+						"href": "https://swackygcf.itch.io/redbidd",
+						"target": true
+					},
+					{
+						"title": "THE .EXECUTIONER",
+						"img": "/img/games/exe_thumb.png",
+						"href": "https://swackygcf.itch.io/executioner",
+						"target": true
+					}
+				];
+				
+				var gamedata_beta = [
+					{
+						"title": "JLFJ (Late 2020 Beta)",
+						"img": "/img/games/beta_1.png",
+						"href": "/games/download/jimmys-lost-fruits-journey-late2020.rar",
+						"target": false
+					},
+					{
+						"title": "JLFJ (May 2020 Beta)",
+						"img": "/img/games/beta_2.png",
+						"href": "/games/download/Jimmy's Lost Fruits Journey May 2020.rar",
+						"target": false
+					}
+				];
+				
+				var gamedata_swack = [
+					{
+						"title": "swackygames_exclusive 3",
+						"img": "/img/games/swack_3.png",
+						"href": "/games/download/swackygames_exclusive_3.rar",
+						"target": false
+					},
+					{
+						"title": "swackygames_exclusive 2",
+						"img": "/img/games/swack_2.png",
+						"href": "/games/download/swackygames_exclusive_2.rar",
+						"target": false
+					},
+					{
+						"title": "swackygames_exclusive",
+						"img": "/img/games/swack_1.png",
+						"href": "/games/download/swackygames_exclusive.rar",
+						"target": false
+					}
+				];
+				
+				function writedata(array){
+					var curgame = 0;
+					var rows = 3;
+					var columns = Math.ceil(array.length/rows);
+					document.write('		<div class="pcelement">');
+					for(var i = 0; i < columns; i++){
+						document.write('			<div class="gamerow">');
+						for(var j = 0; j < rows; j++){
+							document.write('				<div class="gamediv">');
+							if(array[curgame].target){
+								document.write('					<a href="'+array[curgame].href+'" target="_blank">');
+							} else {
+								document.write('					<a href="'+array[curgame].href+'">');
+							}
+							document.write('						<p>'+array[curgame].title+'</p>');
+							document.write('						<img src="'+array[curgame].img+'">');
+							document.write('					</a>');
+							document.write('				</div>');
+							
+							curgame ++;
+							if(curgame >= array.length){
+								break;
+							}
+						}
+						document.write('			</div>');
+					}
+					document.write('		</div>');
+					
+					curgame = 0;
+					document.write('		<div class="mobileelement">');
+					for(var i = 0; i < array.length; i++){
+						document.write('				<div class="gamediv">');
+						if(array[curgame].target){
+							document.write('					<a href="'+array[curgame].href+'" target="_blank">');
+						} else {
+							document.write('					<a href="'+array[curgame].href+'">');
+						}
+						document.write('						<p>'+array[curgame].title+'</p>');
+						document.write('						<img src="'+array[curgame].img+'">');
+						document.write('					</a>');
+						document.write('				</div>');
+						curgame ++;
+					}
+					document.write('		</div>');
+				}
+			</script>
+			
+			<div>
+                <img src="/img/games.png" class="toptitle"></img>
+            </div>
+			
+			<div style="margin-bottom: 32px;">
+				<p class="align-center medium-text" style="width: 800px;">Aside from working on comics. I also occasionally dabble into game development. In fact, I've been making games since 2013(!!). So scroll down a bit, and immerse yourself into the world of swackygames.</p>
+				<div id="construct-div" class="pcelement align-center">
+					<img src="/img/construction.png" style="display:inline; float:left; margin-left: 5%; margin-top: 7%; height: 133px;">
+					<div id="construct" class="yellow-border" style="display: inline-block; float: right;">
+						<p class="align-center yellow-text medium-text">UNDER CONSTRUCTION! Once this section is finished, there will be a page for each game listed here. For now, every game either redirects you to a website or downloads an archive.<p>
+					</div>
+				</div>
+				<div class="mobileelement align-center">
+					<div id="construct" class="yellow-border">
+						<p class="align-center yellow-text medium-text">UNDER CONSTRUCTION! Once this section is finished, there will be a page for each game listed here. For now, every game either redirects you to a website or downloads an archive.<p>
+					</div>
+				</div>
+				<div style="clear:both; height:42px;"></div>
+				<p class="align-center yellow-text big-text">Itch.io games</p>
+				<p class="align-center medium-text" style="width: 800px;">Here are all the games that were published on <a class="link" href="https://swackygcf.itch.io/" target="_blank">my itch.io account</a>. If you'd like to know a bit more about them, click on one of the games below.</p>
+			</div>
+			
+			<script> writedata(gamedata); </script>
+			
+			<div style="margin-top: 32px; margin-bottom: 32px;">
+				<p class="align-center yellow-text big-text">Beta versions</p>
+				<p class="align-center medium-text" style="width: 800px;">The old and janky versions of the first Jimmy's Lost Fruits Journey game, back when it was still being made in Clickteam Fusion 2.5.</p>
+			</div>
+			
+			<script> writedata(gamedata_beta); </script>
+			
+			<div style="margin-top: 32px; margin-bottom: 32px;">
+				<p class="align-center yellow-text big-text">swackygames_exclusive</p>
+				<p class="align-center medium-text" style="width: 800px;">The best of the best. It really doesn't get better than this.</p>
+			</div>
+			
+			<script> writedata(gamedata_swack); </script>
+			
+            <script src="/js/footer.js"></script>
+        </div>
+    </body>
+</html>

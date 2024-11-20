@@ -75,13 +75,11 @@ p {
 .header {
     background-color: #000000;
     text-align: center;
-    padding-right: 5px;
     height: 75px;
 	white-space: nowrap;
 }
 .header a {
     background-repeat: no-repeat;
-    padding-right: 5px;
     text-decoration: none;
     display:inline-block;
 	height: 100%;
@@ -108,12 +106,15 @@ p {
     background-image: url("/img/header/header_comics.png");
 }
 #header4 {
-    background-image: url("/img/header/header_trivia.png");
+    background-image: url("/img/header/header_games.png");
 }
 #header5 {
-    background-image: url("/img/header/header_funny.png");
+    background-image: url("/img/header/header_trivia.png");
 }
 #header6 {
+    background-image: url("/img/header/header_funny.png");
+}
+#header7 {
     background-image: url("/img/header/header_contact.png");
 }
 #header1:hover {
@@ -126,12 +127,15 @@ p {
     background-image: url("/img/header/header_comics_hover.png");
 }
 #header4:hover {
-    background-image: url("/img/header/header_trivia_hover.png");
+    background-image: url("/img/header/header_games_hover.png");
 }
 #header5:hover {
-    background-image: url("/img/header/header_funny_hover.png");
+    background-image: url("/img/header/header_trivia_hover.png");
 }
 #header6:hover {
+    background-image: url("/img/header/header_funny_hover.png");
+}
+#header7:hover {
     background-image: url("/img/header/header_contact_hover.png");
 }
 
@@ -527,6 +531,10 @@ p {
 	color: #ffb812;
 	text-decoration: underline;
 }
+.link {
+	color: #ffb812;
+	text-decoration: underline;
+}
 .news-container img {
 	display: block;
 	margin-left: auto;
@@ -606,6 +614,49 @@ p {
 	background-image: url("/img/social/social_ng_hover.png");
 }
 
+/* games */
+.gamerow {
+	display: flex;
+	flex-direction: row-gap;
+	justify-content: center;
+}
+
+.gamediv {
+	display: inline-block;
+	min-width: 420px;
+	max-width: 420px;
+	aspect-ratio: 16 / 9;
+	background-color: #000000;
+	padding: 0;
+	border: 5px solid #ffb812;
+}
+.gamediv p {
+	font-size: 24px;
+	color: #FFFFFF;
+	text-align: left;
+}
+.gamediv a {
+	text-decoration: none;
+}
+.gamediv img {
+	width: 100%;
+	height: 100%;
+}
+.gamediv:hover {
+	border-color: #6b0c17;
+}
+
+#construct-div {
+	position: relative;
+	left: -30px;
+	width: 700px;
+}
+#construct {
+	width: 70%;
+	margin-top: 32px;
+	background-color: rgba(0,0,0,0.6);
+}
+
 /* text types */
 
 .big-text {
@@ -631,6 +682,13 @@ p {
 }
 
 /* mobile/width stuff */
+
+.pcelement {
+	display: block;
+}
+.mobileelement {
+	display: none;
+}
 
 @media only screen and (max-width: 1260px) {
 	.main {
@@ -663,6 +721,13 @@ p {
 }
 
 @media only screen and (hover: none) and (pointer: coarse){
+	.pcelement {
+		display: none;
+	}
+	.mobileelement {
+		display: block;
+	}
+	
     body {
 		width: 100vw;
 		font-size: 48px;
@@ -799,7 +864,6 @@ p {
       height: 105px;
     }
     .not-logo {
-      padding-right: 24px;
       width: 105px;
       height: auto;
     }
@@ -901,6 +965,24 @@ p {
 		height: 150px;
 		background-size: 150px 150px;
 		flex-basis: 150px;
+	}
+	
+	.gamediv {
+		min-width: 85%;
+		max-width: 85%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.gamediv p {
+		font-size: 72px;
+	}
+	
+	#construct {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	
