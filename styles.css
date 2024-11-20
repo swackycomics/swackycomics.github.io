@@ -629,6 +629,7 @@ p {
 	background-color: #000000;
 	padding: 0;
 	border: 5px solid #ffb812;
+	margin: 5px;
 }
 .gamediv p {
 	font-size: 24px;
@@ -640,7 +641,8 @@ p {
 }
 .gamediv img {
 	width: 100%;
-	height: 100%;
+	
+	aspect-ratio: 16 / 9;
 }
 .gamediv:hover {
 	border-color: #6b0c17;
