@@ -314,35 +314,35 @@ var comicjson = {
 
 var data = {
     "comic1": {
-        "thumb": "rbd_comics_thumb.png",
+        "thumb": "series/rbd_comics_thumb.png",
         "title": "The RedBidd Comics",
         "epiodes": Object.keys(comicjson.redbidd).length,
         "desc": "ARE YOU READY FOR THE MOST INSANE & DERANGED COMIC EVER MADE? The RedBidd Comics star the eponymous protagonist RedBidd, who goes on adventures to save his lands FOLLOW REDBIDD ON HIS MANIAC \"COLORLESS\" QUEST. FIND NEW CHARACTERS TO HATE OR EMPATHIZE WITH. Uh-oh! The color's gone! Now it's up to RedBidd to TRAVERSE MAGICAL LANDS FULL OF QUIRKY CREATURES. BEAT DANGEROUS, BLOODTHIRSTY FOES, WHO HATE REDBIDD WITH EVERY CELL OF THEIR BODY. Will he make it to the end? Find out in this series!",
 		"href": "/comics/the_redbidd_comics/",
 	},
     "comic2": {
-        "thumb": "dh_comics_thumb.png",
+        "thumb": "series/dh_comics_thumb.png",
         "title": "DynamiteHead TNT-Comics",
         "epiodes": Object.keys(comicjson.dh).length,
         "desc": "Is it a bird? Is it a plane? NO!!! Look out, DynamiteHead's in town. And he's NOT FOOLIN' AROUND! Prepare for the ABSOLUTE TN-TASTIC action in this comic series.",
 		"href": "/comics/dynamitehead_comics/",
 	},
 	"comic3": {
-        "thumb": "swackzards_comics_thumb.png",
+        "thumb": "series/swackzards_comics_thumb.png",
         "title": "SWACKZARDS!",
         "epiodes": Object.keys(comicjson.swackzards).length,
         "desc": "HUZZAH! It has been foretold by the ancient prophecies - That ONLY the most experienced and eldest of swackzards could take even the utmost mundane action, and twist it into a TERRIFIC adventure. Tune in, as Styx and Crius spend their days in the middle of nowhere, trying to make ends meet... Hopefully, without casualties.",
 		"href": "/comics/swackzards/",
 	},
     "comic4": {
-        "thumb": "jimmy_comics_thumb.png",
+        "thumb": "series/jimmy_comics_thumb.png",
         "title": "Jimmy's Comical Journey (Discontinued)",
         "epiodes": Object.keys(comicjson.jimmy).length,
         "desc": "Jimmy's Comical Journey is a webcomic about a boy named Jimmy who has to deal with Dr. Vegg (an anthropomorphic carrot) and his sidekick Nameless' shenanigans. Find Jimmy and his friends going on crazy adventures to save the day once again!",
 		"href": "/comics/jimmys_comical_journey/",
 	},
     "comic5": {
-        "thumb": "vegg_comics_thumb.png",
+        "thumb": "series/vegg_comics_thumb.png",
         "title": "Dr. Vegg 'n Nameless Comics (Discontinued)",
         "epiodes": Object.keys(comicjson.vegg).length,
         "desc": "Ever wondered what the evil Dr. Vegg and his sidekick Nameless are up to in their spare time? Check out this mini-comic series where their weekend shenanigans range from playing chess to watching horror movies, and so much more! These two know how to make a good comic.",
