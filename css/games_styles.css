@@ -8,6 +8,9 @@
 	display: block;
 	z-index: -9;
 }
+.main {
+	width: 100%;
+}
 
 #gameinfo {
 	padding-left: 10px;
@@ -63,7 +66,7 @@
 }
 
 .screenshots img {
-	width: 350px;
+	width: 400px;
 	height: auto;
 }
 
