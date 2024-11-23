@@ -51,44 +51,51 @@
 					{
 						"title": "DYNAMITEHEAD TNTSON",
 						"img": "/img/games/dhtntson_thumb.png",
-						"href": "https://swackygcf.itch.io/dynamitehead-tntson",
-						"target": true
+						"href": "/games/dynamitehead_tntson/",
+						"target": false,
+						"desc": "Bounty hunter DynamiteHead surfs through deranged worlds, while beating up badheads with an explosive attitude."
 					},
 					{
 						"title": "JLFJ 2: Veggocalypse",
 						"img": "/img/games/jlfj2_thumb.png",
 						"href": "https://swackygcf.itch.io/jlfj2-veggocalypse",
-						"target": true
+						"target": true,
+						"desc": ""
 					},
 					{
 						"title": "Jimmy's Lost Fruits Journey",
 						"img": "/img/games/jlfj_thumb.png",
 						"href": "https://swackygcf.itch.io/jimmys-lost-fruits-journey",
-						"target": true
+						"target": true,
+						"desc": ""
 					},
 					{
 						"title": "Jimmy the Fruit Catcher",
 						"img": "/img/games/fruitcatch_thumb.png",
 						"href": "https://swackygcf.itch.io/jimmy-the-fruit-catcher-sgdk",
-						"target": true
+						"target": true,
+						"desc": ""
 					},
 					{
 						"title": "RedBidd: A Colorful Revival",
 						"img": "/img/games/rbd2_thumb.png",
 						"href": "https://swackygcf.itch.io/redbidd-a-colorful-revival",
-						"target": true
+						"target": true,
+						"desc": ""
 					},
 					{
 						"title": "RedBidd: A Squared Madness",
 						"img": "/img/games/rbd1_thumb.png",
 						"href": "https://swackygcf.itch.io/redbidd",
-						"target": true
+						"target": true,
+						"desc": ""
 					},
 					{
 						"title": "THE .EXECUTIONER",
 						"img": "/img/games/exe_thumb.png",
 						"href": "https://swackygcf.itch.io/executioner",
-						"target": true
+						"target": true,
+						"desc": ""
 					}
 				];
 				
@@ -97,13 +104,15 @@
 						"title": "JLFJ (Late 2020 Beta)",
 						"img": "/img/games/beta_1.png",
 						"href": "/games/download/jimmys-lost-fruits-journey-late2020.rar",
-						"target": false
+						"target": false,
+						"desc": ""
 					},
 					{
 						"title": "JLFJ (May 2020 Beta)",
 						"img": "/img/games/beta_2.png",
 						"href": "/games/download/Jimmy's Lost Fruits Journey May 2020.rar",
-						"target": false
+						"target": false,
+						"desc": ""
 					}
 				];
 				
@@ -112,19 +121,22 @@
 						"title": "swackygames_exclusive 3",
 						"img": "/img/games/swack_3.png",
 						"href": "/games/download/swackygames_exclusive_3.rar",
-						"target": false
+						"target": false,
+						"desc": ""
 					},
 					{
 						"title": "swackygames_exclusive 2",
 						"img": "/img/games/swack_2.png",
 						"href": "/games/download/swackygames_exclusive_2.rar",
-						"target": false
+						"target": false,
+						"desc": ""
 					},
 					{
 						"title": "swackygames_exclusive",
 						"img": "/img/games/swack_1.png",
 						"href": "/games/download/swackygames_exclusive.rar",
-						"target": false
+						"target": false,
+						"desc": ""
 					}
 				];
 				
@@ -144,6 +156,9 @@
 							}
 							document.write('						<p>'+array[curgame].title+'</p>');
 							document.write('						<img src="'+array[curgame].img+'">');
+							if(array[curgame].desc != ""){
+								document.write('						<p class="yellow-border showdesc">'+array[curgame].desc+'</p>');
+							}
 							document.write('					</a>');
 							document.write('				</div>');
 							
@@ -176,7 +191,7 @@
 			</script>
 			
 			<div>
-                <img src="/img/games.png" class="toptitle"></img>
+                <img src="/img/games.png" class="toptitle-small"></img>
             </div>
 			
 			<div style="margin-bottom: 32px;">

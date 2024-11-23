@@ -1,0 +1,134 @@
+.left-border {
+    background-image: url("/img/borderl_2.png");
+	display: block;
+	z-index: -9;
+}
+.right-border {
+    background-image: url("/img/borderr_2.png");
+	display: block;
+	z-index: -9;
+}
+
+#gameinfo {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 500px;
+	background-color: rgba(0,0,0,0.8);
+	text-align: left;
+}
+
+.description {
+	position: relative;
+	width: 800px;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.description img {
+	position: absolute;
+	z-index: -1;
+}
+
+#credits {
+	font-size: 40px;
+}
+#gamecredits {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 550px;
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+	border-color: #6eff19;
+}
+
+#gamecredits a {
+	color: #6eff19;
+	text-decoration: underline;
+}
+
+.screenshots {
+	width: 900px;
+	background-color: #000000;
+	padding: 8px;
+	overflow-y: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.screenshots img {
+	width: 350px;
+	height: auto;
+}
+
+/* scrollbar */
+.screenshots::-webkit-scrollbar {
+  height: 10px;
+}
+
+.screenshots::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+.screenshots::-webkit-scrollbar-thumb {
+  background: #fff312; 
+}
+
+.screenshots::-webkit-scrollbar-thumb:hover {
+  background: #472602; 
+}
+
+.downloadgame {
+	margin-top: 30px;
+}
+
+.downloadgame a{
+	width: 300px;
+}
+.downloadgame img{
+	margin-top: 10px;
+	width: 300px;
+	height: auto;
+}
+.downloadgame iframe{
+	margin-top: 10px;
+}
+#downloadinfo {
+	font-size: 20px;
+}
+
+/* mobile */
+@media only screen and (hover: none) and (pointer: coarse){
+	#gameinfo {
+		width: 85%;
+	}
+	
+	#credits {
+		font-size: 65px;
+	}
+	#gamecredits {
+		width: 85%;
+	}
+	
+	.screenshots img {
+		width: 750px;
+		height: auto;
+	}
+	
+	.screenshots::-webkit-scrollbar {
+	  height: 52px;
+	}
+	
+	.downloadgame a{
+		width: 50%;
+	}
+	.downloadgame img{
+		width: 50%;
+	}
+	
+	.downloadgame iframe{
+		width: 60%;
+	}
+}

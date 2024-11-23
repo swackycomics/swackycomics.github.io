@@ -630,6 +630,7 @@ p {
 	padding: 0;
 	border: 5px solid #ffb812;
 	margin: 5px;
+	position: relative;
 }
 .gamediv p {
 	font-size: 24px;
@@ -648,6 +649,19 @@ p {
 	border-color: #6b0c17;
 }
 
+.showdesc {
+	display: none;
+	width: 100%;
+	left: -1%;
+	background-color: #000000;
+	position: absolute;
+	z-index: 1;
+	border-color: #6b0c17;
+}
+.gamediv:hover .showdesc{
+	display: block;
+}
+
 #construct-div {
 	position: relative;
 	left: -30px;
@@ -663,6 +677,9 @@ p {
 
 .big-text {
     font-size: 60px;
+}
+.almost-big-text {
+    font-size: 45px;
 }
 .medium-text {
     font-size: 30px;
@@ -897,6 +914,9 @@ p {
     .big-text {
         font-size: 90px;
     }
+	.almost-big-text {
+		font-size: 70px;
+	}
     .medium-text {
         font-size: 60px;
     }
