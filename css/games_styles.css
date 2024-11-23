@@ -58,6 +58,10 @@
 	white-space: nowrap;
 }
 
+.screenshots a {
+	text-decoration: none;
+}
+
 .screenshots img {
 	width: 350px;
 	height: auto;
