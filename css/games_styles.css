@@ -52,6 +52,17 @@
 	text-decoration: underline;
 }
 
+#gamecancel {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+	border-color: #ff081c;
+}
+
 .screenshots {
 	width: 900px;
 	background-color: #000000;
@@ -116,6 +127,9 @@
 		font-size: 65px;
 	}
 	#gamecredits {
+		width: 85%;
+	}
+	#gamecancel {
 		width: 85%;
 	}
 	
