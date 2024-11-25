@@ -63,6 +63,11 @@
 	border-color: #ff081c;
 }
 
+#gamecancel a {
+	text-decoration: underline;
+	color: #fff312;
+}
+
 .trailerdiv {
 	background-color: #000000;
 	padding: 2px;
