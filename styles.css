@@ -575,7 +575,8 @@ p {
 	margin: 10px;
 }
 
-#newslink {
+#newsback_link {
+	display:block;
 	width: 360px;
 	height: 140px;
 	margin-left: auto;
@@ -992,7 +993,7 @@ p {
 		display: none;
 	}
 	
-	#newslink {
+	#newsback_link {
 		width: 550px;
 		height: 220px;
 		margin-left: auto;
