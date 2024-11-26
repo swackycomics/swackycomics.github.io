@@ -39,9 +39,14 @@
                 <img src="/img/swacktalk.png"></img>
 			</div>
 			<div>
+				<script>
+					var newshref = "/news/article/games_section/";
+				</script>
 				<div class="pcnews align-center" style="position: relative; width: 760px; left: -40px;">
 					<img src="/img/swacknews_preview.png" style="display:inline; float:left; position: absolute; margin-top: 3.5%; margin-left: -10%; height: 133px;">
-					<a id="newslink" style="text-align: left; display:inline; float:right; color: #FFFFFF; text-decoration: none;" href="/news/article/games_section/">
+					<script>
+						document.write('<a id="newslink" style="text-align: left; display:inline; float:right; color: #FFFFFF; text-decoration: none;" href="'+newshref+'">');
+					</script>
 						<p class="medium-text">Latest from the swacknews:</p>
 						<div class="news-container yellow-border" id="news-preview" style="min-height: 100px;">
 							<script>
@@ -53,7 +58,9 @@
 				<div style="clear:both;"></div>
 				<div class="mobilenews align-center">
 					<p class="medium-text">Latest from the swacknews:</p>
-					<a id="newslink" style="color: #FFFFFF; text-decoration: none;" href="/news/">
+					<script>
+						document.write('<a id="newslink" style="color: #FFFFFF; text-decoration: none;" href="'+newshref+'">');
+					</script>
 						<div class="news-container yellow-border" id="news-preview" style="min-height: 100px;">
 							<script>
 								document.write('<div style="padding:8px"><p id ="newstitle">'+newsdata[0].title+'</p> <p id="newsdate">'+newsdata[0].date+'</p></div>');
