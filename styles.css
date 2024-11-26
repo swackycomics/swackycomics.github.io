@@ -575,6 +575,25 @@ p {
 	margin: 10px;
 }
 
+#newslink {
+	width: 360px;
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#newsback {
+	width: 100%;
+	height: 100%;
+	background-image: url("img/back.png");
+	background-size: 100% 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#newsback:hover {
+	background-image: url("img/back-on.png");
+}
+
 /* socials */
 .email-box {
 	background-color: rgba(0,0,0,0.6);
@@ -971,6 +990,13 @@ p {
 	
 	#newsdate {
 		display: none;
+	}
+	
+	#newslink {
+		width: 550px;
+		height: 220px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	.email-box {

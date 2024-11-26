@@ -1,5 +1,21 @@
 var newsdata = [
 	{
+		title: "GAMES SECTION?!",
+		date: "November 26, 2024",
+		fields: [
+			[
+				"text",
+				[
+					'<p>GOOOOOOOOOOOOOOOOOOOOOD MORNING SWACKYCOMICS! It is I, swackyGCF once again to deliver some FANTASTICAL news - I&#39;ve finally finished working on the GAMES section of this website. If you want to check out all different kinds of games made by me, feel free to <a href="/games/" target="_blank">CLICK THIS LINK</a> right here.</p>',
+					'<p>Yeah. That&#39;s all the swacknews for now. Remember to stay away from <code>/vitamin</code>.</p>'
+				]
+			],
+			["image","/news/img/news3.png"]
+		],
+		id: "3",
+		href: "/news/article/games_section/"
+	},
+	{
 		title: "Brand new comic series & changes to the site",
 		date: "November 18, 2024",
 		fields: [
@@ -19,7 +35,9 @@ var newsdata = [
 					'<p>That&#39;s about it for this post. See you when I make a new one.</p>'
 				]
 			]
-		]
+		],
+		id: "2",
+		href: "/news/article/brand_new_comic_series/"
 	},
 	{
 		title: "Swacknews. Moving to Github Pages & More",
@@ -34,6 +52,8 @@ var newsdata = [
 				]
 			],
 			["image","/news/img/news1.png"],
-		]
+		],
+		id: "1",
+		href: "/news/article/swacknews/"
 	}
 ];
