@@ -203,6 +203,7 @@ p {
 	margin-top: 32px;
 	position: relative;
 }
+
 .comicborder hr {
 	background-color: #ff0d76;
 	height: 6px;
@@ -727,6 +728,12 @@ p {
 	background-color: rgba(0,0,0,0.6);
 }
 
+.swack {
+	display: block;
+	width: 160px;
+	cursor: pointer;
+}
+
 /* text types */
 
 .big-text {
@@ -1066,6 +1073,10 @@ p {
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	
+	.swack {
+		width: 46%;
 	}
 
 	

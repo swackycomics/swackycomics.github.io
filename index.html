@@ -79,6 +79,19 @@
                 <p class="medium-text" style="margin-bottom:42px;">Yep, here they are. Choose one from below</p>
             </div>
 			<script src="./js/comicgrid.js"></script>
+			
+			<div>
+				<script>
+					function playAudio(){
+						var audio = new Audio("/swack/swack1.wav");
+						audio.play();
+					}
+				</script>
+			
+                <img src="./img/clicktheswack.png" style="margin-top: 170px; margin-bottom: unset;" class="toptitle-small"></img>
+				<img src="./swack/swack1.png" class="align-center swack" onclick="playAudio(); this.onclick = null;"></img>
+            </div>
+			
             <script src="./js/footer.js"></script>
         </div>
     </body>
