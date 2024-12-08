@@ -193,6 +193,28 @@ p {
 }
 
 /* comic frames (new)*/
+.comicborder {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	background-color: rgba(0,0,0,0.6);
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-top: 32px;
+	position: relative;
+}
+.comicborder hr {
+	background-color: #ff0d76;
+	height: 6px;
+	border: 0;
+	width: 75%;
+}
+.pinkborder {
+	border: 6px solid #ff0d76;
+}
+.greenborder {
+	border: 6px solid #73ff00;
+}
 .new_comicgrid {
 	display: flex;
 	flex-direction: row-gap;
@@ -201,13 +223,12 @@ p {
 
 .new_comicbox {
 	display: inline-block;
-	min-width: 300px;
-	max-width: 300px;
-	height: 415px;
+	min-width: 270px;
+	max-width: 270px;
 }
 
 .new_comicbox p {
-	font-size: 32px;
+	font-size: 28px;
 }
 .new_comicbox_mobile {
 	width: 70%;
@@ -257,6 +278,19 @@ p {
 }
 #new_framerecent:hover {
 	background-image: url("/img/comicframenew-on.png");
+}
+
+#recent_img1 {
+	width: 40%;
+	left: -3%;
+	top: -10%;
+	position: absolute;
+}
+#recent_img2 {
+	width: 40%;
+	right: -4%;
+	top: 15%;
+	position: absolute;
 }
 
 /* grids */

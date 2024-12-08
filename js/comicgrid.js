@@ -6,7 +6,7 @@ let curcomic = 0;
 let columns = Math.ceil(array.length/rows);
 
 //pc version
-document.write('		<div class="pctable">');
+document.write('		<div class="pctable comicborder pinkborder">');
 for(var i = 0; i < columns; i++){
 	document.write('			<div class="new_comicgrid">');
 	for(var j = 0; j < rows; j++){
@@ -26,12 +26,15 @@ for(var i = 0; i < columns; i++){
         }
 	}
 	document.write('			</div>');
+	if(i < columns-1){
+		document.write('		<hr>');
+	}
 }
 document.write('		</div>');
 
 //mobile version
 curcomic = 0;
-document.write('		<div class="mobiletable">');
+document.write('		<div class="mobiletable comicborder pinkborder">');
 for(var i = 0; i < array.length; i++){
 	document.write('				<div class="new_comicbox_mobile">');
 	document.write('					<p id="new_comictop">'+array[curcomic].title+'</p>');
@@ -43,6 +46,9 @@ for(var i = 0; i < array.length; i++){
 	document.write('					<p id="new_comicbottom_mobile">'+array[curcomic].epiodes+(array[curcomic].epiodes == 1 ? " EPISODE" : " EPISODES")+'</p>');
 	document.write('				</div>');
 	curcomic ++;
+	if(i < array.length-1){
+		document.write('		<hr>');
+	}
 	if(curcomic >= array.length){
 		break;
 	}

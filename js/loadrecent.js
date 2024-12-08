@@ -1,7 +1,8 @@
 //recent comic
-document.write('			<div class="pctable">');
+document.write('			<div class="pctable comicborder greenborder">');
+document.write('				<img id="recent_img1" src="/img/recent1.png"/>');
+document.write('				<img id="recent_img2" src="/img/recent2.png"/>');
 document.write('				<div class="new_comicbox">');
-document.write('					<p>MOST RECENT COMIC!</p>');
 document.write('						<div class="new_comicframe align-center" id="new_framerecent">');
 document.write('							<a href="'+recent.href+'">');
 document.write('								<img id="new_new" src="/img/new.png">');
@@ -12,9 +13,8 @@ document.write('					<p>'+recent.title+'</p>');
 document.write('				</div>');
 document.write('			</div>');
 
-document.write('			<div class="mobiletable">');
+document.write('			<div class="mobiletable comicborder greenborder">');
 document.write('				<div class="new_comicbox_mobile">');
-document.write('					<p>MOST RECENT COMIC!</p>');
 document.write('						<div class="new_comicframe align-center" id="new_framerecent">');
 document.write('							<a href="'+recent.href+'">');
 document.write('								<img id="new_new" src="/img/new.png">');
