@@ -1,26 +1,32 @@
 var comic = document.querySelectorAll("#curcomic")[0].innerHTML;
 var comicgrid = {};
 var comicnum = 0;
+var imgarray = [];
 switch(comic){
     case "redbidd":
         comicgrid = comicjson.redbidd;
         comicnum = 0;
+		imgarray = ["rbdcomics_1","rbdcomics_2","rbdcomics_3"];
     break;
     case "dh":
         comicgrid = comicjson.dh;
         comicnum = 1;
+		imgarray = ["dhcomics_1","dhcomics_2"];
     break;
 	case "swackzards":
         comicgrid = comicjson.swackzards;
         comicnum = 2;
+		imgarray = ["wizcomics_1","wizcomics_2"];
     break;
     case "jimmy":
         comicgrid = comicjson.jimmy;
         comicnum = 3;
+		imgarray = ["jimcomics_1","jimcomics_2"];
     break;
     case "vegg":
         comicgrid = comicjson.vegg;
         comicnum = 4;
+		imgarray = ["vgcomics_1","vgcomics_2","vgcomics_3"];
     break;
 }
 
@@ -29,8 +35,11 @@ let rows = 3;
 let curcomic = 0;
 let columns = Math.ceil(array.length/rows);
 
-document.write( '            <div>\n' );
-document.write( '                <p class="medium-text" style=\"margin-bottom:42px; margin-left: auto; margin-right: auto; width:750px;\">'+Object.values(data)[comicnum].desc+'</p>\n' );
+document.write( '            <div class="desc_ align-center">\n' );
+for(var i = 0; i < imgarray.length; i++){
+	document.write( '                <img src="/img/comics/'+imgarray[i]+'.png" id="'+imgarray[i]+'" class="descimage pcelement">');
+}
+document.write( '                <p class="medium-text comicdesc" style=\"margin-bottom:42px; margin-left: auto; margin-right: auto; width:100%;\">'+Object.values(data)[comicnum].desc+'</p>\n' );
 document.write( '            </div>' );
 
 //pc version

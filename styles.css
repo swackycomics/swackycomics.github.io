@@ -180,7 +180,7 @@ p {
 	text-align: left;
 	position: absolute;
 	font-size: 28px;
-	width: 100%;
+	width: 80%;
 	top: 24%;
 	left: 12%;
 }
@@ -190,6 +190,85 @@ p {
 }
 #swacktalk_huge {
 	font-size: 50px;
+}
+
+.comicdesc {
+	color: #ffffff;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+/* description images */
+.desc_ {
+	width: 620px;
+	position: relative;
+}
+
+.descimage {
+	z-index: -1;
+	position: absolute;
+}
+
+#rbdcomics_1 {
+	width: 50%;
+	left: -36%;
+	top: 20%;
+}
+#rbdcomics_2 {
+	width: 45%;
+	right: -30%;
+}
+#rbdcomics_3 {
+	width: 40%;
+	right: -32%;
+	top: 50%;
+}
+
+#dhcomics_1 {
+	width: 50%;
+	left: -34%;
+	top: -78%;
+}
+#dhcomics_2 {
+	width: 42%;
+	right: -30%;
+	top: -50%;
+}
+
+#wizcomics_1 {
+	width: 43%;
+	left: -32%;
+	top: -5%;
+}
+#wizcomics_2 {
+	width: 47%;
+	right: -36%;
+	top: 5%;
+}
+
+#jimcomics_1 {
+	width: 40%;
+	left: -30%;
+}
+#jimcomics_2 {
+	width: 47%;
+	right: -34%;
+	top: -30%;
+}
+
+#vgcomics_1 {
+	width: 55%;
+	left: -35%;
+}
+#vgcomics_2 {
+	width: 40%;
+	right: -25%;
+	top: -30%;
+	z-index: -2;
+}
+#vgcomics_3 {
+	width: 40%;
+	right: -40%;
+	top: 30%;
 }
 
 /* comic frames (new)*/
@@ -500,9 +579,13 @@ p {
 }
 
 /* trivia css */
-
+.trivia-grid {
+	width: 740px;
+	margin-left: auto;
+	margin-right: auto;
+}
 .trivia-grid div {
-    width:740px;
+    width:100%;
     height:180px;
 }
 #triviaback {
