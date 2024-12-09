@@ -7,13 +7,13 @@ let comicarray = [
 
 document.write("<div style=\"background-color: #000000\" id=\"mousediv\">\r\n  <p id=\"hovertext\"><\/p>\r\n<\/div>");
 
+window.addEventListener('resize', function(ev){
+	document.getElementById('mousediv').style.display = "none";
+});
+
 document.addEventListener('mousemove', function(ev){
-	
-	if(ev.clientY < 200){
-		document.getElementById('mousediv').style.transform = 'translateY('+(ev.clientY+180)+'%)';
-	} else {
-		document.getElementById('mousediv').style.transform = 'translateY('+(ev.clientY+64)+'px)';
-	}
+	document.getElementById('mousediv').style.display = "block";
+	document.getElementById('mousediv').style.transform = 'translateY('+(ev.clientY+32)+'px)';
 	document.getElementById('mousediv').style.transform += 'translateX('+(ev.clientX-32)+'px)';
 },false);
 
@@ -31,8 +31,8 @@ function showtext(type, social){
 	}
 }
 
-document.write( '<div class=\"left-border align-left on-top\" style=\"width:186px; height:100%;\"></div>\n' );
-document.write( '        <div class=\"right-border align-right on-top\" style=\"width:186px; height:100%;\"></div>\n' );
+document.write( '<div class=\"side-border left-border align-left on-top\"></div>\n' );
+document.write( '        <div class=\"side-border right-border align-right on-top\"></div>\n' );
 document.write( '        <div class=\"align-center header on-top\" style=\"width:100%;\">\n' );
 
 document.write( '            <a class="header-button" href=\"/\" id=\"header1\"></a>\n' );

@@ -20,24 +20,35 @@ p {
     padding: 0;
 }
 
+code {
+	background-color: #000000;
+	border: 2px solid #555555;
+	font-size: 26px;
+}
+
 /* classes */
 
 .main {
     position: relative;
-    padding-top: 120px;
+    padding-top: 15vh;
     width: 60%;
     min-height: 100vh;
+}
+
+.side-border {
+	width:12vw;
+	height:100%;
 }
 
 .left-border {
     background-image: url("/img/borderl.png");
     background-repeat: repeat-y;
-    background-size:auto;
+    background-size:100% 100%;
 }
 .right-border {
     background-image: url("/img/borderr.png");
     background-repeat: repeat-y;
-    background-size:auto;
+    background-size:100% 100%;
 }
 .on-top {
     position: fixed;
@@ -73,9 +84,12 @@ p {
 }
 
 .header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
     background-color: #000000;
     text-align: center;
-    height: 75px;
+    height: 11vh;
 	white-space: nowrap;
 }
 .header a {
@@ -86,11 +100,11 @@ p {
 }
 
 #header1 {
-	width: 155px;
+	width: 24vh;
 	background-size: 100% auto;
 }
 .not-logo {
-	width: 70px;
+	width: 11vh;
 	background-size: 100% auto;
 }
 
@@ -838,10 +852,14 @@ p {
 
 /* mouse position follower */
 #mousediv {
-  position: fixed;
-  transition: transform 0.01s;
-  pointer-events: none;
-  z-index: 100;
+	display: none;
+	position: fixed;
+	transition: transform 0.01s;
+	pointer-events: none;
+	z-index: 100;
+}
+#hovertext {
+	font-size: 4vh;
 }
 
 /* mobile/width stuff */
@@ -974,6 +992,7 @@ p {
     }
     .main {
         width:100%;
+		padding-top: 160px;
     }
     .comicdiv {
         width: 540px;
