@@ -36,19 +36,19 @@ code {
 }
 
 .side-border {
-	width:12vw;
+	width:8vw;
 	height:100%;
 }
 
 .left-border {
     background-image: url("/img/borderl.png");
     background-repeat: repeat-y;
-    background-size:100% 100%;
+    background-size:100% auto;
 }
 .right-border {
     background-image: url("/img/borderr.png");
     background-repeat: repeat-y;
-    background-size:100% 100%;
+    background-size:100% auto;
 }
 .on-top {
     position: fixed;
@@ -89,7 +89,7 @@ code {
 	justify-content: center;
     background-color: #000000;
     text-align: center;
-    height: 11vh;
+    height: 9.5vh;
 	white-space: nowrap;
 }
 .header a {
@@ -100,11 +100,11 @@ code {
 }
 
 #header1 {
-	width: 24vh;
+	width: 21vh;
 	background-size: 100% auto;
 }
 .not-logo {
-	width: 11vh;
+	width: 9vh;
 	background-size: 100% auto;
 }
 
