@@ -48,11 +48,11 @@
                 //write trivia
                 document.write( '<div class=\"trivia-grid\">\n' );
                 for(var i = triviadata.length-1; i >= 0; i--){
-					var float_ = [];
+					var align = [];
 					if(i % 2 == 0){
-						float_ = ["left","right"];
+						align = "left";
 					} else {
-						float_ = ["right","left"];
+						align = "right";
 					}
 					
 					var marginX = 0;
@@ -65,11 +65,16 @@
 						marginX_pic = 46;
 					}
 					
-					document.write( '                <div class="pc-trivia">\n');
-					document.write( '                <img src="/img/trivia/trivia'+(i+1)+'.png" style="display:inline; float:'+float_[0]+'">\n');
-                    document.write( '                <div id="triviaback" style="display:inline; float:'+float_[1]+'">\n' );
+					document.write( '                <div class="pc-trivia" style="align-items: '+align+'; justify-content: '+align+';">\n');
+					if(align == "left"){
+						document.write( '                <img src="/img/trivia/trivia'+(i+1)+'.png">\n');
+					}
+                    document.write( '                <div id="triviaback">\n' );
                     document.write( '                    <p>'+triviadata[i]+'</p>\n' );
                     document.write( '                </div>\n' );
+					if(align == "right"){
+						document.write( '                <img src="/img/trivia/trivia'+(i+1)+'.png">\n');
+					}
 					document.write( '                </div>\n' );
 					
 					document.write( '                <div class="mobile-trivia">\n');

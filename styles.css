@@ -41,7 +41,7 @@ code {
 .main {
     position: relative;
     padding-top: 15vh;
-    width: 60%;
+    width: 65%;
     min-height: 100vh;
 }
 
@@ -256,11 +256,11 @@ code {
 
 #jimcomics_1 {
 	width: 40%;
-	left: -30%;
+	left: -36%;
 }
 #jimcomics_2 {
 	width: 47%;
-	right: -34%;
+	right: -40%;
 	top: -30%;
 }
 
@@ -284,7 +284,7 @@ code {
 .comicborder {
 	margin-left: auto;
 	margin-right: auto;
-	width: 800px;
+	width: 850px;
 	background-color: rgba(0,0,0,0.6);
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -456,7 +456,7 @@ code {
 
 /* trivia css */
 .trivia-grid {
-	width: 740px;
+	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -475,10 +475,6 @@ code {
     margin-left: auto;
     margin-right: auto;
 }
-.trivia-grid div {
-    margin-left: auto;
-    margin-right: auto;
-}
 .trivia-grid tr {
     display: inline-block;
     margin-left: auto;
@@ -494,7 +490,7 @@ code {
     left: 6%;
 }
 .pc-trivia {
-	display: inline-block;
+	display: flex;
 }
 .mobile-trivia {
 	display: none;
