@@ -31,6 +31,15 @@ function showtext(type, social){
 	}
 }
 
+//preload
+document.write( '<link rel="preload" as="image" href="/img/header/header_logo_hover.png">');
+document.write( '<link rel="preload" as="image" href="/img/header/header_comics_hover.png">');
+document.write( '<link rel="preload" as="image" href="/img/header/header_contact_hover.png">');
+document.write( '<link rel="preload" as="image" href="/img/header/header_funny_hover.png">');
+document.write( '<link rel="preload" as="image" href="/img/header/header_games_hover.png">');
+document.write( '<link rel="preload" as="image" href="/img/header/header_news_hover.png">');
+document.write( '<link rel="preload" as="image" href="/img/header/header_trivia_hover.png">');
+
 document.write( '<div class=\"side-border left-border align-left on-top\"></div>\n' );
 document.write( '        <div class=\"side-border right-border align-right on-top\"></div>\n' );
 document.write( '        <div class=\"align-center header on-top\" style=\"width:100%;\">\n' );
