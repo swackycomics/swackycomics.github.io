@@ -5,11 +5,23 @@ document.title = comic_.title;
 
 removeElementsByClass("downloaddiv");
 
+var linkfla = comic_.download[2];
 var linkpdf = comic_.download[0];
-var linkfla = comic_.download[1];
+var linkttf = comic_.font[1];
+
+var linkarray = [];
+if(linkfla.length > 0){
+	linkarray.push(".fla")
+}
+if(linkpdf.length > 0){
+	linkarray.push(".pdf")
+}
+if(linkttf.length > 0){
+	linkarray.push(".ttf")
+}
 
 document.write('			<div id="comics_download" class="align-center" onmouseup="document.getElementById(\'download-popup\').style.display = \'block\';">');
-document.write('				<p id="downloadinfo_comic" style="left: 55%;">.fla | .pdf | .ttf</p>');
+document.write('				<p id="downloadinfo_comic" style="left: 55%;">'+linkarray.join(" | ")+'</p>');
 document.write('			</div>');
 
 document.write( '<div class="align-center">\n' );
