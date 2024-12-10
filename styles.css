@@ -169,27 +169,6 @@ code {
     background-image: url("/img/header/header_contact_hover.png");
 }
 
-/* dropdown */
-
-.dropdown-content {
-    margin-top: -30px;
-    padding: 5px 5px;
-    position: fixed;
-    background-color: #000000;
-    left: 440px;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    font-family: 'pinkchicken';
-    color: #FFFFFF;
-    text-decoration: none;
-    display: block;
-    z-index: 2;
-    width: 100%;
-    height: 50%;
-}
-
 .dropdown-content a:hover {background-color: #FFFFFF;color: #000000;}
 
 .show {display:block;}
@@ -403,95 +382,6 @@ code {
 	position: absolute;
 }
 
-/* grids */
-
-.grid div{
-    width:20vw;
-    height:20vw;
-    margin-right:1vw;
-    margin-bottom:2vw;
-    position: relative;
-    background-image: url("/img/comicframe.png");
-    background-size: 20vw 20vw;
-}
-.grid div:hover{
-    background-image: url("/img/comicframe-on.png");
-}
-.grid table {
-    margin-left: auto;
-    margin-right: auto;
-}
-.grid div {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.grid tr {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.grid p {
-    font-size: 2vw;
-}
-#pbottom {
-    margin-top:-12%;
-    margin-bottom: 12%;
-}
-#pbottom2 {
-    margin-top:-8%;
-    margin-bottom: 20%;
-}
-.grid div a img {
-    position: absolute;
-    top: 13.3%;
-    left: 13.9%;
-}
-
-/* recent comic */
-
-.recent div{
-    width:20vw;
-    height:20vw;
-    margin-right:1vw;
-    margin-bottom:2vw;
-    position: relative;
-    background-image: url("/img/comicframenew.png");
-    background-size: 20vw 20vw;
-}
-.recent div:hover{
-    background-image: url("/img/comicframenew-on.png");
-}
-.recent table {
-    margin-left: auto;
-    margin-right: auto;
-}
-.recent div {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.recent tr {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.recent p {
-    font-size: 2vw;
-}
-.recent a {
-    text-decoration: none; color:#FFFFFF;
-}
-.recent div a img {
-    position: absolute;
-    top: 13.3%;
-    left: 13.9%;
-}
-#new {
-    background-image: url('/img/new.png');
-    background-size: 20vw 20vw;
-}
-
 .mobiletable {
     display: none;
 }
@@ -558,50 +448,6 @@ code {
 }
 #next:hover {
     background-image: url("/img/next-on.png");
-}
-
-/* download buttons */
-
-.download {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    height: 52px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.download table {
-    align-self: center;
-}
-.download div {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.download tr {
-    display: table-row;
-    margin-left: auto;
-    margin-right: auto;
-}
-.download a {
-    background-size: 300px auto;
-    background-repeat: no-repeat;
-    text-decoration: none;
-    display:inline-block;
-    height: 52px;
-    width: 300px;
-}
-
-.mobiledownload {
-    display: none;
-}
-
-#pdf {
-    background-image: url("/img/downloadpdf.png");
-}
-#fla {
-    background-image: url("/img/downloadfla.png");
 }
 
 .funnyimg {
@@ -861,7 +707,7 @@ code {
 #comics_download:hover {
 	background-image: url("/img/download/download-on.png");
 }
-#downloadinfo {
+#downloadinfo_comic {
 	position: absolute;
 	font-size: 20px;
 	transform: translateX(-50%);
@@ -1239,6 +1085,20 @@ code {
 		padding-bottom: 12px;
 	}
 	
+	.news-container p {
+        font-size: 70px;
+    }
+	.news-container code {
+        font-size: 70px;
+    }
+	.news-container .big-text {
+        font-size: 70px;
+    }
+	.news-container .small-text {
+        font-size: 60px;
+    }
+
+	
 	#news-preview {
 		width: 90%;
 	}
@@ -1317,7 +1177,7 @@ code {
 		left: -35px;
 		margin-bottom: 100px;
 	}
-	#downloadinfo {
+	#downloadinfo_comic {
 		font-size: 42px;
 	}
 	#download-box {

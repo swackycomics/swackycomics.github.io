@@ -9,7 +9,7 @@ var linkpdf = comic_.download[0];
 var linkfla = comic_.download[1];
 
 document.write('			<div id="comics_download" class="align-center" onmouseup="document.getElementById(\'download-popup\').style.display = \'block\';">');
-document.write('				<p id="downloadinfo" style="left: 55%;">.fla | .pdf | .ttf</p>');
+document.write('				<p id="downloadinfo_comic" style="left: 55%;">.fla | .pdf | .ttf</p>');
 document.write('			</div>');
 
 /*if(linkpdf.length > 0 || linkfla.length > 0){
