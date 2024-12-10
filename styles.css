@@ -20,6 +20,16 @@ p {
     padding: 0;
 }
 
+.font_pink-chicken {
+	font-family: 'pinkchicken';
+}
+.font_sf-cartoonisthand {
+	font-family: 'sf-cartoonisthand';
+}
+.font_nextsunday {
+	font-family: 'nextsunday';
+}
+
 code {
 	background-color: #000000;
 	border: 2px solid #555555;
@@ -62,6 +72,12 @@ code {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+.align-center-translate {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%); 
+	text-align: center;
 }
 .align-right {
     right: 0;
@@ -831,6 +847,115 @@ code {
 	cursor: pointer;
 }
 
+/* download popup */
+#comics_download {
+	position: relative;
+	width: 300px;
+	aspect-ratio: 12/3;
+	background-image: url("/img/download/download.png");
+	background-size: 100% 100%;
+	cursor: pointer;
+	margin-bottom: 32px;
+	left: -20px;
+}
+#comics_download:hover {
+	background-image: url("/img/download/download-on.png");
+}
+#downloadinfo {
+	position: absolute;
+	font-size: 20px;
+	transform: translateX(-50%);
+	top: 100%;
+}
+
+#download-top {
+	width: 40%;
+}
+
+#download-popup {
+	display: none;
+	position: fixed;
+	z-index: 128;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.65);
+}
+
+.popup-element {
+	font-size: 2.8vh;
+	display: block;
+}
+
+.popup-btn {
+	width: 50%;
+}
+
+
+#download-box {
+	min-width: 65vh;
+	width: 80vh;
+	min-height: 35%;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 0.8vh solid #ffb812;
+	background-color: rgba(0,0,0,0.85);
+}
+
+#download1 {
+	position: absolute;
+	z-index: 126;
+	width: 22%;
+	left: -3%;
+	top: 5vh;
+}
+#download2 {
+	position: absolute;
+	z-index: 126;
+	width: 22%;
+	right: -4%;
+	bottom: -45vh;
+}
+
+
+#download-fla {
+	width: 100%;
+	content:url("/img/download/fla.png");
+}
+#download-fla:hover {
+	content:url("/img/download/fla-on.png");
+}
+
+#download-pdf {
+	width: 100%;
+	content:url("/img/download/pdf.png");
+}
+#download-pdf:hover {
+	content:url("/img/download/pdf-on.png");
+}
+
+#download-ttf {
+	width: 100%;
+	content:url("/img/download/ttf.png");
+}
+#download-ttf:hover {
+	content:url("/img/download/ttf-on.png");
+}
+
+#download-back {
+	width: 38vh;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	content:url("/img/back.png");
+	cursor: pointer;
+}
+#download-back:hover {
+	content:url("/img/back-on.png");
+}
+
 /* text types */
 
 .big-text {
@@ -841,6 +966,9 @@ code {
 }
 .medium-text {
     font-size: 30px;
+}
+.download-text {
+    font-size: 24px;
 }
 .small-text {
     font-size: 15px;
@@ -1086,6 +1214,9 @@ code {
     .small-text {
         font-size: 50px;
     }
+	.download-text {
+		font-size: 42px;
+	}
 	
 	#swacktalk {
 		width: 100%;
@@ -1180,6 +1311,32 @@ code {
 	.swack {
 		width: 46%;
 	}
+	
+	#comics_download {
+		width: 65%;
+		left: -35px;
+		margin-bottom: 100px;
+	}
+	#downloadinfo {
+		font-size: 42px;
+	}
+	#download-box {
+		min-width: 90%;
+		width: 90%;
+	}
+	.popup-element {
+		font-size: 3.2vh;
+		display: block;
+	}
+	.popup-btn {
+		width: 85%;
+	}
+	#download-top {
+		width: 80%;
+	}
+	#download-back {
+		width: 70%;
+	}
 
 	
 	#404 {
@@ -1194,4 +1351,16 @@ code {
     font-family: 'pinkchicken';
     src: url('./font/PinkChicken-Regular.ttf')  format('truetype');
     src: url('./font/PinkChicken-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'sf-cartoonisthand';
+    src: url('./font/SFCartoonistHand.ttf')  format('truetype');
+    src: url('./font/SFCartoonistHand.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'nextsunday';
+    src: url('./font/Next Sunday.ttf')  format('truetype');
+    src: url('./font/Next Sunday.woff') format('woff');
 }
