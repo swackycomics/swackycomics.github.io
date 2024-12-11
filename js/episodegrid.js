@@ -35,6 +35,10 @@ let rows = 3;
 let curcomic = 0;
 let columns = Math.ceil(array.length/rows);
 
+//preload
+document.write( '<link rel="preload" as="image" href="/img/comicframe-on.png">');
+document.write( '<link rel="preload" as="image" href="/img/comicframenew-on.png">');
+
 document.write( '            <div class="desc_ align-center">\n' );
 for(var i = 0; i < imgarray.length; i++){
 	document.write( '                <img src="/img/comics/'+imgarray[i]+'.png" id="'+imgarray[i]+'" class="descimage pcelement">');

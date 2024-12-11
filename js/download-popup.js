@@ -8,6 +8,11 @@ var fontname = comic_.font[0];
 var fontlink = comic_.font[1];
 var fontfamily = comic_.font[2];
 
+//preload
+document.write( '<link rel="preload" as="image" href="/img/download/fla-on.png">');
+document.write( '<link rel="preload" as="image" href="/img/download/pdf-on.png">');
+document.write( '<link rel="preload" as="image" href="/img/download/ttf-on.png">');
+
 document.write('		<div id="download-popup">');
 document.write('			<script>');
 document.write('				document.addEventListener("mousedown", event => {');

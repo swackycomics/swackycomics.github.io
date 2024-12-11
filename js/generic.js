@@ -40,6 +40,9 @@ document.write( '<link rel="preload" as="image" href="/img/header/header_games_h
 document.write( '<link rel="preload" as="image" href="/img/header/header_news_hover.png">');
 document.write( '<link rel="preload" as="image" href="/img/header/header_trivia_hover.png">');
 
+document.write( '<link rel="preload" as="image" href="/img/download/download-on.png">');
+document.write( '<link rel="preload" as="image" href="/img/back-on.png">');
+
 document.write( '<div class=\"side-border left-border align-left on-top\"></div>\n' );
 document.write( '        <div class=\"side-border right-border align-right on-top\"></div>\n' );
 document.write( '        <div class=\"align-center header on-top\" style=\"width:100%;\">\n' );

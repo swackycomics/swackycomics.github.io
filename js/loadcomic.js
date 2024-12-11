@@ -20,6 +20,10 @@ if(linkttf.length > 0){
 	linkarray.push(".ttf")
 }
 
+//preload
+document.write( '<link rel="preload" as="image" href="/img/next-on.png">');
+document.write( '<link rel="preload" as="image" href="/img/prev-on.png">');
+
 document.write('			<div id="comics_download" class="align-center" onmouseup="document.getElementById(\'download-popup\').style.display = \'block\';">');
 document.write('				<p id="downloadinfo_comic" style="left: 55%;">'+linkarray.join(" | ")+'</p>');
 document.write('			</div>');

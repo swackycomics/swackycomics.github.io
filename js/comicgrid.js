@@ -5,6 +5,10 @@ let rows = 3;
 let curcomic = 0;
 let columns = Math.ceil(array.length/rows);
 
+//preload
+document.write( '<link rel="preload" as="image" href="/img/comicframe-on.png">');
+document.write( '<link rel="preload" as="image" href="/img/comicframenew-on.png">');
+
 //pc version
 document.write('		<div class="pctable comicborder pinkborder">');
 for(var i = 0; i < columns; i++){
