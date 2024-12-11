@@ -405,51 +405,6 @@ code {
     min-width: 50%;
 }
 
-/* comic buttons */
-
-.prevnext {
-    display: flex;
-    justify-content: center;
-    width: 600px;
-    height: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 32px;
-}
-.prevnext table {
-    align-self: center;
-}
-.prevnext div {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.prevnext tr {
-    display: table-row;
-    margin-left: auto;
-    margin-right: auto;
-}
-.prevnext a {
-    background-size: 200px auto;
-    background-repeat: no-repeat;
-    text-decoration: none;
-    display:inline-block;
-    height: 70px;
-    width: 200px;
-}
-#prev {
-    background-image: url("/img/prev.png");
-}
-#prev:hover {
-    background-image: url("/img/prev-on.png");
-}
-#next {
-    background-image: url("/img/next.png");
-}
-#next:hover {
-    background-image: url("/img/next-on.png");
-}
-
 .funnyimg {
 	width: 400px;
 }
@@ -798,6 +753,68 @@ code {
 	content:url("/img/back-on.png");
 }
 
+/* comic prev/next */
+.comic_prevnext_div {
+	display: inline-block;
+	position: relative;
+	width: 270px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 48px;
+	cursor: pointer;
+}
+
+.comic_prevnext_title {
+	font-size: 24px;
+	display: grid;
+	align-items: center;
+	white-space: normal;
+	min-height: 23%;
+}
+
+.comic_prevnext_button {
+	position: absolute;
+	width: 50%;
+	top: 55%;
+	transform: translate(-50%,-50%);
+}
+#comic_prev {
+	left: -30%;
+}
+#comic_next {
+	right: -82%;
+}
+
+.comic_prevnext_top {
+	width: 90%;
+}
+.comic_prevnext_frame {
+	background-color: #000000;
+	width: 100%;
+	aspect-ratio: 1/1;
+	border: 5px solid #ffb812;
+}
+#comic_prevnext_image {
+	width: 95%;
+	aspect-ratio: 1/1;
+}
+
+.comic_prevnext_div:hover .comic_prevnext_frame {
+	border-color: #6b0c17;
+}
+.comic_prevnext_div:hover #comic_prevtop {
+	content: url("/img/prevcomic-on.png");
+}
+.comic_prevnext_div:hover #comic_nexttop {
+	content: url("/img/nextcomic-on.png");
+}
+.comic_prevnext_div:hover #comic_prev {
+	content: url("/img/arrowleft-on.png");
+}
+.comic_prevnext_div:hover #comic_next {
+	content: url("/img/arrowright-on.png");
+}
+
 /* text types */
 
 .big-text {
@@ -967,9 +984,6 @@ code {
     .comicdiv {
         width: 540px;
     }
-    .prevnext a {
-        text-align: left;
-    }
     .download a {
         text-align: left;
     }
@@ -1031,15 +1045,6 @@ code {
         width: 100%;
         height: 70px;
         font-size: 40px;
-    }
-    .prevnext {
-        width: 350px;
-        height: 130px;
-    }
-    .prevnext a {
-        width: 350px;
-        height: 130px;
-        background-size: 350px auto;
     }
     .comicdiv {
         width: 100%;
@@ -1192,6 +1197,26 @@ code {
 	}
 	#download-back {
 		width: 70%;
+	}
+	
+	.comic_prevnext_div {
+		display: inline-block;
+		position: relative;
+		width: 45%;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 48px;
+		cursor: pointer;
+	}
+	.comic_prevnext_title {
+		font-size: 48px;
+		display: grid;
+		align-items: center;
+		white-space: normal;
+		min-height: 27%;
+	}
+	.comic_prevnext_button {
+		display: none;
 	}
 
 	

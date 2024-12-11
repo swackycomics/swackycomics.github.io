@@ -46,16 +46,39 @@ var urlsplit = url.split("/");
 
 var comic_url = urlsplit.slice(0, -2).join("/")+"/ep";
 
-var prevcomic = comic_url+(parseInt(episode)-1).toString()+"/";
-var nextcomic = comic_url+(parseInt(episode)+1).toString()+"/";
+var prevcomic_url = comic_url+(parseInt(episode)-1).toString()+"/";
+var nextcomic_url = comic_url+(parseInt(episode)+1).toString()+"/";
 
-removeElementsByClass("pagesdiv");
+var series = Object.values(Object.values(comicjson)[seriesnum]);
+var disp_episode = episode-1;
+var prevcomic_data = series[Math.max(0,disp_episode-1)];
+var nextcomic_data = series[Math.min(series.length-1,disp_episode+1)];
 
-document.write( '<div class=\"align-center pagesdiv\">\n' );
-document.write( '                <table class=\"prevnext\">\n' );
-document.write( '                    <tr>\n' );
-document.write( '                        <td><a id=\"prev\" href=\"'+prevcomic+'\"></a></td>\n' );
-document.write( '                        <td><a id=\"next\" href=\"'+nextcomic+'\"></a></td>\n' );
-document.write( '                    </tr>\n' );
-document.write( '                </table>\n' );
-document.write( '            </div>' );
+document.writeln('			<div>');
+document.writeln('				<div class="comic_prevnext_div" id="comic_prev_div" onclick="window.location=\''+prevcomic_url+'\'">');
+document.writeln('					<img id="comic_prev" class="comic_prevnext_button" src="/img/arrowleft.png">');
+document.writeln('					<img id="comic_prevtop" class="comic_prevnext_top" src="/img/prevcomic.png">');
+document.writeln('					<div class="comic_prevnext_frame align-center">');
+document.writeln('						<p class="comic_prevnext_title">#'+(parseInt(episode)-1)+': '+prevcomic_data.title+'</p>');
+document.writeln('						<img id="comic_prevnext_image" src="/img/icons/'+prevcomic_data.thumb+'">');
+document.writeln('					</div>');
+document.writeln('				</div>');
+document.writeln('				<div class="comic_prevnext_div" id="comic_next_div" onclick="window.location=\''+nextcomic_url+'\'">');
+document.writeln('					<img id="comic_next" class="comic_prevnext_button" src="/img/arrowright.png">');
+document.writeln('					<img id="comic_nexttop" class="comic_prevnext_top" src="/img/nextcomic.png">');
+document.writeln('					<div class="comic_prevnext_frame align-center">');
+document.writeln('						<p class="comic_prevnext_title">#'+(parseInt(episode)+1)+': '+nextcomic_data.title+'</p>');
+document.writeln('						<img id="comic_prevnext_image" src="/img/icons/'+nextcomic_data.thumb+'">');
+document.writeln('					</div>');
+document.writeln('				</div>');
+document.writeln('			</div>');
+
+//remove if episode doesnt exist
+if(parseInt(episode) <= 1){
+	var prev = document.getElementById('comic_prev_div');
+	prev.style.display = 'none';
+}
+if(parseInt(episode) >= series.length){
+	var next = document.getElementById('comic_next_div');
+	next.style.display = 'none';
+}
