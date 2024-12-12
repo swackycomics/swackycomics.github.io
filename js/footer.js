@@ -1,2 +1,2 @@
-var curdate = "Dec. 11, 2024";
+var curdate = "Dec. 12, 2024";
 document.write("<div class=\"bottom\" style=\"width: 100%; text-align:center; height: 64px\">\r\n    <p>SWACKYCOMICS - WHEN THERE'S SWACK, THERE'S COMIC<\/p><p>Last update: "+curdate+"<\/p><br\/>\r\n<\/div>");
