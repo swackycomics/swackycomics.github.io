@@ -815,6 +815,66 @@ code {
 	content: url("/img/arrowright-on.png");
 }
 
+/* all episodes */
+#allepisodes {
+	width: 640px;
+	background-color: #000000;
+	padding: 4px;
+	overflow-y: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+	border: 12px solid #000000;
+}
+
+#allepisodes a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.listcomicframe {
+	display: inline-block;
+	width: 220px;
+	height: auto;
+}
+
+.listcomicframe img{
+	width: 100%;
+	aspect-ratio: 1/1;
+}
+
+.listcomicframe p {
+	font-size: 20px;
+	display: grid;
+	align-items: center;
+	white-space: normal;
+	min-height: 23%;
+}
+
+.other-episode img {
+	filter: brightness(35%);
+}
+.other-episode img:hover {
+	filter: brightness(100%);
+}
+
+/* scrollbar */
+#allepisodes::-webkit-scrollbar {
+  height: 10px;
+}
+
+#allepisodes::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+#allepisodes::-webkit-scrollbar-thumb {
+  background: #fff312; 
+}
+
+#allepisodes::-webkit-scrollbar-thumb:hover {
+  background: #472602; 
+}
+
+
 /* text types */
 
 .big-text {
@@ -1219,6 +1279,22 @@ code {
 		display: none;
 	}
 
+
+	#allepisodes {
+		width: 95%;
+	}
+	.listcomicframe {
+		width: 420px;
+	}
+	.listcomicframe p {
+		font-size: 42px;
+	}
+	.yellow-border {
+		border-width: 12px;
+	}
+	#allepisodes::-webkit-scrollbar {
+	  height: 52px;
+	}
 	
 	#404 {
 		width: 90%;

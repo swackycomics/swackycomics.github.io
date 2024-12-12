@@ -84,3 +84,32 @@ if(parseInt(episode) >= series.length){
 	var next = document.getElementById('comic_next_div');
 	next.style.display = 'none';
 }
+
+//load all episodes
+document.write('			<div style="height: 32px;"></div>');
+document.write('			<p class="big-text">ALL EPISODES</p>');
+document.write('			<div id="allepisodes" class="align-center">');
+for(var i = 0; i < series.length; i++){
+	if(episode == i+1){
+		document.write('				<div class="listcomicframe yellow-border">');
+		document.write('					<p class="comic_prevnext_title">#'+(i+1).toString()+': '+series[i].title+'</p>');
+		document.write('					<img src="/img/icons/'+series[i].thumb+'">');
+		document.write('				</div>');
+	} else {
+		document.write('				<a href="/comics/'+comic+'_comics/ep'+(i+1).toString()+'">');
+		document.write('					<div class="listcomicframe other-episode">');
+		document.write('						<p class="comic_prevnext_title">#'+(i+1)+': '+series[i].title+'</p>');
+		document.write('						<img src="/img/icons/'+series[i].thumb+'">');
+		document.write('					</div>');
+		document.write('				</a>');
+	}
+}
+document.write('			</div>');
+
+window.addEventListener("load", () => {
+	var scrolldiv = document.getElementById('allepisodes');
+	var width = (scrolldiv.scrollWidth-scrolldiv.offsetWidth)+24;
+	
+	var percentpos = (episode-1)/(series.length-1);
+	scrolldiv.scrollLeft = percentpos * width;
+});
