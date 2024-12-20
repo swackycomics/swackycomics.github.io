@@ -39,7 +39,9 @@ document.write( '            </div>' );
 
 document.write( '<div class=\"align-center comicdiv\">\n' );
 for(var i = 0; i < comicpages[seriesnum][1][episode-1]; i++){
-    document.write( '                <img src=\"/comics/'+comic+'_comics/ep'+episode+'/'+(i+1).toString()+'.png\">\n' );
+	document.write('			<a href="/comics/'+comic+'_comics/ep'+episode+'/'+(i+1).toString()+'.png" target="_blank">');
+    document.write( '                <img src="/comics/'+comic+'_comics/ep'+episode+'/'+(i+1).toString()+'.png">\n' );
+	document.write('			</a>');
 }
 document.write( '            </div>' );
 
