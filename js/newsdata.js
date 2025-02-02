@@ -1,5 +1,21 @@
 var newsdata = [
 	{
+		title: "ONSKU'S CRAZY BIRTHDAY released",
+		date: "February 2, 2025",
+		fields: [
+			[
+				"text",
+				[
+					'<p>Goodest of mornings people of swackycomics website. Today is the day when I shall announce that I found a very nice looking rock today. Oh yeah, and it&#39;s onsku&#39;s birthday today... WAIT WHAT?!?! THAT&#39;S RIGHT! And I even made a GAME for such occassion.</p>',
+					'<p>Delve right into the birthday madness of <a target="_blank" href="/games/onskus_crazy_birthday/">Onsku&#39;s Crazy Birthday (2025)</a> video game experience. You will never find a birthday game like this one. Unless I decide to make another. WHICH WON&#39;T HAPPEN (or will it?!).</p>'
+				]
+			],
+			["image","/news/img/news4.png"]
+		],
+		id: "4",
+		href: "/news/article/onskus_crazy_birthday_released/"
+	},
+	{
 		title: "GAMES SECTION?!",
 		date: "November 26, 2024",
 		fields: [
