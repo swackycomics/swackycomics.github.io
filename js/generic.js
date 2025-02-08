@@ -18,7 +18,7 @@ document.addEventListener('mousemove', function(ev){
 },false);
 
 function showtext(type, social){
-	var texts = ["News","Comics","Games","Trivia","Funny","Contact"];
+	var texts = ["News","Comics","Games","Trivia","Funny","Misc."];
 	var socials = ["YouTube","itch.io","Bluesky","Newgrounds"];
 	if(type == -1){
 		document.getElementById("hovertext").textContent="";
@@ -35,6 +35,7 @@ function showtext(type, social){
 document.write( '<link rel="preload" as="image" href="/img/header/header_logo_hover.png">');
 document.write( '<link rel="preload" as="image" href="/img/header/header_comics_hover.png">');
 document.write( '<link rel="preload" as="image" href="/img/header/header_contact_hover.png">');
+document.write( '<link rel="preload" as="image" href="/img/header/header_misc_hover.png">');
 document.write( '<link rel="preload" as="image" href="/img/header/header_funny_hover.png">');
 document.write( '<link rel="preload" as="image" href="/img/header/header_games_hover.png">');
 document.write( '<link rel="preload" as="image" href="/img/header/header_news_hover.png">');
@@ -53,6 +54,6 @@ document.write( '            <a class="not-logo header-button" href=\"/comics/\"
 document.write( '            <a class="not-logo header-button" href=\"/games/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(2, -1)" id=\"header4\"></a>\n' );
 document.write( '            <a class="not-logo header-button" href=\"/trivia/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(3, -1)" id=\"header5\"></a>\n' );
 document.write( '            <a class="not-logo header-button" href=\"/funny/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(4, -1)" id=\"header6\"></a>\n' );
-document.write( '            <a class="not-logo header-button" href=\"/contact/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(5, -1)" id=\"header7\"></a>\n' );
+document.write( '            <a class="not-logo header-button" href=\"/misc/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(5, -1)" id=\"header7\"></a>\n' );
 
 document.write( '        </div>' );

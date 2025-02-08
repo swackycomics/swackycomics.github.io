@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SWACKYCOMICS! - Miscellaneous</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" href="/img/icon.png">
+		
+		<script src="/js/newsdata.js"></script>
+		
+        <meta name="theme-color" content="#f26411">
+        <meta property="og:type" content="article">
+
+        <meta property="og:title" content="SWACKYCOMICS">
+        <meta property="og:site_name" content="swackycomics.github.io">
+        <meta property="og:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="og:image" content="/img/default_misc.png">
+
+        <meta property="twitter:title" content="SWACKYCOMICS">
+        <meta property="twitter:site" content="swackycomics.github.io">
+        <meta property="twitter:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="twitter:image" content="/img/default_misc.png">
+		<meta property="twitter:card" content="summary_large_image">
+    </head>
+    <body>
+        <script src="/js/generic.js"></script>
+
+		<script>
+			//preload
+			document.write( '<link rel="preload" as="image" href="/img/misc_butn1_on.png">');
+			document.write( '<link rel="preload" as="image" href="/img/misc_butn2_on.png">');
+			document.write( '<link rel="preload" as="image" href="/img/misc_butn3_on.png">');
+		</script>
+
+        <div class="main align-center" id="content">
+            <div>
+                <img src="/img/misc.png" class="toptitle"></img>
+            </div>
+			
+			<div id="misc" class="align-center" style="width: 950px">
+				<div class="align-center" style="position:relative">
+					<img id="misc_art" src="/img/misc_butn1_off.png" onclick="location.href = '/art_showcase/';">
+				</div>
+				<div class="align-center" style="position:relative">
+					<img id="misc_redbidd" src="/img/misc_butn2_off.png" onclick="location.href = '/redbidd_fun_facts/';">
+				</div>
+				<div class="align-center" style="position:relative">
+					<img id="misc_contact" src="/img/misc_butn3_off.png" onclick="location.href = '/contact/';">
+				</div>
+			</div>
+			
+            <script src="/js/footer.js"></script>
+        </div>
+    </body>
+</html>

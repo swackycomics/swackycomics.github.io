@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SWACKYCOMICS! - RedBidd Fun Facts</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" href="/img/icon.png">
+		
+		<script src="/js/funfacts.js"></script>
+		
+        <meta name="theme-color" content="#f26411">
+        <meta property="og:type" content="article">
+
+        <meta property="og:title" content="SWACKYCOMICS">
+        <meta property="og:site_name" content="swackycomics.github.io">
+        <meta property="og:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="og:image" content="/img/default_misc.png">
+
+        <meta property="twitter:title" content="SWACKYCOMICS">
+        <meta property="twitter:site" content="swackycomics.github.io">
+        <meta property="twitter:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="twitter:image" content="/img/default_misc.png">
+		<meta property="twitter:card" content="summary_large_image">
+    </head>
+    <body>
+        <script src="/js/generic.js"></script>
+
+        <div class="main align-center" id="content">
+            <div>
+                <img src="/img/funfacts.png" class="toptitle-small"></img>
+            </div>
+			<p class="align-center medium-text" style="width: 750px;">A collection of every single RedBidd Fun Fact, that was once posted on the RedBidd Fun Facts account on twitter way back in 2022... Which then got rebranded to the JLFJ 2 account... Which got rebranded to the DynamiteHead account... Which then got deactivated. YEAH!</p>
+			<p class="align-center small-text" style="width: 750px;">Note that some of the info in these fun facts is no longer true to The RedBidd Comics. (Gray Lands, invisible Misterio, Wraps' hamster and etc.)</p>
+			
+			<div style="height: 48px;"></div>
+			
+			<script>
+				for(var i = 0; i < funfacts.length; i++){
+					document.write('<div class="align-center yellow-border funfact-container">');
+					document.write('<p>'+funfacts[i].desc+'</p>');
+					document.write('<p style="color:#BF1123">Original date: '+funfacts[i].date+'</p>');
+					document.write('<img src="/img/fun_facts/'+funfacts[i].img+'">');
+					document.write('</div>');
+				}
+			</script>
+			
+            <script src="/js/footer.js"></script>
+        </div>
+    </body>
+</html>

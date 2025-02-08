@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SWACKYCOMICS! - Art showcase</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" href="/img/icon.png">
+		
+		<script src="/js/artdata.js"></script>
+		
+        <meta name="theme-color" content="#f26411">
+        <meta property="og:type" content="article">
+
+        <meta property="og:title" content="SWACKYCOMICS">
+        <meta property="og:site_name" content="swackycomics.github.io">
+        <meta property="og:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="og:image" content="/img/default_misc.png">
+
+        <meta property="twitter:title" content="SWACKYCOMICS">
+        <meta property="twitter:site" content="swackycomics.github.io">
+        <meta property="twitter:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="twitter:image" content="/img/default_misc.png">
+		<meta property="twitter:card" content="summary_large_image">
+    </head>
+    <body>
+        <script src="/js/generic.js"></script>
+
+		<div id="download-popup">
+			<script>
+				document.addEventListener("mouseup", event => {
+					var _this = document.getElementById("download-popup");
+					var box = document.getElementById("download-box");
+					if(_this.style.display == "block"){
+						if(!box.contains(event.target)) {
+							_this.style.display = "none";
+						};
+					}
+				});	
+			</script>
+			<div id="download-box" style="width: 55vw; padding: 12px;">
+				<a id="artshow_link" href="" target="_blank">
+					<img id="artshow_full" href="" target="_blank" src="" style="width: auto; height: 45vh" class="popup-element align-center">
+				</a>
+				<p class="align-center medium-text" id="artshow_date"></p>
+				<p class="align-center medium-text" id="artshow_desc"></p>
+			</div>
+			<img id="download-back">
+		</div>
+
+        <div class="main align-center" id="content">
+            <div>
+                <img src="/img/art-showcase.png" class="toptitle-small"></img>
+            </div>
+			<p class="align-center medium-text" style="width: 750px;">Here's a collection of things I drew throughout the years. There's really not much else to say about this stuff. Enjoy looking through a bunch of drawings I made.</p>
+			
+			<div style="height: 48px;"></div>
+			<p class="align-center medium-text">Sort by:</p>
+			<div class="align-center custom-select" id="sort-div">
+				<select id="sort">
+					<option value="new">Newest</option>
+					<option value="new">Newest</option>
+					<option value="old">Oldest</option>
+				</select>
+			</div>
+			
+			<script>
+				function shownew(){
+					var listnew = document.querySelectorAll('.artshow_newest')
+					for(i = 0; i < listnew.length; i++) {
+						listnew[i].style.display = 'block'; 
+					}
+					var listold = document.querySelectorAll('.artshow_oldest')
+					for(i = 0; i < listold.length; i++) {
+						listold[i].style.display = 'none'; 
+					}
+				}
+				function showold(){
+					var listnew = document.querySelectorAll('.artshow_newest')
+					for(i = 0; i < listnew.length; i++) {
+						listnew[i].style.display = 'none'; 
+					}
+					var listold = document.querySelectorAll('.artshow_oldest')
+					for(i = 0; i < listold.length; i++) {
+						listold[i].style.display = 'block'; 
+					}
+				}
+				
+				var elemt_div = document.getElementById('sort-div');
+				var elemt = document.getElementById('sort');
+				elemt_div.addEventListener("click", () => {
+					if(elemt.value == "new"){
+						shownew();
+					} else if(elemt.value == "old"){
+						showold();
+					}
+				});
+			</script>
+			
+			<!-- select box style here -->
+			
+			<style>
+				.custom-select {
+				  position: relative;
+				  width: 200px;
+				}
+
+				.custom-select select {
+				  display: none;
+				  background-color: #000000;
+				  color: #ffffff;
+				}
+
+				.select-selected {
+					background-color: #ffffff;
+					color: #000000;
+				}
+
+				.select-selected:after {
+					display: none;
+				}
+
+				/*style the items (options), including the selected item:*/
+				.select-items div,.select-selected {
+					background-color: #000000;
+					color: #ffffff;
+					padding: 8px 16px;
+					cursor: pointer;
+					user-select: none;
+				}
+
+				.select-items {
+				  position: absolute;
+				  background-color: #000000;
+				  top: 100%;
+				  left: 0;
+				  right: 0;
+				  z-index: 99;
+				}
+
+				.select-hide {
+				  display: none;
+				}
+
+				.select-items div:hover, .same-as-selected {
+				  background-color: #ffffff;
+				  color: #000000;
+				}
+				
+				@media only screen and (hover: none) and (pointer: coarse){
+					.custom-select {
+					  position: relative;
+					  width: 560px;
+					}
+				}
+			</style>
+			
+			<script src="/js/selectbox.js"></script>
+			
+			<script>
+				function dopopupthings(num){
+					document.getElementById('download-popup').style.display = 'block';
+					document.getElementById("artshow_link").href = '/img/art_archive/'+artdata[num].img;
+					document.getElementById("artshow_full").src = '/img/art_archive/'+artdata[num].img;
+					document.getElementById("artshow_date").innerHTML = "Date of creation: "+artdata[num].date;
+					document.getElementById("artshow_desc").innerHTML = artdata[num].desc;
+				};
+				
+				var artcategories = [];
+				var maxcategory = 1;
+				for(var i = 0; i < artdata.length; i++){
+					if(artdata[i].category+1 > maxcategory){
+						maxcategory = artdata[i].category+1;
+					};
+				}
+				for(var i = 0; i < maxcategory; i++){
+					artcategories[i] = [];
+				}
+				for(var i = 0; i < artdata.length; i++){
+					artcategories[artdata[i].category].push(i);
+				}
+				
+				var catgr_names = ['2019','2020','2021','2022','2023','2024','2025'];
+				
+				var curind = 0;
+				for(var j = artcategories.length-1; j >=0; j--){
+					if(artcategories[j].length > 0){
+						document.write('<div class="artshow_newest">');
+						document.write('<p class="yellow-text big-text">'+catgr_names[j]+'</p>');
+						document.write('	<div class="yellow-border" id="artgrid">');
+						for(var i = 0; i < artcategories[j].length; i++){
+							document.write('	<div onclick="dopopupthings('+curind+');">');
+							document.write('		<img src="/img/art_archive/'+artdata[curind].img+'" id="'+i.toString()+'">');
+							document.write('		<p class="download-text">'+artdata[curind].date+'</p>');
+							document.write('	</div>');
+							curind ++;
+						}
+						document.write('	</div>');
+						document.write('</div>');
+					}
+				}
+				
+				curind = artdata.length-1;
+				//same thing but sorting by oldest
+				for(var j = 0; j < artcategories.length; j++){
+					if(artcategories[j].length > 0){
+						document.write('<div class="artshow_oldest">');
+						document.write('<p class="yellow-text big-text">'+catgr_names[j]+'</p>');
+						document.write('	<div class="yellow-border" id="artgrid">');
+						for(var i = 0; i < artcategories[j].length; i++){
+							document.write('	<div onclick="dopopupthings('+curind+');">');
+							document.write('		<img src="/img/art_archive/'+artdata[curind].img+'" id="'+i.toString()+'">');
+							document.write('		<p class="download-text">'+artdata[curind].date+'</p>');
+							document.write('	</div>');
+							curind --;
+						}
+						document.write('	</div>');
+						document.write('</div>');
+					}
+				}
+			</script>
+			
+            <script src="/js/footer.js"></script>
+        </div>
+    </body>
+</html>

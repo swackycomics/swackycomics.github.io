@@ -15,11 +15,13 @@ document.write( '<link rel="preload" as="image" href="/img/download/ttf-on.png">
 
 document.write('		<div id="download-popup">');
 document.write('			<script>');
-document.write('				document.addEventListener("mousedown", event => {');
+document.write('				document.addEventListener("mouseup", event => {');
 document.write('					var _this = document.getElementById("download-popup");');
 document.write('					var box = document.getElementById("download-box");');
-document.write('					if(!box.contains(event.target)) {');
-document.write('						_this.style.display = "none";');
+document.write('					if(_this.style.display == "block"){');
+document.write('						if(!box.contains(event.target)) {');
+document.write('							_this.style.display = "none";');
+document.write('						};');
 document.write('					};');
 document.write('				});');
 document.write('			</script>');

@@ -26,7 +26,7 @@ document.write( '<link rel="preload" as="image" href="/img/arrowright-on.png">')
 document.write( '<link rel="preload" as="image" href="/img/nextcomic-on.png">');
 document.write( '<link rel="preload" as="image" href="/img/prevcomic-on.png">');
 
-document.write('			<div id="comics_download" class="align-center" onmouseup="document.getElementById(\'download-popup\').style.display = \'block\';">');
+document.write('			<div id="comics_download" class="align-center" onclick="document.getElementById(\'download-popup\').style.display = \'block\';">');
 document.write('				<p id="downloadinfo_comic" style="left: 55%;">'+linkarray.join(" | ")+'</p>');
 document.write('			</div>');
 
