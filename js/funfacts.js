@@ -2,7 +2,7 @@ var funfacts = [
 	{
 		img: "funfact1.png",
 		date: "May. 17, 2022",
-		desc: "Fun RedBidd Fact #1: Before the events of the game, Wraps used to serve in the military for two years! That means he can carry a around gun with no problems."
+		desc: "Fun RedBidd Fact #1: Before the events of the game, Wraps used to serve in the military for two years! That means he can carry around a gun with no problems."
 	},
 	{
 		img: "funfact2.png",
