@@ -1361,11 +1361,15 @@ code {
 	.popup-btn {
 		width: 85%;
 	}
+	#download-popup {
+		height: 102vh;
+	}
 	#download-top {
 		width: 80%;
 	}
 	#download-back {
-		width: 70%;
+		top: 86%;
+		width: 40%;
 	}
 	
 	.comic_prevnext_div {
