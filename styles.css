@@ -914,6 +914,11 @@ code {
 	border-color: #ffb812;
 }
 
+#artshow_full {
+	width: auto;
+	height: 45vh;
+}
+
 .artshow_newest {
 	display: block;
 }
@@ -1408,6 +1413,12 @@ code {
 
 	#artgrid div {
 		max-width: 710px;
+	
+	}
+	
+	#artshow_full {
+		width: 75vw;
+		height: auto;
 	}
 	
 	.funfact-container {
