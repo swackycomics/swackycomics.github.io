@@ -926,6 +926,13 @@ code {
 	display: none;
 }
 
+#artshow_date {
+	font-size: 5vh;
+}
+#artshow_desc {
+	font-size: 5vh;
+}
+
 .funfact-container {
 	margin-bottom: 25px;
 	background-color: rgba(0,0,0,0.6);
@@ -1423,6 +1430,13 @@ code {
 	#artshow_full {
 		width: 75vw;
 		height: auto;
+	}
+	
+	#artshow_date {
+		font-size: 3.6vh;
+	}
+	#artshow_desc {
+		font-size: 3.6vh;
 	}
 	
 	.funfact-container {
