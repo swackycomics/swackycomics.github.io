@@ -604,11 +604,18 @@ code {
 	margin: 5px;
 	position: relative;
 }
-.gamediv p {
+
+#gamediv_title {
 	font-size: 24px;
 	color: #FFFFFF;
 	text-align: left;
 }
+#gamediv_desc {
+	font-size: 24px;
+	color: #FFFFFF;
+	text-align: left;
+}
+
 .gamediv a {
 	text-decoration: none;
 }
@@ -1333,10 +1340,20 @@ code {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 5%;
 	}
 	
-	.gamediv p {
+	#gamediv_title {
 		font-size: 72px;
+	}
+	
+	.showdesc {
+		display: block;
+		position: static;
+		margin-left: -1%;
+	}
+	#gamediv_desc {
+		font-size: 42px;
 	}
 	
 	#construct {
@@ -1369,6 +1386,7 @@ code {
 		width: 85%;
 	}
 	#download-popup {
+		width: 102vw;
 		height: 102vh;
 	}
 	#download-top {

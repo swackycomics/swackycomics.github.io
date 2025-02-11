@@ -161,10 +161,10 @@
 							} else {
 								document.write('					<a href="'+array[curgame].href+'">');
 							}
-							document.write('						<p>'+array[curgame].title+'</p>');
+							document.write('						<p id="gamediv_title">'+array[curgame].title+'</p>');
 							document.write('						<img src="'+array[curgame].img+'">');
 							if(array[curgame].desc != ""){
-								document.write('						<p class="yellow-border showdesc">'+array[curgame].desc+'</p>');
+								document.write('						<p id="gamediv_desc" class="yellow-border showdesc">'+array[curgame].desc+'</p>');
 							}
 							document.write('					</a>');
 							document.write('				</div>');
@@ -187,8 +187,11 @@
 						} else {
 							document.write('					<a href="'+array[curgame].href+'">');
 						}
-						document.write('						<p>'+array[curgame].title+'</p>');
+						document.write('						<p id="gamediv_title">'+array[curgame].title+'</p>');
 						document.write('						<img src="'+array[curgame].img+'">');
+						if(array[curgame].desc != ""){
+							document.write('						<p id="gamediv_desc" class="yellow-border showdesc">'+array[curgame].desc+'</p>');
+						}
 						document.write('					</a>');
 						document.write('				</div>');
 						curgame ++;
