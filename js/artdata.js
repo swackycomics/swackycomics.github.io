@@ -592,6 +592,12 @@ var artdata = [
 		category: 2
 	},
 	{
+		img: "2021_3.png",
+		date: "Nov. 26, 2021",
+		desc: "SXDG, TWVM & Doodle McSherbert infront of a wall.",
+		category: 2
+	},
+	{
 		img: "2021_2.png",
 		date: "Nov. 18, 2021",
 		desc: "200 Subscriber special art remake",
