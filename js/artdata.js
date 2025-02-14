@@ -1,5 +1,11 @@
 var artdata = [
 	{
+		img: "scoopkick.png",
+		date: "Feb. 13, 2025",
+		desc: "Fanart of Ryemanni's Scoop Kick",
+		category: 6
+	},
+	{
 		img: "img0.png",
 		date: "Feb. 3, 2025",
 		desc: "MisterObtuse's character, Manny",
@@ -583,6 +589,12 @@ var artdata = [
 		img: "tw_68.png",
 		date: "Dec. 14, 2021",
 		desc: "Jimmy visits HELL",
+		category: 2
+	},
+	{
+		img: "2021_2.png",
+		date: "Nov. 18, 2021",
+		desc: "200 Subscriber special art remake",
 		category: 2
 	},
 	{
