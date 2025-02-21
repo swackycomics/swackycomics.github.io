@@ -115,3 +115,13 @@ window.addEventListener("load", () => {
 	var percentpos = (episode-1)/(series.length-1);
 	scrolldiv.scrollLeft = percentpos * width;
 });
+
+if(comic_.timelapse.length > 0){
+	document.write( '<div class="align-center">' );
+	document.write( '	<p class="big-text" style=\"margin-top:100px; margin-left: auto; margin-right: auto;">TIMELAPSE</p>');
+	document.write( '</div>' );
+	
+	document.write( '<div class="timelapsediv yellow-border align-center">' );
+	document.write( '	'+comic_.timelapse);
+	document.write( '</div>' );
+}

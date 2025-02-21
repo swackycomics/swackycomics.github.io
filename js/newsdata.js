@@ -1,7 +1,30 @@
+//shortdesc length of string = 200
 var newsdata = [
+	{
+		title: "RedBidd and Swackzards: A DOUBLE COMIC DEAL!",
+		date: "February 21, 2025",
+		shortdesc: "And yet another good morning, people who check swackycomics news. It is I, swackyGCF with. You guessed it. Yet another news post. For the FIRST EVER time since I started making comics in 2021...",
+		fields: [
+			[
+				"text",
+				[
+					'<p>And yet another good morning, people who check swackycomics news. It is I, swackyGCF with. You guessed it. Yet another news post.</p>',
+					'<p>For the FIRST EVER time since I started making comics in 2021 I wouldn&#39;t even THINK that a day like this would even come. That&#39;s right. You know what I&#39;m talking about. Everybody knows what I&#39;m talking about it. IT&#39;S DOUBLE COMIC FRIDAY! YEEEAAAAAAHHHHH! All the lucky people of swackycomics website will get to check out TWO (yeah, that&#39;s right). TWO NEW COMICS! Isn&#39;t this fantastical?</p>',
+					'<p>The first comic features RedBidd and the pals finally coming face to face with Mr. Billy Bill Dye himself. I&#39;m not gonna spoil what happens in this one. Check it for yourself by clicking on the link below:</p>',
+					'<p><a target="_blank" href="/comics/redbidd_comics/ep9/">The RedBidd Comics: MAD BILL</a></p>',
+					'<p>And the second comic features none other than Styx and Crius themselves. See if you can spot a reference or two in this new comic!</p>',
+					'<p><a target="_blank" href="/comics/swackzards_comics/ep2/">SWACKZARDS!: TAXPAYERS</a></p>'
+				]
+			],
+			["image","/news/img/news5.png"]
+		],
+		id: "5",
+		href: "/news/article/redbidd_and_swackzards_a_double_comic_deal/",
+	},
 	{
 		title: "ONSKU'S CRAZY BIRTHDAY released",
 		date: "February 2, 2025",
+		shortdesc: "Goodest of mornings people of swackycomics website. Today is the day when I shall announce that I found a very nice looking rock today. Oh yeah, and it's onsku's birthday today... WAIT WHAT?!?! THAT'S...",
 		fields: [
 			[
 				"text",
@@ -18,6 +41,7 @@ var newsdata = [
 	{
 		title: "GAMES SECTION?!",
 		date: "November 26, 2024",
+		shortdesc: "GOOOOOOOOOOOOOOOOOOOOOD MORNING SWACKYCOMICS! It is I, swackyGCF once again to deliver some FANTASTICAL news - I've finally finished working on the GAMES section of this website. If you want to check...",
 		fields: [
 			[
 				"text",
@@ -34,6 +58,7 @@ var newsdata = [
 	{
 		title: "Brand new comic series & changes to the site",
 		date: "November 18, 2024",
+		shortdesc: "Why, hello and welcome to the second news post on the news posting section of swackycomics where the news are, in fact, getting posted. It is I, swackyGCF. And I have come here to announce a BRAND NEW...",
 		fields: [
 			[
 				"text",
@@ -58,6 +83,7 @@ var newsdata = [
 	{
 		title: "Swacknews. Moving to Github Pages & More",
 		date: "November 11, 2024",
+		shortdesc: "Hello one and a half people who will most likely read this, welcome to the first post on the SWACKNEWS section of swackycomics. It seems this website keeps getting better and better with each...",
 		fields: [
 			[
 				"text",
