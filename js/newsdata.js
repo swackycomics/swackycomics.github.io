@@ -9,7 +9,7 @@ var newsdata = [
 				"text",
 				[
 					'<p>And yet another good morning, people who check swackycomics news. It is I, swackyGCF with. You guessed it. Yet another news post.</p>',
-					'<p>For the FIRST EVER time since I started making comics in 2021 I wouldn&#39;t even THINK that a day like this would even come. That&#39;s right. You know what I&#39;m talking about. Everybody knows what I&#39;m talking about it. IT&#39;S DOUBLE COMIC FRIDAY! YEEEAAAAAAHHHHH! All the lucky people of swackycomics website will get to check out TWO (yeah, that&#39;s right). TWO NEW COMICS! Isn&#39;t this fantastical?</p>',
+					'<p>For the FIRST EVER time since I started making comics in 2021 I wouldn&#39;t even THINK that a day like this would even come. That&#39;s right. You know what I&#39;m talking about. Everybody knows what I&#39;m talking about. IT&#39;S DOUBLE COMIC FRIDAY! YEEEAAAAAAHHHHH! All the lucky people of swackycomics website will get to check out TWO (yeah, that&#39;s right). TWO NEW COMICS! Isn&#39;t this fantastical?</p>',
 					'<p>The first comic features RedBidd and the pals finally coming face to face with Mr. Billy Bill Dye himself. I&#39;m not gonna spoil what happens in this one. Check it for yourself by clicking on the link below:</p>',
 					'<p><a target="_blank" href="/comics/redbidd_comics/ep9/">The RedBidd Comics: MAD BILL</a></p>',
 					'<p>And the second comic features none other than Styx and Crius themselves. See if you can spot a reference or two in this new comic!</p>',
