@@ -1449,8 +1449,8 @@ code {
 	
 	#artgrid {
 		width: 950px;
-		grid-template-columns: repeat(1, 1fr);
-		grid-template-rows: repeat(auto-fill, 800px);
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(auto-fill, 500px);
 	}
 
 	#artgrid div {
