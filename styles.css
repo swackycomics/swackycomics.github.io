@@ -1132,6 +1132,10 @@ code {
 	#swacktalk_huge {
 		font-size: 60px;
 	}
+	.swacktext p {
+		color: #000000;
+		text-shadow: none;
+	}
 
     .pctable {
         display: none;
