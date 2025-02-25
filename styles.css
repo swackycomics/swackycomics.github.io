@@ -211,6 +211,9 @@ code {
 	width: 620px;
 	position: relative;
 }
+._comicdesc {
+	width: 740px;
+}
 
 .descimage {
 	z-index: -1;
@@ -1201,6 +1204,12 @@ code {
         height: 100px;
         width: 500px;
     }
+	.desc_ {
+		width: 90vw;
+	}
+	._comicdesc {
+		width: 90vw;
+	}
 	
 	.funnyimg {
 		width: 90%;
