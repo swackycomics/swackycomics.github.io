@@ -1,5 +1,29 @@
 var artdata = [
 	{
+		img: "styxncrius1.png",
+		date: "Feb. 25, 2025",
+		desc: "The Styx & Crius Show",
+		category: 6
+	},
+	{
+		img: "styxncrius2.png",
+		date: "Feb. 25, 2025",
+		desc: "What if Styx was a chihuahua?",
+		category: 6
+	},
+	{
+		img: "styxncrius3.png",
+		date: "Feb. 25, 2025",
+		desc: "Crius tries out his latest invention",
+		category: 6
+	},
+	{
+		img: "styxncrius4.png",
+		date: "Feb. 25, 2025",
+		desc: "Styx holds the fate of millions",
+		category: 6
+	},
+	{
 		img: "scoopkick.png",
 		date: "Feb. 13, 2025",
 		desc: "Fanart of Ryemanni's Scoop Kick",
