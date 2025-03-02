@@ -1,5 +1,11 @@
 var artdata = [
 	{
+		img: "cknuckles_dogflip.png",
+		date: "Mar. 1, 2025",
+		desc: "When you witness a dogflip",
+		category: 6
+	},
+	{
 		img: "styxncrius1.png",
 		date: "Feb. 25, 2025",
 		desc: "The Styx & Crius Show",
