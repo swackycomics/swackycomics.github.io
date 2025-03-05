@@ -1,8 +1,6 @@
 //remove previous comic just in case
 removeElementsByClass("comicdiv");
 
-document.title = comic_.title;
-
 removeElementsByClass("downloaddiv");
 
 var linkfla = comic_.download[2];
