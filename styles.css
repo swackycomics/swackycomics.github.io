@@ -196,9 +196,11 @@ code {
 .swacktext p {
 	color: #ffffff;
 	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+	white-space: nowrap;
 }
 #swacktalk_huge {
 	font-size: 50px;
+	white-space: nowrap;
 }
 
 .comicdesc {
