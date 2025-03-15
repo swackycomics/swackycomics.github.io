@@ -1,5 +1,11 @@
 var artdata = [
 	{
+		img: "spumcobox.png",
+		date: "Mar. 15, 2025",
+		desc: "TipBox meets a different version of himself.",
+		category: 6
+	},
+	{
 		img: "cknuckles_dogflip.png",
 		date: "Mar. 1, 2025",
 		desc: "When you witness a dogflip",
