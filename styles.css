@@ -1004,6 +1004,17 @@ code {
 #misc_redbidd:hover {
 	content:url("/img/misc_butn2_on.png");
 }
+#misc_fanart {
+	transform: translateX(-50%); 
+	width: auto;
+	height: 80%;
+	position: absolute;
+	cursor: pointer;
+	content:url("/img/misc_butn4_off.png");
+}
+#misc_fanart:hover {
+	content:url("/img/misc_butn4_on.png");
+}
 #misc_contact {
 	transform: translateX(-50%); 
 	width: auto;
