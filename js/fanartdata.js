@@ -12,6 +12,12 @@ var artdata = [
 		category: 5
 	},
 	{
+		img: "image2.png",
+		date: "Mar. 4, 2025",
+		desc: "sekritari",
+		category: 5
+	},
+	{
 		img: "toki_swackzards1.jpg",
 		date: "Feb. 28, 2025",
 		desc: "toki-ch (bluesky)",
@@ -102,6 +108,12 @@ var artdata = [
 		category: 4
 	},
 	{
+		img: "dynamite_head.png",
+		date: "Nov 25, 2024",
+		desc: "sekritari",
+		category: 4
+	},
+	{
 		img: "ng_dh2.png",
 		date: "Nov 4, 2024",
 		desc: "Plantgamer09",
@@ -123,6 +135,18 @@ var artdata = [
 		img: "swack2024.png",
 		date: "Jul. 15, 2024",
 		desc: "charlesalien",
+		category: 4
+	},
+	{
+		img: "Untitled9_20240702231458.png",
+		date: "Jul. 2, 2024",
+		desc: "sekritari",
+		category: 4
+	},
+	{
+		img: "image3.png",
+		date: "Jun. 26, 2024",
+		desc: "sekritari",
 		category: 4
 	},
 	{
