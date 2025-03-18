@@ -1,5 +1,11 @@
 var artdata = [
 	{
+		img: "bafkreihll64cfallqot7k6x5rzoi6jkf6wv6amtowxs5hpvdq5ymwgi67q.jpg",
+		date: "Mar. 17, 2025",
+		desc: "popkinsssussy (bluesky)",
+		category: 5
+	},
+	{
 		img: "bafkreif2ylrufan33cnzo2jwvzwmylczcdhgoguxqd6r2n2aghlq64socy.jpg",
 		date: "Mar. 15, 2025",
 		desc: "popkinsssussy (bluesky)",
