@@ -1,8 +1,14 @@
 var artdata = [
 	{
+		img: "doodles1.png",
+		date: "Mar. 22, 2025",
+		desc: "Doodles of various characters",
+		category: 6
+	},
+	{
 		img: "spumcobox.png",
 		date: "Mar. 15, 2025",
-		desc: "TipBox meets a different version of himself.",
+		desc: "TipBox meets a different version of himself",
 		category: 6
 	},
 	{

@@ -719,6 +719,28 @@ code {
 	width: 50%;
 }
 
+#popup-btns {
+	width: auto;
+	height: 3vh;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	z-index: 2;
+}
+#pop-btnleft {
+	content:url("/img/arrowleft.png");
+}
+#pop-btnright {
+	content:url("/img/arrowright.png");
+}
+#pop-btnleft:hover {
+	content:url("/img/arrowleft-on.png");
+}
+#pop-btnright:hover {
+	content:url("/img/arrowright-on.png");
+}
 
 #download-box {
 	min-width: 65vh;
@@ -942,6 +964,7 @@ code {
 #artshow_full {
 	width: auto;
 	height: 45vh;
+	cursor: pointer;
 }
 
 .artshow_newest {
@@ -1485,7 +1508,7 @@ code {
 	}
 	
 	#artshow_full {
-		width: 75vw;
+		width: 70vw;
 		height: auto;
 	}
 	

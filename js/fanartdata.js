@@ -272,7 +272,7 @@ var artdata = [
 	{
 		img: "Senza_titolo_651_20201015153559.png",
 		date: "Oct. 15, 2020",
-		desc: "SwellOcean",
+		desc: "SwellOcean (JIMMY FANART)",
 		category: 0
 	},
 ];	

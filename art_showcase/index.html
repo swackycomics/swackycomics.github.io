@@ -30,16 +30,14 @@
 					var _this = document.getElementById("download-popup");
 					var box = document.getElementById("download-box");
 					if(_this.style.display == "block"){
-						if(!box.contains(event.target)) {
+						if(!box.contains(event.target)){
 							_this.style.display = "none";
 						};
 					}
 				});	
 			</script>
 			<div id="download-box" style="width: 55vw; padding: 1vw;">
-				<a id="artshow_link" href="" target="_blank">
-					<img id="artshow_full" href="" target="_blank" src="" class="popup-element align-center">
-				</a>
+				<img id="artshow_full" src="" class="popup-element align-center" onclick="window.open('/', '_blank')">
 				<p class="align-center" id="artshow_date"></p>
 				<p class="align-center" id="artshow_desc"></p>
 			</div>
@@ -158,8 +156,8 @@
 			<script>
 				function dopopupthings(num){
 					document.getElementById('download-popup').style.display = 'block';
-					document.getElementById("artshow_link").href = '/img/art_archive/'+artdata[num].img;
 					document.getElementById("artshow_full").src = '/img/art_archive/'+artdata[num].img;
+					document.getElementById("artshow_full").setAttribute( "onClick", "javascript: window.open('/img/art_archive/"+artdata[num].img+"', '_blank')" );
 					document.getElementById("artshow_date").innerHTML = "Date of creation: "+artdata[num].date;
 					document.getElementById("artshow_desc").innerHTML = artdata[num].desc;
 				};
