@@ -1,5 +1,29 @@
 var artdata = [
 	{
+		img: "bafkreibmjsx7d3zs2mqg6epse2tf2z66dkzijpn6pv26kshkrrytopwuai.jpg",
+		date: "Mar. 29, 2025",
+		desc: "toki-ch (bluesky)",
+		category: 5
+	},
+	{
+		img: "bafkreic3ssqvigidr7nrsmv4immlmns5ydp3yejadqviflnwknzwsgodem.jpg",
+		date: "Mar. 29, 2025",
+		desc: "toki-ch (bluesky)",
+		category: 5
+	},
+	{
+		img: "bafkreiec5ih6fieowtucre5or2oc6smsjy3ehk5uf5nj7j4leqjduweaea.jpg",
+		date: "Mar. 29, 2025",
+		desc: "toki-ch (bluesky)",
+		category: 5
+	},
+	{
+		img: "bafkreia65xuck4djgq7ayhd545t5rrbqmib6fjbd6v6izcj67j3ugmowme.jpg",
+		date: "Mar. 29, 2025",
+		desc: "toki-ch (bluesky)",
+		category: 5
+	},
+	{
 		img: "bafkreihll64cfallqot7k6x5rzoi6jkf6wv6amtowxs5hpvdq5ymwgi67q.jpg",
 		date: "Mar. 17, 2025",
 		desc: "popkinsssussy (bluesky)",
