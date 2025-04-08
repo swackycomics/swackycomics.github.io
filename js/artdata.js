@@ -1,5 +1,11 @@
 var artdata = [
 	{
+		img: "doodles3.png",
+		date: "Apr. 8, 2025",
+		desc: "Doodles part 3. Featuring a Korn reference and cows from Earthworm Jim",
+		category: 6
+	},
+	{
 		img: "doodles2.png",
 		date: "Mar. 25, 2025",
 		desc: "More doodles. Skillet makes a guest appearance",
