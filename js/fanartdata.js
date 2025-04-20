@@ -1,5 +1,11 @@
 var artdata = [
 	{
+		img: "erftgwerfgergerg.png",
+		date: "Apr. 20, 2025",
+		desc: "tokich_ka",
+		category: 5
+	},
+	{
 		img: "bafkreibmjsx7d3zs2mqg6epse2tf2z66dkzijpn6pv26kshkrrytopwuai.jpg",
 		date: "Mar. 29, 2025",
 		desc: "toki-ch (bluesky)",
