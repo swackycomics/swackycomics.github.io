@@ -1,6 +1,24 @@
 //shortdesc length of string = 200
 var newsdata = [
 	{
+		title: "NEW COMIC: DOPPELHEIST",
+		date: "May 4, 2025",
+		shortdesc: "HELLO, hello, and once again... HELLO SWACKNEWS ENTHUSIASTS! The new DynamiteHead comic has JUST been released. And let me tell ya...",
+		fields: [
+			[
+				"text",
+				[
+					'<p>HELLO, hello, and once again... HELLO SWACKNEWS ENTHUSIASTS! The new DynamiteHead comic has JUST been released. And let me tell ya, it&#39;s quite an adventure! Doppelbombers.. or should I say, DOPPELHEADS are back with BRAND NEW hijinks! Watch as they venture through DynamiteHead&#39;s house and make absolute fools out of themselves in the process.</p>',
+					'<p>This is gonna be a rather short news post. I don&#39;t know what more to say here honestly. Remember to drink salad and eat milk. I&#39;ll catch you later!</p>',
+					'<p><a target="_blank" href="/comics/dh_comics/ep6/">Check out the new comic RIGHT HERE!</a></p>'
+				]
+			],
+			["image","/news/img/news6.png"]
+		],
+		id: "6",
+		href: "/news/article/new_comic_doppelheist/",
+	},
+	{
 		title: "RedBidd and Swackzards: A DOUBLE COMIC DEAL!",
 		date: "February 21, 2025",
 		shortdesc: "And yet another good morning, people who check swackycomics news. It is I, swackyGCF with. You guessed it. Yet another news post. For the FIRST EVER time since I started making comics in 2021...",

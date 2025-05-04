@@ -307,6 +307,7 @@ code {
 	border: 6px solid #ff0d76;
 }
 .greenborder {
+	width: 450px;
 	border: 6px solid #73ff00;
 }
 .new_comicgrid {
@@ -375,14 +376,14 @@ code {
 }
 
 #recent_img1 {
-	width: 30%;
-	left: -8%;
+	width: 60%;
+	left: -38%;
 	top: -4%;
 	position: absolute;
 }
 #recent_img2 {
-	width: 30%;
-	right: -10%;
+	width: 60%;
+	right: -40%;
 	top: 19%;
 	position: absolute;
 }
@@ -1478,7 +1479,10 @@ code {
 	.comic_prevnext_button {
 		display: none;
 	}
-
+	
+	.greenborder {
+		width: 80%;
+	}
 
 	#allepisodes {
 		width: 95%;

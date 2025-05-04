@@ -1,19 +1,14 @@
 var recent = [
 	{
-    "thumb": "rb_9",
-    "title": "The RedBidd Comics: MAD BILL",
-    "href": "/comics/redbidd_comics/ep9/",
-	},
-	{
-    "thumb": "wiz_2",
-    "title": "SWACKZARDS!: TAXPAYERS",
-    "href": "/comics/swackzards_comics/ep2/",
-	},
+    "thumb": "dh_6",
+    "title": "DynamiteHead: DOPPELHEIST",
+    "href": "/comics/dh_comics/ep6/",
+	}
 ];
 
 var comicpages = [
     ["redbidd",[15,13,17,17,17,18,15,21,31]],
-    ["dh",[4,5,4,8,8]],
+    ["dh",[4,5,4,8,8,14]],
     ["jimmy",[14,13,14,14,10,12,18,18,20,14]],
     ["vegg",[4,4,4,4]],
 	["swackzards",[16,18]],
@@ -183,6 +178,17 @@ var comicjson = {
             "desc": "WHAT THE HELL?! DynamiteHead finds himself in the deepest depths of soil. A place so WICKED and MESSED UP, not even encyclopedias want to mention it - NOMIO'S HELL. Not even a place as evil as that can escape an unexpected visit from DynamiteHead.",
             "download": ["/pdf/dhcomic5.pdf","dhcomic5.pdf | 1.90 MB","https://drive.google.com/file/d/13DJq9Nel27So-rrHU_Nwash0qwOu5KjR/view?usp=sharing","dhcomic5"],
             "date": "October 8, 2024",
+            "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
+			"timelapse": ""
+        },
+		"comic6": {
+            "thumb": "dh_6.png",
+            "series": "DynamiteHead",
+            "title": "DOPPELHEIST",
+            "pages": (comicpages[1][1][ 5 ]).toString(),
+            "desc": "LOCATION: DYNAMITEHEAD'S RESIDENCE. TIME: 12:05 AM. DoppelHeads, seeing how much our titular hero earns, decide to give burglary a try. LITTLE DID THEY KNOW that luck was not on their side that night.",
+            "download": ["/pdf/dhcomic6.pdf","dhcomic6.pdf | 2.97 MB","https://drive.google.com/file/d/15hWxy58yyVeJEeFW13nO8dKsOxexdzNS/view?usp=sharing","dhcomic6"],
+            "date": "May 4, 2025",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
 			"timelapse": ""
         }
