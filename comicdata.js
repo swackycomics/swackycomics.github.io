@@ -190,7 +190,7 @@ var comicjson = {
             "download": ["/pdf/dhcomic6.pdf","dhcomic6.pdf | 2.97 MB","https://drive.google.com/file/d/15hWxy58yyVeJEeFW13nO8dKsOxexdzNS/view?usp=sharing","dhcomic6"],
             "date": "May 4, 2025",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": '<iframe width="560" height="315" src="https://www.youtube.com/embed/_qhzPazdwLM?si=S9TIigh4PXoo0_18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
         }
     },
     "jimmy": {
