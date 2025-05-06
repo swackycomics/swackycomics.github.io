@@ -1,5 +1,11 @@
 var artdata = [
 	{
+		img: "bafkreibn4nu7tj24iy4bkuvwkqcstekj7axblachcbdvfbvgxk7iwwm2we.jpg",
+		date: "May 6, 2025",
+		desc: "frolichlazy (bluesky)",
+		category: 5
+	},
+	{
 		img: "erftgwerfgergerg.png",
 		date: "Apr. 20, 2025",
 		desc: "tokich_ka",
