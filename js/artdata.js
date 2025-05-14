@@ -1,5 +1,11 @@
 var artdata = [
 	{
+		img: "soahead.png",
+		date: "May 13, 2025",
+		desc: "System of a Head (Parody of System of a Down)",
+		category: 6
+	},
+	{
 		img: "doodles4.png",
 		date: "Apr. 15, 2025",
 		desc: "Doodles part 4. It's all DynamiteHead",
