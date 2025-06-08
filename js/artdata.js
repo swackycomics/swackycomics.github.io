@@ -1,5 +1,11 @@
 var artdata = [
 	{
+		img: "oozezards_final.png",
+		date: "Jun. 8, 2025",
+		desc: "Styx & Crius escape THE OOZE!",
+		category: 6
+	},
+	{
 		img: "soahead.png",
 		date: "May 13, 2025",
 		desc: "System of a Head (Parody of System of a Down)",
