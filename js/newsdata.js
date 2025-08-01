@@ -9,9 +9,9 @@ var newsdata = [
 				"text",
 				[
 					"<p>What's up people and not people of swackycomics. It is I, SWACK, HERE ONCE AGAIN TO DELIVER SOME NEWS. You know, as they say - Better never than late. I've been drawing... A LOT! Okay, not really. Last month there was this thing called ARTFIGHT, and I participated in it. I've had lots of fun drawing other people's funny looking freaks and getting my own freaks drawn by other people around the globe. I'll definitely consider joining next year's artfight if it means I get to draw more wacky freaks, you know. That's about it I guess. I'll be seeing you whenever something interesting happens, that would prompt me to write another news post here.</p>",
-					'<p>Check out my artfight collection <a target="_blank" href="/art_showcase/">HERE!</a></p>'
-					'<p>Check out other people\'s fanarts of my characters <a target="_blank" href="/fan_art_corner/">HERE!</a></p>'
-					'<p>If you\'re viewing this in the distant future, scroll down until you see "jul" and "2025" in the dates.</p>'
+					'<p>Check out my artfight collection <a target="_blank" href="/art_showcase/">HERE!</a></p>',
+					'<p>Check out other people\'s fanarts of my characters <a target="_blank" href="/fan_art_corner/">HERE!</a></p>',
+					'<p>If you\'re viewing this in the distant future, scroll down until you see "jul" and "2025" in the dates.</p>',
 				]
 			],
 			["image","/news/img/news7.png"]
