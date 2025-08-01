@@ -1,5 +1,35 @@
 var artdata = [
 	{
+		img: "fanart_artfight2025_5.jpg",
+		date: "Aug. 1, 2025",
+		desc: "A fisti... plant? by duckduckington (Artfight)",
+		category: 5
+	},
+	{
+		img: "fanart_artfight2025_4.png",
+		date: "Jul. 22, 2025",
+		desc: "trotyl child by Toki_ch (Artfight)",
+		category: 5
+	},
+	{
+		img: "fanart_artfight2025_3.png",
+		date: "Jul. 11, 2025",
+		desc: "Thorny by aba_ (Artfight)",
+		category: 5
+	},
+	{
+		img: "fanart_artfight2025_2.png",
+		date: "Jul. 8, 2025",
+		desc: "Punchy by ValeryValerie (Artfight)",
+		category: 5
+	},
+	{
+		img: "fanart_artfight2025_1.gif",
+		date: "Jul. 3, 2025",
+		desc: "DYNAMITE HEAD!!! >:) by vexiottto (Artfight)",
+		category: 5
+	},
+	{
 		img: "bafkreibn4nu7tj24iy4bkuvwkqcstekj7axblachcbdvfbvgxk7iwwm2we.jpg",
 		date: "May 6, 2025",
 		desc: "frolichlazy (bluesky)",
