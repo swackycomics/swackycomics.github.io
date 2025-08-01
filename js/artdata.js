@@ -1,5 +1,65 @@
 var artdata = [
 	{
+		img: "artfight2025_10.png",
+		date: "Jul. 30, 2025",
+		desc: "Artfight attack 10. me by SEKRITARI",
+		category: 6
+	},
+	{
+		img: "artfight2025_9.png",
+		date: "Jul. 20, 2025",
+		desc: "Artfight attack 9. Slank & Marx by duckduckington",
+		category: 6
+	},
+	{
+		img: "artfight2025_8.png",
+		date: "Jul. 16, 2025",
+		desc: "Artfight attack 8. A moment of reflection by Toki_ch",
+		category: 6
+	},
+	{
+		img: "artfight2025_7.png",
+		date: "Jul. 14, 2025",
+		desc: "Artfight attack 7. Silvie S. Sylveon & others by Obtuse_Cassierole",
+		category: 6
+	},
+	{
+		img: "artfight2025_6.png",
+		date: "Jul. 11, 2025",
+		desc: "Artfight attack 6. Ben & Jerry by aba_",
+		category: 6
+	},
+	{
+		img: "artfight2025_5.png",
+		date: "Jul. 8, 2025",
+		desc: "Artfight attack 5. Dude by AlexB207",
+		category: 6
+	},
+	{
+		img: "artfight2025_4.png",
+		date: "Jul. 5, 2025",
+		desc: "Artfight attack 4. John Scruffy Super Freaks by SuperFreaksDev",
+		category: 6
+	},
+	{
+		img: "artfight2025_3.png",
+		date: "Jul. 4, 2025",
+		desc: "Artfight attack 3. Hantu by BigBoyBuffBoy",
+		category: 6
+	},
+	{
+		img: "artfight2025_2.png",
+		date: "Jul. 3, 2025",
+		desc: "Artfight attack 2. Mr. Triline by SEKRITARI",
+		category: 6
+	},
+	{
+		img: "artfight2025_1.png",
+		date: "Jul. 2, 2025",
+		desc: "Artfight attack 1. Statail by vexiottto",
+		category: 6
+	},
+	{
 		img: "oozezards_final.png",
 		date: "Jun. 8, 2025",
 		desc: "Styx & Crius escape THE OOZE!",
