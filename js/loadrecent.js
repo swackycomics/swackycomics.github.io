@@ -1,7 +1,6 @@
 //recent comic
 	document.write('			<div class="pctable comicborder greenborder">');
-	document.write('				<img id="recent_img1" src="/img/recent/recent3_1.png"/>');
-	document.write('				<img id="recent_img2" src="/img/recent/recent3_2.png"/>');
+	document.write('				<img id="recent_img2" src="/img/recent/recent4.png"/>');
 	for(var i = 0; i < recent.length; i++){
 		var currecent = recent[i];
 		document.write('				<div class="new_comicbox">');

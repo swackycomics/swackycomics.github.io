@@ -1,14 +1,14 @@
 var recent = [
 	{
-    "thumb": "dh_6",
-    "title": "DynamiteHead: DOPPELHEIST",
-    "href": "/comics/dh_comics/ep6/",
+    "thumb": "dh_7",
+    "title": "DynamiteHead: PLANTY O' COMIC",
+    "href": "/comics/dh_comics/ep7/",
 	}
 ];
 
 var comicpages = [
     ["redbidd",[15,13,17,17,17,18,15,21,31]],
-    ["dh",[4,5,4,8,8,14]],
+    ["dh",[4,5,4,8,8,14,17]],
     ["jimmy",[14,13,14,14,10,12,18,18,20,14]],
     ["vegg",[4,4,4,4]],
 	["swackzards",[16,18]],
@@ -191,6 +191,17 @@ var comicjson = {
             "date": "May 4, 2025",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
 			"timelapse": '<iframe width="560" height="315" src="https://www.youtube.com/embed/_qhzPazdwLM?si=S9TIigh4PXoo0_18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        },
+		"comic7": {
+            "thumb": "dh_7.png",
+            "series": "DynamiteHead",
+            "title": "PLANTY O' COMIC",
+            "pages": (comicpages[1][1][ 6 ]).toString(),
+            "desc": "NEXT DESTINATION: SURFJUNGLE SEWERS. It's been quite a while since a human foot has stepped into these lands, let alone a robot one. DYNAMITEHEAD and DIAL-M decide to spiral down into the underground world, in hopes of finding some NEAT CASH!! And it just seems the cash found them instead, and it's got boxing gloves... and a huge smile. HEY... WATCH OUT NOW!",
+            "download": ["/pdf/dhcomic7.pdf","dhcomic7.pdf | 2.97 MB","https://drive.google.com/file/d/1pKuHt2VLmBVAhCknamqJPucb3jyAN-Yt/view?usp=sharing","dhcomic7"],
+            "date": "December 25, 2025",
+            "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
+			"timelapse": ''
         }
     },
     "jimmy": {
