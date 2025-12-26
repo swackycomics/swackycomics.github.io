@@ -1,5 +1,65 @@
 var artdata = [
 	{
+		img: "tutorialcover.png",
+		date: "Dec. 20, 2025",
+		desc: "BITSTREET BRAWL cover without the logo.",
+		category: 6
+	},
+	{
+		img: "dhtutorial.png",
+		date: "Dec. 20, 2025",
+		desc: "An older version of the DynamiteHead tutorial cover.",
+		category: 6
+	},
+	{
+		img: "nomio.png",
+		date: "Dec. 5, 2025",
+		desc: "The various wacky faces of Nomio. Some faces were inspired by \"Buy One, Get One Free\".",
+		category: 6
+	},
+	{
+		img: "riddlebox.png",
+		date: "Nov. 20, 2025",
+		desc: "My take on the Riddle Box album cover.",
+		category: 6
+	},
+	{
+		img: "baxman.png",
+		date: "Oct. 26, 2025",
+		desc: "Some kind of TipBax...",
+		category: 6
+	},
+	{
+		img: "ringmaster.png",
+		date: "Oct. 19, 2025",
+		desc: "Ringmaster. Referencing the Ringmaster album cover.",
+		category: 6
+	},
+	{
+		img: "bnb.png",
+		date: "Sep. 29, 2025",
+		desc: "Namevis and Vegghead",
+		category: 6
+	},
+	{
+		img: "hench.png",
+		date: "Sep. 13, 2025",
+		desc: "It's a Henchie.",
+		category: 6
+	},
+	{
+		img: "tempo32x.png",
+		date: "Aug. 26, 2025",
+		desc: "Tempo 32X fanart. YO HOMIE, PEEP THIS!",
+		category: 6
+	},
+	{
+		img: "swackzards_whitebg.png",
+		date: "Aug. 15, 2025",
+		desc: "It's SWACKZARDS... AGAIN!",
+		category: 6
+	},
+	{
 		img: "artfight2025_10.png",
 		date: "Jul. 30, 2025",
 		desc: "Artfight attack 10. me by SEKRITARI",
