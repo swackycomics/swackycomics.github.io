@@ -198,7 +198,7 @@ var comicjson = {
             "title": "PLANTY O' COMIC",
             "pages": (comicpages[1][1][ 6 ]).toString(),
             "desc": "NEXT DESTINATION: SURFJUNGLE SEWERS. It's been quite a while since a human foot has stepped into these lands, let alone a robot one. DYNAMITEHEAD and DIAL-M decide to spiral down into the underground world, in hopes of finding some NEAT CASH!! And it just seems the cash found them instead, and it's got boxing gloves... and a huge smile. HEY... WATCH OUT NOW!",
-            "download": ["/pdf/dhcomic7.pdf","dhcomic7.pdf | 2.97 MB","https://drive.google.com/file/d/1pKuHt2VLmBVAhCknamqJPucb3jyAN-Yt/view?usp=sharing","dhcomic7"],
+            "download": ["/pdf/dhcomic7.pdf","dhcomic7.pdf | 3.10 MB","https://drive.google.com/file/d/1pKuHt2VLmBVAhCknamqJPucb3jyAN-Yt/view?usp=sharing","dhcomic7"],
             "date": "December 25, 2025",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
 			"timelapse": ''
