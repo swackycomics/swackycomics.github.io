@@ -566,6 +566,12 @@ code {
 	background-image: url("img/back-on.png");
 }
 
+#underimg_text {
+	background-color: #000000;
+	color: #757575;
+	font-size: 28px;
+}
+
 /* socials */
 .email-box {
 	background-color: rgba(0,0,0,0.6);
@@ -1005,6 +1011,18 @@ code {
 	height: 260px;
 }
 
+#misc_swacktalk {
+	transform: translateX(-50%);
+	width: auto;
+	height: 100%;
+	position: absolute;
+	cursor: pointer;
+	content:url("/img/misc_butn5_off.png");
+	
+}
+#misc_swacktalk:hover {
+	content:url("/img/misc_butn5_on.png");
+}
 #misc_art {
 	transform: translateX(-50%);
 	width: auto;
@@ -1379,6 +1397,10 @@ code {
 		height: 220px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	
+	#underimg_text {
+		font-size: 50px;
 	}
 	
 	.email-box {
