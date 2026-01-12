@@ -1,6 +1,23 @@
 //shortdesc length of string = 200
 var newsdata = [
 	{
+		title: "NEW COMIC: BUSINESS IS BROOMIN'",
+		date: "Jan. 12, 2026",
+		shortdesc: "How's it going, one and a half people who's going to most likely read this? It's me, SWACK... again. The new SWACKZARDS comic is up, I'm telling ya. After, basically, almost a whole year of no new comics.",
+		fields: [
+			[
+				"text",
+				[
+					"<p>How's it going, one and a half people who's going to most likely read this? It's me, SWACK... again. The new SWACKZARDS comic is up, I'm telling ya. After, basically, almost a whole year of no new comics. I thought I'd give swackzards fans something new, you know.</p>",
+					'<p>This NEW and AWESOME comic reveals to us that Styx and Crius own their own BROOM SHOP. And they\'re selling BROOMS there to everybody who dares to step in. Wacky hijinks ensue. If you wanna give it a read - <a target="_blank" href="/comics/swackzards_comics/ep3/">CLICK THIS LINK HERE!!!</a> I\'ll see you next time.</p>',
+				]
+			],
+			["image","/news/img/news8.png"]
+		],
+		id: "8",
+		href: "/news/article/business_is_broomin/",
+	},
+	{
 		title: "\"This ART is getting way too crazy.. Let's FIGHT. 2025\"",
 		date: "Aug. 1, 2025",
 		shortdesc: "What's up people and not people of swackycomics. It is I, SWACK, HERE ONCE AGAIN TO DELIVER SOME NEWS. You know, as they say...",

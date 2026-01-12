@@ -1,8 +1,8 @@
 var recent = [
 	{
-    "thumb": "dh_7",
-    "title": "DynamiteHead: PLANTY O' COMIC",
-    "href": "/comics/dh_comics/ep7/",
+    "thumb": "wiz_3",
+    "title": "SWACKZARDS!: BUSINESS IS BROOMIN'",
+    "href": "/comics/swackzards_comics/ep3/",
 	}
 ];
 
@@ -11,7 +11,7 @@ var comicpages = [
     ["dh",[4,5,4,8,8,14,17]],
     ["jimmy",[14,13,14,14,10,12,18,18,20,14]],
     ["vegg",[4,4,4,4]],
-	["swackzards",[16,18]],
+	["swackzards",[16,18,13]],
 ]
 var comictitles = [
 	"the_redbidd_comics",
@@ -384,6 +384,17 @@ var comicjson = {
             "date": "February 21, 2025",
             "font": ["Next Sunday","/font/Next Sunday.rar",_font[2]],
 			"timelapse": '<iframe width="560" height="315" src="https://www.youtube.com/embed/iM5NMnb8aEI?si=Qhj1-oxUSL4-E6rz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        },
+		"comic3": {
+            "thumb": "wiz_3.png",
+            "series": "SWACKZARDS!",
+            "title": "BUSINESS IS BROOMIN'",
+            "pages": (comicpages[4][1][ 2 ]).toString(),
+            "desc": "Styx and Crius... Ah, these two fellows. One has to wonder what these two are up to? Well... WONDER NO LONGER! They're selling BROOMS now! And it seems like they're doing a pretty okay job at it. Who would have thought?",
+            "download": ["/pdf/wizards3.pdf","wizards3.pdf | 3.78 MB","https://drive.google.com/file/d/1fzaNhd8SfZEsqcVapAmuUHkExrM8kekg/view?usp=sharing","wizardcomic3"],
+            "date": "January 12, 2026",
+            "font": ["Next Sunday","/font/Next Sunday.rar",_font[2]],
+			"timelapse": ""
         }
 	}
 }
