@@ -1,5 +1,29 @@
 var artdata = [
 	{
+		img: "bugniche.png",
+		date: "Jan. 30, 2026",
+		desc: "The BUG! niche is here.",
+		category: 7
+	},
+	{
+		img: "dhauraloss.png",
+		date: "Jan. 12, 2026",
+		desc: "The loss of aura.",
+		category: 7
+	},
+	{
+		img: "alienhominid.png",
+		date: "Jan. 7, 2026",
+		desc: "Alien Hominid.",
+		category: 7
+	},
+	{
+		img: "dukeyaoican.png",
+		date: "Jan. 3, 2026",
+		desc: "Duke stays hydrated.",
+		category: 7
+	},
+	{
 		img: "tutorialcover.png",
 		date: "Dec. 20, 2025",
 		desc: "BITSTREET BRAWL cover without the logo.",
@@ -805,6 +829,12 @@ var artdata = [
 		img: "tw_69.png",
 		date: "Oct. 17, 2021",
 		desc: "Jimmy in the crazy caverns (remake)",
+		category: 2
+	},
+	{
+		img: "2021_4.png",
+		date: "Jul. 6, 2021",
+		desc: "SXDG's Lucky Day Comic",
 		category: 2
 	},
 	{
