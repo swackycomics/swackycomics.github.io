@@ -1,5 +1,41 @@
 var artdata = [
 	{
+		img: "styxcriuss.png",
+		date: "Mar. 23, 2026",
+		desc: "Styx & Crius SEARCHIN'.",
+		category: 7
+	},
+	{
+		img: "hairycreature.png",
+		date: "Mar. 10, 2026",
+		desc: "Hairy Creature.",
+		category: 7
+	},
+	{
+		img: "hotdog.png",
+		date: "Mar. 7, 2026",
+		desc: "Ketchup flavored water.",
+		category: 7
+	},
+	{
+		img: "renstimpy.png",
+		date: "Feb. 27, 2026",
+		desc: "Ren & Stimpy... AGAIN.",
+		category: 7
+	},
+	{
+		img: "yolobones3.png",
+		date: "Feb. 19, 2026",
+		desc: "Various Yolo-Bones.",
+		category: 7
+	},
+	{
+		img: "downsouth.png",
+		date: "Feb. 18, 2026",
+		desc: "Downsouth fanart.",
+		category: 7
+	},
+	{
 		img: "bugniche.png",
 		date: "Jan. 30, 2026",
 		desc: "The BUG! niche is here.",
