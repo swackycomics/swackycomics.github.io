@@ -1,5 +1,61 @@
 var artdata = [
 	{
+		img: "swackzardsfixel.png",
+		date: "Mar. 11, 2026",
+		desc: "Fixel",
+		category: 6
+	},
+	{
+		img: "Untitled5082_20260304232807.png",
+		date: "Mar. 5, 2026",
+		desc: "DigitalPOP",
+		category: 6
+	},
+	{
+		img: "Untitled4764_20260205182536.png",
+		date: "Feb. 6, 2026",
+		desc: "DigitalPOP",
+		category: 6
+	},
+	{
+		img: "Untitled4696_20260201133953.png",
+		date: "Feb. 1, 2026",
+		desc: "DigitalPOP",
+		category: 6
+	},
+	{
+		img: "03232805.png",
+		date: "Feb. 1, 2026",
+		desc: "Toki",
+		category: 6
+	},
+	
+	{
+		img: "4615f41298bcf439.png",
+		date: "Jan. 26, 2026",
+		desc: "romansally",
+		category: 6
+	},
+	{
+		img: "IMG_4196.png",
+		date: "Jan. 25, 2026",
+		desc: "The Deliverer",
+		category: 6
+	},
+	
+	{
+		img: "swackbd_toki.png",
+		date: "Dec. 11, 2025",
+		desc: "Toki",
+		category: 5
+	},
+	{
+		img: "swack.png",
+		date: "Oct. 20, 2025",
+		desc: "Icie145",
+		category: 5
+	},
+	{
 		img: "fanart_artfight2025_5.jpg",
 		date: "Aug. 1, 2025",
 		desc: "duckduckington (Artfight) - A fisti... plant?",
