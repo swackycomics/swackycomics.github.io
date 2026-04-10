@@ -139,6 +139,23 @@
 	font-size: 20px;
 }
 
+.patreon {
+	margin-top: 30px;
+}
+
+.patreon a{
+	width: 300px;
+}
+.patreon img{
+	content: url("/img/patreon.png");
+	margin-top: 10px;
+	width: 480px;
+	height: auto;
+}
+.patreon img:hover{
+	content: url("/img/patreon-on.png");
+}
+
 /* mobile */
 @media only screen and (hover: none) and (pointer: coarse){
 	#gameinfo {
@@ -186,5 +203,12 @@
 	
 	.downloadgame iframe{
 		width: 60%;
+	}
+	
+	.patreon a{
+		width: 50%;
+	}
+	.patreon img{
+		width: 50%;
 	}
 }
