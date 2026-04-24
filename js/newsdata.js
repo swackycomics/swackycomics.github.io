@@ -1,6 +1,25 @@
 //shortdesc length of string = 200
 var newsdata = [
 	{
+		title: "The End Of DynamiteHead Comics",
+		date: "Apr. 24, 2026",
+		shortdesc: "Hey everybody. Swack here as always with a new swacknews post. Today marks THE END... of DYNAMITEHEAD COMICS.",
+		fields: [
+			[
+				"text",
+				[
+					"<p>Hey everybody. Swack here as always with a new swacknews post. Today marks THE END... of DYNAMITEHEAD COMICS. Well yeah you&#39;ve seen the title.</p>",
+					"<p>I believe I&#39;ve done all that needed to be done with episodic DynamiteHead adventures. Any story idea I had has been explored. The Bountyheads episodes, the Doppelheads episodes - It&#39;s been done. Now, it&#39;s time to move on.</p>",
+					"<p>&quot;Move on?&quot;, you might be asking. Yes. For the past couple months or so I&#39;ve been planning on making ANOTHER DynamiteHead comic series, which would go in detail on his origin story. Sounds interesting, RIGHT? It&#39;s basically gonna be a long &quot;gritty&quot; episodic adventure showing how DynamiteHead became the bounty hunter we know today. So far, I&#39;ve only written about 60% of the whole story. I&#39;m planning to begin work on this series once the next DynamiteHead demo is out (the toxic+groovy demo). All I&#39;m saying is it&#39;s not over yet for DynamiteHead&#39;s comic adventures. Just wait and see, it&#39;s gonna be something else.</p>",
+					'<p><a target="_blank" href="/comics/dh_comics/ep8/">Check out the last DynamiteHead comic HERE.</a></p>'
+				]
+			],
+			["image","/news/img/news9.png"]
+		],
+		id: "9",
+		href: "/news/article/the_end_of_dynamitehead_comics/",
+	},
+	{
 		title: "NEW COMIC: BUSINESS IS BROOMIN'",
 		date: "Jan. 12, 2026",
 		shortdesc: "How's it going, one and a half people who's going to most likely read this? It's me, SWACK... again. The new SWACKZARDS comic is up, I'm telling ya. After, basically, almost a whole year of no new comics.",

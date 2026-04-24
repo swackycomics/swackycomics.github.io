@@ -1,14 +1,14 @@
 var recent = [
 	{
-    "thumb": "wiz_3",
-    "title": "SWACKZARDS!: BUSINESS IS BROOMIN'",
-    "href": "/comics/swackzards_comics/ep3/",
+    "thumb": "dh_8",
+    "title": "DynamiteHead: LAST COMIC",
+    "href": "/comics/dh_comics/ep8/",
 	}
 ];
 
 var comicpages = [
     ["redbidd",[15,13,17,17,17,18,15,21,31]],
-    ["dh",[4,5,4,8,8,14,17]],
+    ["dh",[4,5,4,8,8,14,17,22]],
     ["jimmy",[14,13,14,14,10,12,18,18,20,14]],
     ["vegg",[4,4,4,4]],
 	["swackzards",[16,18,13]],
@@ -200,6 +200,17 @@ var comicjson = {
             "desc": "NEXT DESTINATION: SURFJUNGLE SEWERS. It's been quite a while since a human foot has stepped into these lands, let alone a robot one. DYNAMITEHEAD and DIAL-M decide to spiral down into the underground world, in hopes of finding some NEAT CASH!! And it just seems the cash found them instead, and it's got boxing gloves... and a huge smile. HEY... WATCH OUT NOW!",
             "download": ["/pdf/dhcomic7.pdf","dhcomic7.pdf | 3.10 MB","https://drive.google.com/file/d/1pKuHt2VLmBVAhCknamqJPucb3jyAN-Yt/view?usp=sharing","dhcomic7"],
             "date": "December 25, 2025",
+            "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
+			"timelapse": ''
+        },
+		"comic8": {
+            "thumb": "dh_8.png",
+            "series": "DynamiteHead",
+            "title": "LAST COMIC",
+            "pages": (comicpages[1][1][ 7 ]).toString(),
+            "desc": "The DOPPELHEADS are back... for one last time. Yep. You've all seen the title, folks. It's THE FINAL COMIC. So sit down, and listen... FOR ONE LAST TIME.",
+            "download": ["/pdf/dhcomic8.pdf","dhcomic8.pdf | 4.51 MB","https://drive.google.com/file/d/1dSrxvEoImZjINZxKmzq9B3ER_Cgxr4ll/view?usp=sharing","dhcomic8"],
+            "date": "April 24, 2026",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
 			"timelapse": ''
         }
