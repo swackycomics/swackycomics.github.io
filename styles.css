@@ -6,7 +6,7 @@ body {
     background-image: url("/img/tiledbg.png");
     background-repeat: repeat;
     color: #FFFFFF;
-    font-family: 'pinkchicken';
+    font-family: 'mainfont';
     font-size: 28px;
 }
 
@@ -20,14 +20,8 @@ p {
     padding: 0;
 }
 
-.font_pink-chicken {
-	font-family: 'pinkchicken';
-}
-.font_sf-cartoonisthand {
-	font-family: 'sf-cartoonisthand';
-}
-.font_nextsunday {
-	font-family: 'nextsunday';
+.font_main {
+	font-family: 'mainfont';
 }
 
 code {
@@ -199,7 +193,7 @@ code {
 	white-space: nowrap;
 }
 #swacktalk_huge {
-	font-size: 50px;
+	font-size: 40px;
 	white-space: nowrap;
 }
 
@@ -1188,11 +1182,11 @@ code {
 		font-size: 34px;
 	}
 	#swacktalk_huge {
-		font-size: 60px;
+		font-size: 50px;
 	}
 	.swacktext p {
-		color: #000000;
-		text-shadow: none;
+		color: #ffffff;
+		text-shadow: 2px 2px #000000;
 	}
 
     .pctable {
@@ -1573,19 +1567,7 @@ code {
 /* font */
 
 @font-face {
-    font-family: 'pinkchicken';
-    src: url('./font/PinkChicken-Regular.ttf')  format('truetype');
-    src: url('./font/PinkChicken-Regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'sf-cartoonisthand';
-    src: url('./font/SFCartoonistHand.ttf')  format('truetype');
-    src: url('./font/SFCartoonistHand.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'nextsunday';
-    src: url('./font/Next Sunday.ttf')  format('truetype');
-    src: url('./font/Next Sunday.woff') format('woff');
+    font-family: 'mainfont';
+    src: url('./font/Start Story.ttf')  format('truetype');
+    src: url('./font/Start Story.woff') format('woff');
 }

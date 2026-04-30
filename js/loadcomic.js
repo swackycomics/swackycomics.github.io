@@ -14,9 +14,6 @@ if(linkfla.length > 0){
 if(linkpdf.length > 0){
 	linkarray.push(".pdf")
 }
-if(linkttf.length > 0){
-	linkarray.push(".ttf")
-}
 
 //preload
 document.write( '<link rel="preload" as="image" href="/img/arrowleft-on.png">');

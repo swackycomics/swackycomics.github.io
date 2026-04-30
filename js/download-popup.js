@@ -40,8 +40,7 @@ if(linkfla.length > 0){
 document.write('				<a href="'+linkpdf+'" target="_blank" class="popup-btn popup-element align-center"><img id="download-pdf"></a>');
 document.write('				<p class="popup-element align-center" style="left: 55%;">'+infopdf+'</p>');
 document.write('				<div style="height: 4vh"></div>');
-document.write('				<div class="popup-element align-center" style="font-size: 5vh;"><p style="display: inline;">Font used: </p><p class="'+fontfamily+'" style="display: inline;">'+fontname+'</div>');
-document.write('				<a href="'+fontlink+'" class="popup-btn popup-element align-center"><img id="download-ttf"></a>');
+document.write('				<div class="popup-element align-center" style="font-size: 5vh;"><p style="display: inline;">Font used: </p>'+fontname+'</div>');
 document.write('				<div style="height: 4vh"></div>');
 document.write('			</div>');
 document.write('			<img id="download-back">');
