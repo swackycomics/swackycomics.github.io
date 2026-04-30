@@ -573,6 +573,9 @@ code {
 	height:100px;
 	margin-top: 16px;
 }
+.email-box p {
+	font-size: 22px;
+}
 
 .social {
 	height: 96px;
@@ -1400,6 +1403,9 @@ code {
 	.email-box {
 		width:80%;
 		height:140px;
+	}
+	.email-box p {
+		font-size: 46px;
 	}
 	
 	.email-box img {
