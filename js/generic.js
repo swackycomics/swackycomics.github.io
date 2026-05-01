@@ -18,7 +18,7 @@ document.addEventListener('mousemove', function(ev){
 },false);
 
 function showtext(type, social){
-	var texts = ["News","Comics","Games","Trivia","Funny","Misc."];
+	var texts = ["News","Swacktalk","Comics","Games","Funny","Misc."];
 	var socials = ["YouTube","itch.io","Bluesky","Newgrounds"];
 	if(type == -1){
 		document.getElementById("hovertext").textContent="";
@@ -40,6 +40,7 @@ document.write( '<link rel="preload" as="image" href="/img/header/header_funny_h
 document.write( '<link rel="preload" as="image" href="/img/header/header_games_hover.png">');
 document.write( '<link rel="preload" as="image" href="/img/header/header_news_hover.png">');
 document.write( '<link rel="preload" as="image" href="/img/header/header_trivia_hover.png">');
+document.write( '<link rel="preload" as="image" href="/img/header/header_swacktalk_hover.png">');
 
 document.write( '<link rel="preload" as="image" href="/img/download/download-on.png">');
 document.write( '<link rel="preload" as="image" href="/img/back-on.png">');
@@ -50,9 +51,9 @@ document.write( '        <div class=\"align-center header on-top\" style=\"width
 
 document.write( '            <a class="header-button" href=\"/\" id=\"header1\"></a>\n' );
 document.write( '            <a class="not-logo header-button" href=\"/news/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(0, -1)" id=\"header2\"></a>\n' );
-document.write( '            <a class="not-logo header-button" href=\"/comics/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(1, -1)" id=\"header3\"></a>\n' );
-document.write( '            <a class="not-logo header-button" href=\"/games/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(2, -1)" id=\"header4\"></a>\n' );
-document.write( '            <a class="not-logo header-button" href=\"/trivia/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(3, -1)" id=\"header5\"></a>\n' );
+document.write( '            <a class="not-logo header-button" href=\"/swacktalk/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(1, -1)" id=\"header8\"></a>\n' );
+document.write( '            <a class="not-logo header-button" href=\"/comics/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(2, -1)" id=\"header3\"></a>\n' );
+document.write( '            <a class="not-logo header-button" href=\"/games/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(3, -1)" id=\"header4\"></a>\n' );
 document.write( '            <a class="not-logo header-button" href=\"/funny/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(4, -1)" id=\"header6\"></a>\n' );
 document.write( '            <a class="not-logo header-button" href=\"/misc/\" onmouseout="showtext(-1, -1)" onmouseover="showtext(5, -1)" id=\"header7\"></a>\n' );
 

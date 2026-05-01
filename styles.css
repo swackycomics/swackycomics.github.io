@@ -141,6 +141,9 @@ code {
 #header7 {
     background-image: url("/img/header/header_misc.png");
 }
+#header8 {
+    background-image: url("/img/header/header_swacktalk.png");
+}
 #header1:hover {
     background-image: url("/img/header/header_logo_hover.png");
 }
@@ -161,6 +164,9 @@ code {
 }
 #header7:hover {
     background-image: url("/img/header/header_misc_hover.png");
+}
+#header8:hover {
+    background-image: url("/img/header/header_swacktalk_hover.png");
 }
 
 .dropdown-content a:hover {background-color: #FFFFFF;color: #000000;}
@@ -1053,6 +1059,17 @@ code {
 }
 #misc_fanart:hover {
 	content:url("/img/misc_butn4_on.png");
+}
+#misc_trivia {
+	transform: translateX(-50%); 
+	width: auto;
+	height: 80%;
+	position: absolute;
+	cursor: pointer;
+	content:url("/img/misc_butn6_off.png");
+}
+#misc_trivia:hover {
+	content:url("/img/misc_butn6_on.png");
 }
 #misc_contact {
 	transform: translateX(-50%); 
