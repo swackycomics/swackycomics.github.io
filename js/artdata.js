@@ -1,5 +1,29 @@
 var artdata = [
 	{
+		img: "usxdgn.png",
+		date: "May 7, 2026",
+		desc: "Ultimate Super_XDGuy Night",
+		category: 7
+	},
+	{
+		img: "groovydemo_gameover1.png",
+		date: "Apr 12, 2026",
+		desc: "Game Over. (No logo)",
+		category: 7
+	},
+	{
+		img: "enjoylanky.png",
+		date: "Apr 12, 2026",
+		desc: "Lanky Larry's cover. Referencing Enjoy Incubus.",
+		category: 7
+	},
+	{
+		img: "dhmayhem.png",
+		date: "Apr 12, 2026",
+		desc: "The Stage Surf cover. Referencing Methods of Mayhem.",
+		category: 7
+	},
+	{
 		img: "styxcriuss.png",
 		date: "Mar. 23, 2026",
 		desc: "Styx & Crius SEARCHIN'.",
@@ -54,10 +78,22 @@ var artdata = [
 		category: 7
 	},
 	{
+		img: "primer55head.png",
+		date: "Jan. 5, 2026",
+		desc: "An unused DynamiteHead cover.",
+		category: 7
+	},
+	{
 		img: "dukeyaoican.png",
 		date: "Jan. 3, 2026",
 		desc: "Duke stays hydrated.",
 		category: 7
+	},
+	{
+		img: "groovydemo_new.png",
+		date: "Dec. 21, 2025",
+		desc: "The Groovy Demo Cover",
+		category: 6
 	},
 	{
 		img: "tutorialcover.png",
