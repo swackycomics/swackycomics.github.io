@@ -80,7 +80,7 @@ var artdata = [
 	{
 		img: "primer55head.png",
 		date: "Jan. 5, 2026",
-		desc: "An unused DynamiteHead cover.",
+		desc: "An unused DynamiteHead cover. Referencing the Introduction to Mayhem album.",
 		category: 7
 	},
 	{
