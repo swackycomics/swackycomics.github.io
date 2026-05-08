@@ -1,4 +1,5 @@
 var comment_data = [
+	{ page: "/comics/dh_comics/ep8/", user: "Toki", date: "May 8, 2026 at 03:04 PM", comment: "was here", },
 	{ page: "/comics/dh_comics/ep8/", user: "brochacho", date: "May 8, 2026 at 10:10 AM", comment: "Dih!", }
 ];
 
