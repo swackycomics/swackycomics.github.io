@@ -1,6 +1,8 @@
 var comment_data = [
+	{ page: "/news/article/comment_section/", user: "onsku", date: "May 8, 2026 at 07:46 PM", comment: "it nice : )", },
+	{ page: "/news/article/comment_section/", user: "Gubby", date: "May 8, 2026 at 07:42 PM", comment: "Nice I Like It", },
+	{ page: "/news/article/comment_section/", user: "jarek tek", date: "May 8, 2026 at 07:40 PM", comment: "Fantastic.", },
 	{ page: "/comics/dh_comics/ep8/", user: "Toki", date: "May 8, 2026 at 03:04 PM", comment: "was here", },
-	{ page: "/comics/dh_comics/ep8/", user: "brochacho", date: "May 8, 2026 at 10:10 AM", comment: "Dih!", }
 ];
 
 //get amount of comments on the current page
