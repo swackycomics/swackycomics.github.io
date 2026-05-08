@@ -1,5 +1,5 @@
 var comment_data = [
-	
+	{ page: "/comics/dh_comics/ep8/", user: "brochacho", date: "May 8, 2026 at 10:10 AM", comment: "Dih!", }
 ];
 
 //get amount of comments on the current page
