@@ -15,6 +15,7 @@ document.write('	<input class="align-center" type="text" id="comment_userbox" pl
 document.write('	<p class="align-left medium-text">Your comment:</p>');
 document.write('	<textarea class="align-center" name="comment" id="comment_postbox" rows="7" cols="120"></textarea>');
 document.write('	<p id="comment_postcaution" class="align-left">Your comment will be sent for a manual review. Anything deemed inappropriate will be ignored. Please, remain respectful.</p>	');
+document.write('	<p style="color:#ffca38" id="comment_postcaution" class="align-left">You won\'t be able to edit or delete your comment after it\'s been posted.</p>	');
 document.write('	<button id="comment_btn" type="submit" disabled>POST</button>');
 document.write('</form>');
 document.write('<p id="comment_posted">Your comment has been sent for a review. This might take a bit...</p>');

@@ -1,6 +1,24 @@
 //shortdesc length of string = 200
 var newsdata = [
 	{
+		title: "COMMENT SECTION",
+		date: "May. 8, 2026",
+		shortdesc: "GOOOOOOOOOOOOOOOOOOD MORNING EVERYBODY AT SWACKYCOMICS! I've got great news for all of you - I've added comment sections to this website.",
+		fields: [
+			[
+				"text",
+				[
+					"<p>GOOOOOOOOOOOOOOOOOOD MORNING EVERYBODY AT SWACKYCOMICS! I've got great news for all of you - I've added comment sections to this website. YEA! I should have done this earlier to be completely honest with you.</p>",
+					"<p>Comics, swacknews & swacktalk posts - All support comments now. Found something cool or funny to say? Just want to provide some feedback? The new comment section got you covered. You can even comment RIGHT ON THIS POST! LET ME KNOW WHAT YOU THINK. Think through what you're sending over, though - Once it's posted, you won't be able to edit or delete your comment. I don't feel like coding something like that at the moment. Capiche?</p>",
+					"<p>Anyway, I'm out.</p>"
+				]
+			],
+			["image","/news/img/news10.png"]
+		],
+		id: "10",
+		href: "/news/article/comment_section/",
+	},
+	{
 		title: "The End Of DynamiteHead Comics",
 		date: "Apr. 24, 2026",
 		shortdesc: "Hey everybody. Swack here as always with a new swacknews post. Today marks THE END... of DYNAMITEHEAD COMICS.",

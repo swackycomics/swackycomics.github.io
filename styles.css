@@ -1474,16 +1474,16 @@ code {
 	}
 	
 	.news-container p {
-        font-size: 70px;
+        font-size: 50px;
     }
 	.news-container code {
-        font-size: 70px;
+        font-size: 50px;
     }
 	.news-container .big-text {
-        font-size: 70px;
+        font-size: 50px;
     }
 	.news-container .small-text {
-        font-size: 60px;
+        font-size: 40px;
     }
 
 	
