@@ -1,4 +1,5 @@
 var comment_data = [
+	{ page: "/news/article/comment_section/", user: "Hate Commenter", date: "May 9, 2026 at 05:12 PM", comment: "I hate it.", },
 	{ page: "/news/article/comment_section/", user: "Mira", date: "May 9, 2026 at 12:52 PM", comment: "it's... peak", },
 	{ page: "/news/article/comment_section/", user: "sxtw_", date: "May 9, 2026 at 12:27 PM", comment: "peak", },
 	{ page: "/news/article/comment_section/", user: "Icie", date: "May 9, 2026 at 11:25 AM", comment: "the S W A C K", },
