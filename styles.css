@@ -1217,6 +1217,7 @@ code {
 	color: #24242488;
 } 
 #comment_btn:enabled:hover {
+	cursor: pointer;
 	background-color: #094f0f;
 } 
 
