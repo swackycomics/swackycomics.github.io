@@ -1,4 +1,9 @@
 var comment_data = [
+	{ page: "/news/article/comment_section/", user: "toki", date: "May 9, 2026 at 07:44 AM", comment: "I lov dinamithat", },
+	{ page: "/news/article/comment_section/", user: "breadft", date: "May 9, 2026 at 05:29 AM", comment: "Wow This Is a. Something.", },
+	{ page: "/news/article/comment_section/", user: "PoponTheBozo", date: "May 9, 2026 at 02:18 AM", comment: "wowwowwow!!!", },
+	{ page: "/news/article/comment_section/", user: "J.T.A", date: "May 9, 2026 at 01:09 AM", comment: "TUFF", },
+	{ page: "/news/article/comment_section/", user: "anoncarr0t", date: "May 9, 2026 at 12:36 AM", comment: "ohio blud gcf 💀💀💀", },
 	{ page: "/news/article/comment_section/", user: "Eddiemancurly", date: "May 8, 2026 at 09:45 PM", comment: "Hell yea", },
 	{ page: "/news/article/comment_section/", user: "mintyfresh2490", date: "May 8, 2026 at 09:27 PM", comment: "Absolutely wonderful.", },
 	{ page: "/news/article/comment_section/", user: "Horse", date: "May 8, 2026 at 07:56 PM", comment: "Hello.", },
