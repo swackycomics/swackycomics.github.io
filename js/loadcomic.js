@@ -26,10 +26,10 @@ document.write('				<p id="downloadinfo_comic" style="left: 55%;">'+linkarray.jo
 document.write('			</div>');
 
 document.write( '<div class="align-center">\n' );
-document.write( '                <p class="big-text" style=\"margin-bottom:8px; min-width:500px;\">' +comic_.title+ '</p>\n' );
+document.write( '                <p class="big-text" style=\"padding-top: 16px; margin-bottom:8px; min-width:500px;\">' +comic_.title+ '</p>\n' );
 document.write( '            </div>' );
 document.write( '<div class="align-center">\n' );
-document.write( '                <p>Creation date: '+comic_.date+' | '+comic_.pages+' pages</p> <p class="medium-text _comicdesc" style=\"margin-bottom:64px; margin-left: auto; margin-right: auto;\">' +comic_.desc+ '</p>\n' );
+document.write( '                <p>Creation date: '+comic_.date+'</p> <p>'+comic_.pages+' pages.</p> <p class="medium-text _comicdesc" style=\"margin-top: 48px; margin-bottom:64px; margin-left: auto; margin-right: auto;\">' +comic_.desc+ '</p>\n' );
 document.write( '            </div>' );
 
 document.write( '<div class=\"align-center comicdiv\">\n' );

@@ -39,16 +39,17 @@ if(cur_comment_data.length > 0){
 	document.write('</div>');
 }
 
+var btn = document.getElementById('comments_btn');
+var offset = 0;
 if(cur_comment_data.length > 0){
-	var btn = document.getElementById('comments_btn');
-	var offset = document.getElementById('comments').offsetHeight;
-	btn.addEventListener('click', () => {
-	window.scrollTo({
-		top: document.body.scrollHeight-screen.height-offset,
-		behavior: 'smooth'
-		});
-	});
+	offset = document.getElementById('comments').offsetHeight;
 }
+btn.addEventListener('click', () => {
+window.scrollTo({
+	top: document.body.scrollHeight-screen.height-offset,
+	behavior: 'smooth'
+	});
+});
 
 var commentform = document.getElementById('commentform');
 var btn = document.getElementById('comment_btn');
