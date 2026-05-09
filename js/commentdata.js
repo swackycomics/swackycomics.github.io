@@ -1,4 +1,5 @@
 var comment_data = [
+	{ page: "/news/article/comment_section/", user: "Icie", date: "May 9, 2026 at 11:25 AM", comment: "the S W A C K", },
 	{ page: "/news/article/comment_section/", user: "toki", date: "May 9, 2026 at 07:44 AM", comment: "I lov dinamithat", },
 	{ page: "/news/article/comment_section/", user: "breadft", date: "May 9, 2026 at 05:29 AM", comment: "Wow This Is a. Something.", },
 	{ page: "/news/article/comment_section/", user: "PoponTheBozo", date: "May 9, 2026 at 02:18 AM", comment: "wowwowwow!!!", },
