@@ -8,15 +8,15 @@ switch(comic){
         comicnum = 0;
 		imgarray = ["rbdcomics_1","rbdcomics_2","rbdcomics_3"];
     break;
-    case "dh":
-        comicgrid = comicjson.dh;
-        comicnum = 1;
-		imgarray = ["dhcomics_1","dhcomics_2"];
-    break;
 	case "swackzards":
         comicgrid = comicjson.swackzards;
-        comicnum = 2;
+        comicnum = 1;
 		imgarray = ["wizcomics_1","wizcomics_2"];
+    break;
+	case "dh":
+        comicgrid = comicjson.dh;
+        comicnum = 2;
+		imgarray = ["dhcomics_1","dhcomics_2"];
     break;
     case "jimmy":
         comicgrid = comicjson.jimmy;
@@ -45,6 +45,9 @@ for(var i = 0; i < imgarray.length; i++){
 }
 document.write( '                <p class="medium-text comicdesc" style=\"margin-bottom:42px; margin-left: auto; margin-right: auto; width:100%;\">'+Object.values(data)[comicnum].desc+'</p>\n' );
 document.write( '            </div>' );
+if(Object.values(data)[comicnum].discontinued){
+	document.write( '                <p class="pinkborder medium-text" style=\"background-color: #000000aa; color: #ff0d76; margin-bottom:42px; margin-left: auto; margin-right: auto; width:700px; padding: 12px;\">This comic series has been discontinued.</p>\n' );
+}
 
 //pc version
 document.write('		<div class="pctable comicborder pinkborder">');
