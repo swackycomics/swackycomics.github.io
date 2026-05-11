@@ -1065,18 +1065,23 @@ code {
 	height: 320px;
 }
 
-#misc div {
-	width: 450px;
+#misc_div {
+	width: 1200px;
 	margin-top: 32px;
 	margin-bottom: 32px;
-	height: 260px;
+	min-height: 260px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+.misc_entry {
+	width: 40%;
+	height: auto;
 }
 
 #misc_swacktalk {
-	transform: translateX(-50%);
-	width: auto;
-	height: 100%;
-	position: absolute;
 	cursor: pointer;
 	content:url("/img/misc_butn5_off.png");
 	
@@ -1085,10 +1090,6 @@ code {
 	content:url("/img/misc_butn5_on.png");
 }
 #misc_art {
-	transform: translateX(-50%);
-	width: auto;
-	height: 100%;
-	position: absolute;
 	cursor: pointer;
 	content:url("/img/misc_butn1_off.png");
 	
@@ -1097,10 +1098,6 @@ code {
 	content:url("/img/misc_butn1_on.png");
 }
 #misc_redbidd {
-	transform: translateX(-50%); 
-	width: auto;
-	height: 100%;
-	position: absolute;
 	cursor: pointer;
 	content:url("/img/misc_butn2_off.png");
 }
@@ -1108,10 +1105,6 @@ code {
 	content:url("/img/misc_butn2_on.png");
 }
 #misc_fanart {
-	transform: translateX(-50%); 
-	width: auto;
-	height: 80%;
-	position: absolute;
 	cursor: pointer;
 	content:url("/img/misc_butn4_off.png");
 }
@@ -1119,10 +1112,6 @@ code {
 	content:url("/img/misc_butn4_on.png");
 }
 #misc_trivia {
-	transform: translateX(-50%); 
-	width: auto;
-	height: 80%;
-	position: absolute;
 	cursor: pointer;
 	content:url("/img/misc_butn6_off.png");
 }
@@ -1130,10 +1119,6 @@ code {
 	content:url("/img/misc_butn6_on.png");
 }
 #misc_contact {
-	transform: translateX(-50%); 
-	width: auto;
-	height: 70%;
-	position: absolute;
 	cursor: pointer;
 	content:url("/img/misc_butn3_off.png");
 }
@@ -1707,6 +1692,16 @@ code {
 	  height: 52px;
 	}
 	
+	#misc_div {
+		width: 100%;
+	}
+	.misc_entry {
+		width: 70%;
+	}
+	code {
+		font-size: 54px;
+	}
+	
 	#artgrid {
 		width: 950px;
 		grid-template-columns: repeat(2, 1fr);
@@ -1715,7 +1710,6 @@ code {
 
 	#artgrid div {
 		max-width: 710px;
-	
 	}
 	
 	#artshow_full {
