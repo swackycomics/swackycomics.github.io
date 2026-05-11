@@ -2,7 +2,7 @@
 var newsdata = [
 	{
 		title: "COMMENT SECTION",
-		date: "May. 8, 2026",
+		date: "May 8, 2026",
 		shortdesc: "GOOOOOOOOOOOOOOOOOOD MORNING EVERYBODY AT SWACKYCOMICS! I've got great news for all of you - I've added comment sections to this website.",
 		fields: [
 			[
@@ -20,7 +20,7 @@ var newsdata = [
 	},
 	{
 		title: "The End Of DynamiteHead Comics",
-		date: "Apr. 24, 2026",
+		date: "April 24, 2026",
 		shortdesc: "Hey everybody. Swack here as always with a new swacknews post. Today marks THE END... of DYNAMITEHEAD COMICS.",
 		fields: [
 			[
@@ -39,7 +39,7 @@ var newsdata = [
 	},
 	{
 		title: "NEW COMIC: BUSINESS IS BROOMIN'",
-		date: "Jan. 12, 2026",
+		date: "January 12, 2026",
 		shortdesc: "How's it going, one and a half people who's going to most likely read this? It's me, SWACK... again. The new SWACKZARDS comic is up, I'm telling ya. After, basically, almost a whole year of no new comics.",
 		fields: [
 			[
@@ -56,7 +56,7 @@ var newsdata = [
 	},
 	{
 		title: "\"This ART is getting way too crazy.. Let's FIGHT. 2025\"",
-		date: "Aug. 1, 2025",
+		date: "August 1, 2025",
 		shortdesc: "What's up people and not people of swackycomics. It is I, SWACK, HERE ONCE AGAIN TO DELIVER SOME NEWS. You know, as they say...",
 		fields: [
 			[
