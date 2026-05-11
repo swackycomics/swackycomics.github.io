@@ -1,4 +1,6 @@
 var comment_data = [
+	{ page: "/news/article/comment_section/", user: "DistortBomb", date: "May 11, 2026 at 08:10 AM", comment: "it's like it's in some king of... Tntson", },
+	{ page: "/news/article/comment_section/", user: "Love Commenter", date: "May 11, 2026 at 02:21 AM", comment: "I LOOOOOOOOVE THIS!!!!!! ♥️♥️♥️♥️♥️♥️♥️💖💖💖💖💖", },
 	{ page: "/comics/vegg_comics/ep4/", user: "Eddiemancurly", date: "May 10, 2026 at 08:01 PM", comment: "Lowkey kinda sucks this is discontinued, i f with it hard", },
 	{ page: "/news/article/comment_section/", user: "tapok!!", date: "May 10, 2026 at 07:06 AM", comment: "I freackin love it✌️", },
 	{ page: "/news/article/comment_section/", user: "Hate Commenter", date: "May 9, 2026 at 05:12 PM", comment: "I hate it.", },
