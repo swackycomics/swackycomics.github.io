@@ -185,7 +185,7 @@ var swacktalk_current = [
 				"text",
 				[
 					"<br/>",
-					"<p>Not much to say about the versus screen, considering it looks about the same as it does in the final version. The concept of it is something I've also decided to borrow from JLFJ 2. I didn't even bother replacing the graphics here. WHAT A TRAVESTY!</p>",
+					"<p>Not much to say about the versus screen, considering it looks about the same as it does in the final version. The concept of it is something I've also decided to borrow from JLFJ 2. I didn't even bother replacing these CLEARLY placeholder graphics before I released the demo. WHAT A TRAVESTY!</p>",
 					"<br/>",
 				]
 			],
