@@ -552,7 +552,7 @@ code {
 	padding-bottom: 12px;
 	text-align: left;
 	min-height: 32px;
-	background-color: rgba(0,0,0,.6);
+	background-color: #000000;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -563,6 +563,15 @@ code {
 .link {
 	color: #ffb812;
 	text-decoration: underline;
+}
+.news-container h1 {
+	font-size: 34px;
+}
+.news-container h2 {
+	font-size: 29px;
+}
+.news-container p {
+	font-size: 24px;
 }
 .news-container img {
 	display: block;
@@ -585,7 +594,7 @@ code {
 }
 
 #news-full {
-	width: 820px;
+	width: 900px;
 }
 #news-preview {
 	width: 600px;
@@ -624,10 +633,57 @@ code {
 	background-image: url("img/back-on.png");
 }
 
+.swacktalk_guest {
+	margin-left: 0 !important;
+	padding: 0 !important;
+	
+	width: 512px;
+	height: auto;
+}
+
+#guest_jarektalk {
+	border-top: 4px solid #208ff7;
+	border-bottom: 4px solid #208ff7;
+	background-color: #0d061f;
+}
+#guest_jarektalk p {
+	color: #a6daff;
+}
+
+#guest_onskutalk {
+	border-top: 4px solid #ff1438;
+	border-bottom: 4px solid #ff1438;
+	background-color: #14030d;
+}
+#guest_onskutalk p {
+	color: #ffcccf;
+}
+#guest_onskutalk h2 {
+	margin-top: 12px;
+	margin-bottom: 12px;
+	color: #ffcccf;
+}
+
 #underimg_text {
+	width: 65%;
+	background-color: #00000066;
+	color: #757575 !important;
+	font-size: 22px;
+}
+
+.ytvideo {
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #000000;
-	color: #757575;
-	font-size: 28px;
+	padding: 2px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	width: 560px;
+	aspect-ratio: 16/9;
+}
+.ytvideo iframe {
+	width: 100%;
+	height: 100%;
 }
 
 /* socials */
@@ -1508,7 +1564,7 @@ code {
 		display: block;
 	}
 	
-	.news-container{
+	.news-container {
 		margin: 0;
 		margin-left: auto;
 		margin-right: auto;
@@ -1517,6 +1573,12 @@ code {
 		padding-bottom: 12px;
 	}
 	
+	.news-container h1 {
+		font-size: 56px;
+	}
+	.news-container h2 {
+		font-size: 46px;
+	}
 	.news-container p {
         font-size: 50px;
     }
@@ -1532,6 +1594,13 @@ code {
 
 	
 	#news-preview {
+		border-top: 4px solid #ffc014;
+		border-bottom: 4px solid #ffc014;
+		border-width: 4px;
+		
+		border-left: 0px;
+		border-right: 0px;
+		
 		width: 90%;
 	}
 	#newslink {
@@ -1539,6 +1608,13 @@ code {
 	}
 	
 	#news-full {
+		border-top: 4px solid #ffc014;
+		border-bottom: 4px solid #ffc014;
+		border-width: 4px;
+		
+		border-left: 0px;
+		border-right: 0px;
+		
 		width: 100%;
 	}
 	
@@ -1568,6 +1644,15 @@ code {
 	
 	#underimg_text {
 		font-size: 50px;
+	}
+	
+	.ytvideo {
+		width: 90%;
+		aspect-ratio: 16/9;
+	}
+	.ytvideo iframe {
+		width: 100%;
+		height: 100%;
 	}
 	
 	.email-box {
