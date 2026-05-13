@@ -1,4 +1,5 @@
 var comment_data = [
+	{ page: "/swacktalk/blog/developing_dynamitehead_toxic_demo/", user: "breadft", date: "May 13, 2026 at 07:42 PM", comment: "wow crazy talk", },
 	{ page: "/swacktalk/blog/developing_dynamitehead_toxic_demo/", user: "8owlstalk ", date: "May 13, 2026 at 06:49 PM", comment: "hey guys i'm here too", },
 	{ page: "/comics/vegg_comics/ep1/", user: "pacman", date: "May 11, 2026 at 09:51 AM", comment: "Bring back dr veg and nameless comic's", },
 	{ page: "/news/article/comment_section/", user: "DistortBomb", date: "May 11, 2026 at 08:10 AM", comment: "it's like it's in some king of... Tntson", },
