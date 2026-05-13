@@ -75,7 +75,7 @@ var swacktalk_current = [
 					"<p>I'm gonna start with the FIRST EVER song I made for this game, which is this.</p>",
 				]
 			],
-			["audio", "/swacktalk/audio/swacktalk3/orua.mp3","The first song...!"],
+			["audio", "/swacktalk/audio/swacktalk3/orua.mp3","orua.mp3 | The first song...!"],
 			[
 				"text",
 				[
@@ -89,7 +89,7 @@ var swacktalk_current = [
 					"<p>Anyway, I have here the first DYNAMITEHEAD stage music. This was even before Toxic Trenches was even conceived, I believe.</p>",
 				]
 			],
-			["audio", "/swacktalk/audio/swacktalk3/DynamiteCity_forgotten.mp3","SO RETRO"],
+			["audio", "/swacktalk/audio/swacktalk3/DynamiteCity_forgotten.mp3","DynamiteCity_forgotten.mp3 | SO RETRO"],
 			[
 				"text",
 				[
@@ -103,7 +103,7 @@ var swacktalk_current = [
 					"<p>Here's an early version of the version that DID get used.</p>",
 				]
 			],
-			["audio", "/swacktalk/audio/swacktalk3/dh_toxictrenches_TheBest.mp3","Wow... It's like you're underwater."],
+			["audio", "/swacktalk/audio/swacktalk3/dh_toxictrenches_TheBest.mp3","dh_toxictrenches_TheBest.mp3 | Wow... It's like you're underwater."],
 			[
 				"text",
 				[
@@ -111,7 +111,7 @@ var swacktalk_current = [
 					"<p>Also, for some reason, I wanted the pause music for each stage to be a jazzy version of itself???</p>",
 				]
 			],
-			["audio", "/swacktalk/audio/swacktalk3/jazzytrencheswip2.mp3","Incredible..."],
+			["audio", "/swacktalk/audio/swacktalk3/jazzytrencheswip2.mp3","jazzytrencheswip2.mp3 | Incredible..."],
 			[
 				"text",
 				[
@@ -119,7 +119,7 @@ var swacktalk_current = [
 					"<p>I also have the first attempt at a menu theme... But, do be warned, the guitar in this is kind of loud.</p>",
 				]
 			],
-			["audio", "/swacktalk/audio/swacktalk3/earlydinamit.mp3",""],
+			["audio", "/swacktalk/audio/swacktalk3/earlydinamit.mp3","earlydinamit.mp3"],
 			[
 				"text",
 				[
@@ -130,12 +130,12 @@ var swacktalk_current = [
 					"<p>To the point where it was the only thing left to do... this was not the last time that happened...</p>",
 				]
 			],
-			["audio", "/swacktalk/audio/swacktalk3/frank.mp3","Sounds like a zKevin song..."],
-			["audio", "/swacktalk/audio/swacktalk3/frankenbarfwip.mp3","Second attempt"],
-			["audio", "/swacktalk/audio/swacktalk3/barf.mp3",""],
-			["audio", "/swacktalk/audio/swacktalk3/frank2.mp3",""],
-			["audio", "/swacktalk/audio/swacktalk3/AnotherFrankWip.mp3",""],
-			["audio", "/swacktalk/audio/swacktalk3/just straight up. frankin' it..mp3",""],
+			["audio", "/swacktalk/audio/swacktalk3/frank.mp3","frank.mp3 | Sounds like a zKevin song..."],
+			["audio", "/swacktalk/audio/swacktalk3/frankenbarfwip.mp3","frankenbarfwip.mp3 | Second attempt"],
+			["audio", "/swacktalk/audio/swacktalk3/barf.mp3","barf.mp3"],
+			["audio", "/swacktalk/audio/swacktalk3/frank2.mp3","frank2.mp3"],
+			["audio", "/swacktalk/audio/swacktalk3/AnotherFrankWip.mp3","AnotherFrankWip.mp3"],
+			["audio", "/swacktalk/audio/swacktalk3/just straight up. frankin' it..mp3","just straight up. frankin' it..mp3"],
 			[
 				"text",
 				[
@@ -143,7 +143,7 @@ var swacktalk_current = [
 					"<p>For some reason, I decided to also make a Groovy Graveyard theme in the middle of the Toxic Demo development. In August of 2024. It doesn't sound like this at all anymore...</p>",
 				]
 			],
-			["audio", "/swacktalk/audio/swacktalk3/groovygraveyardwip5.mp3","So funky! This actually doesn't sound bad!"],
+			["audio", "/swacktalk/audio/swacktalk3/groovygraveyardwip5.mp3","groovygraveyardwip5.mp3 | So funky! This actually doesn't sound bad!"],
 			[
 				"text",
 				[
@@ -158,7 +158,7 @@ var swacktalk_current = [
 					"<p>I just have one more thing to show.</p>",
 				]
 			],
-			["audio", "/swacktalk/audio/swacktalk3/ilikehotdogs.wav",""],
+			["audio", "/swacktalk/audio/swacktalk3/ilikehotdogs.wav","ilikehotdogs.wav"],
 			
 			[
 				"text",
