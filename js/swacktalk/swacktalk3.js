@@ -158,7 +158,7 @@ var swacktalk_current = [
 					"<p>I just have one more thing to show.</p>",
 				]
 			],
-			["audio", "/swacktalk/audio/swacktalk3/ilikehotdogs.wav","ilikehotdogs.wav"],
+			["audio", "/swacktalk/audio/swacktalk3/ilikehotdogs.wav",""],
 			
 			[
 				"text",
