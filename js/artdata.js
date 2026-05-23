@@ -470,6 +470,36 @@ var artdata = [
 		category: 5
 	},
 	{
+		img: "crasherheadmay24.png",
+		date: "May. 31, 2024",
+		desc: "CrasherHead",
+		category: 5
+	},
+	{
+		img: "MrHorse.png",
+		date: "May. 15, 2024",
+		desc: "Mr. Horse",
+		category: 5
+	},
+	{
+		img: "vitamin.png",
+		date: "May. 4, 2024",
+		desc: "How To Spot A Gamer Parody With VITAMIN",
+		category: 5
+	},
+	{
+		img: "mausse2.png",
+		date: "Apr. 14, 2024",
+		desc: "Mausse if he was a ninja or something",
+		category: 5
+	},
+	{
+		img: "toxicthings.png",
+		date: "Apr. 7, 2024",
+		desc: "Toxic Trenches Remnants",
+		category: 5
+	},
+	{
 		img: "tw_1.png",
 		date: "Apr. 3, 2024",
 		desc: "Pixel art of the main trio from The RedBidd Comics",
@@ -479,6 +509,12 @@ var artdata = [
 		img: "tw_2.png",
 		date: "Mar. 11, 2024",
 		desc: "RedBidd & Wraps",
+		category: 5
+	},
+	{
+		img: "redbiddvideogames.png",
+		date: "Mar. 8, 2024",
+		desc: "RedBidd's video games",
 		category: 5
 	},
 	{
@@ -494,6 +530,12 @@ var artdata = [
 		category: 5
 	},
 	{
+		img: "lurkin.png",
+		date: "Feb. 25, 2024",
+		desc: "A graphics tablet doodle. RedBidd & The Lurking Creep",
+		category: 5
+	},
+	{
 		img: "tw_5.png",
 		date: "Feb. 22, 2024",
 		desc: "RedBidd doodles",
@@ -506,9 +548,21 @@ var artdata = [
 		category: 5
 	},
 	{
+		img: "renstimps.png",
+		date: "Feb. 11, 2024",
+		desc: "Ren & Stimpy artstyle study",
+		category: 5
+	},
+	{
 		img: "tw_7.png",
 		date: "Feb. 10, 2024",
 		desc: "Jimmy's Lost Fruits Journey in an alternate universe",
+		category: 5
+	},
+	{
+		img: "boneheads.png",
+		date: "Feb. 8, 2024",
+		desc: "Those boneheads Greg & Skully",
 		category: 5
 	},
 	{
@@ -518,9 +572,33 @@ var artdata = [
 		category: 5
 	},
 	{
+		img: "skilletwar.png",
+		date: "Feb. 4, 2024",
+		desc: "Skillet in the warzone",
+		category: 5
+	},
+	{
 		img: "tw_9.png",
 		date: "Jan. 31, 2024",
 		desc: "Jimmy Land 4 (2024 version)",
+		category: 5
+	},
+	{
+		img: "skilletcomic.png",
+		date: "Jan. 30, 2024",
+		desc: "A Skillet comic!",
+		category: 5
+	},
+	{
+		img: "toejam.png",
+		date: "Jan. 25, 2024",
+		desc: "Toejam",
+		category: 5
+	},
+	{
+		img: "tuff.png",
+		date: "Jan. 23, 2024",
+		desc: "A badass doodle",
 		category: 5
 	},
 	{
@@ -535,8 +613,19 @@ var artdata = [
 		desc: "swackyGCF with a little bit too much Ren & Stimpy influence",
 		category: 5
 	},
+	{
+		img: "dh2024.png",
+		date: "Jan. 4, 2024",
+		desc: "DynamiteHead Wallpaper Material",
+		category: 5
+	},
 	
-	
+	{
+		img: "ren2023.png",
+		date: "Dec. 23, 2023",
+		desc: "Ren from Ren Needs Help",
+		category: 4
+	},
 	{
 		img: "tw_12.png",
 		date: "Dec. 16, 2023",
@@ -592,15 +681,33 @@ var artdata = [
 		category: 4
 	},
 	{
+		img: "jlfj2ost.png",
+		date: "Sep. 10, 2023",
+		desc: "JLFJ 2 Soundtrack cover",
+		category: 4
+	},
+	{
 		img: "tw_21.png",
 		date: "Aug. 21, 2023",
 		desc: "Fanart of Gregg the Grim Reaper from Conker's Bad Fur Day",
 		category: 4
 	},
 	{
+		img: "comic1.png",
+		date: "Aug. 16, 2023",
+		desc: "It's a Jimmy comic",
+		category: 4
+	},
+	{
 		img: "tw_22.png",
 		date: "Aug. 12, 2023",
 		desc: "Spoiled Rotten AppleBot",
+		category: 4
+	},
+	{
+		img: "eviljim.png",
+		date: "Aug. 3, 2023",
+		desc: "Evil Jim",
 		category: 4
 	},
 	{
