@@ -1,4 +1,5 @@
 var comment_data = [
+	{ page: "/swacktalk/blog/developing_dynamitehead_toxic_demo/", user: "YAYSUU", date: "May 29, 2026 at 03:32 AM", comment: "and don't forget to play yaysuu's- *i am then shot 41808 times*", },
 	{ page: "/swacktalk/blog/developing_dynamitehead_toxic_demo/", user: "Eddiemancurly", date: "May 13, 2026 at 08:33 PM", comment: "What do you mean a red alcoholic? Like anton?", },
 	{ page: "/swacktalk/blog/developing_dynamitehead_toxic_demo/", user: "breadft", date: "May 13, 2026 at 07:42 PM", comment: "wow crazy talk", },
 	{ page: "/swacktalk/blog/developing_dynamitehead_toxic_demo/", user: "8owlstalk ", date: "May 13, 2026 at 06:49 PM", comment: "hey guys i'm here too", },
