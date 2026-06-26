@@ -1,6 +1,51 @@
 //shortdesc length of string = 200
 var newsdata = [
 	{
+		title: "The RETURN of The RedBidd Comics + Fan Translations",
+		date: "June 26, 2026",
+		shortdesc: "HEY, SWACK FANS! How's it going? I've just finished working on the NEW RedBidd Comic. This one's all about bees. Bees everywhere.",
+		fields: [
+			[
+				"text",
+				[
+					"<p>HEY, SWACK FANS! How's it going? I've just finished working on the NEW RedBidd Comic. This one's all about bees. Bees everywhere.</p>",
+					"<p>This one's gonna be a rather chill adventure. The best way to describe this and the next two RedBidd comics would be \"The calm before the storm\". You guys are genuinely not ready for what the RedBidd Pals will be up to after they're done with Beeland.</p>",
+					"<p><a href=\"/comics/redbidd_comics/ep10/\" target=\"_blank\">The RedBidd Comics - BEELAND</a></p>",
+					"<br/>",
+					"<p>On a semi-related note, Toki and a couple other cool people translated the entirety of <a href=\"/comics/dynamitehead_comics/\" target=\"_blank\">DynamiteHead</a> and <a href=\"/comics/swackzards/\" target=\"_blank\">Swackzards</a> comics! Pick any comic from these two series and you'll now see that you're able to select from a gigantic selection of languages, those being ENGLISH AND RUSSIAN. Check it out if you speak <span style=\"font-family: comicrelief\">этот язык</span>.</p>",
+					"<br/>",
+					"<p>NOTE FOR TRANSLATORS: You're free to translate all comic series on this website into ANY language you wish! I'm not here to boss you around. If you feel like a comic would benefit from your translation, hit me up on Discord (or any other platform listed in the <a href=\"/contact/\" target=\"_blank\">contact</a> section for that matter) and I'll publish it.</p>",
+					"<br/>",
+					"<p>On a completely unrelated note, I've updated the <a href=\"/trivia/\" target=\"_blank\">TRIVIA</a> section with a couple new fun facts. Peep it.</p>",
+					"<p>Alright, now I'm out. Take a look at the previous swacknews post before you're out too:</p>",
+					"<p><a href=\"/news/article/im_broke_lets_change_that/\" target=\"_blank\">I'M BROKE. (Let's Change That)</a></p>",
+				]
+			],
+			["image","/news/img/news12.png"]
+		],
+		id: "12",
+		href: "/news/article/the_return_of_the_redbidd_comics/",
+	},
+	{
+		title: "I'M BROKE. (Let's Change That)",
+		date: "June 26, 2026",
+		shortdesc: "Hello everybody who still visits SWACKYCOMICS from time to time. I'm here to tell you that I am still accepting commissions (Drawings, Animations, COMICS N WHATNOT!!!). And I am still very much a broke bum.",
+		fields: [
+			[
+				"text",
+				[
+					"<p>Hello everybody who still visits SWACKYCOMICS from time to time. I'm here to tell you that I am still accepting commissions (Drawings, Animations, COMICS 'N WHATNOT!!!). And I am still very much a broke bum. BUT! You Can Change That.</p>",
+					"<p>If you've got some money, DM me with a request and in return you'll receive the absolute best drawing/animation/comic from yours truly. I've decided to make my terms more accessible by putting them on their own dedicated page on this website. <a href=\"/contact/kofi_terms\">YOU CAN VISIT IT BY CLICKING THIS LINK RIGHT HERE!</a></p>",
+					"<p>Swack Fans, I hate begging for money... But I really need this one, alright?</p>",
+					"<p><a href=\"https://ko-fi.com/swackygcf\" target=\"_blank\">Here's my ko-fi page where you can peep my commission listing and other stuff.</a></p>",
+				]
+			],
+			["image","/news/img/news11.png"]
+		],
+		id: "11",
+		href: "/news/article/im_broke_lets_change_that/",
+	},
+	{
 		title: "COMMENT SECTION",
 		date: "May 8, 2026",
 		shortdesc: "GOOOOOOOOOOOOOOOOOOD MORNING EVERYBODY AT SWACKYCOMICS! I've got great news for all of you - I've added comment sections to this website.",

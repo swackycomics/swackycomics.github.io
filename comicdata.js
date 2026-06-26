@@ -1,13 +1,13 @@
 var recent = [
 	{
-    "thumb": "dh_8",
-    "title": "DynamiteHead: LAST COMIC",
-    "href": "/comics/dh_comics/ep8/",
+    "thumb": "rb_10",
+    "title": "The RedBidd Comics: BEELAND",
+    "href": "/comics/redbidd_comics/ep10/",
 	}
 ];
 
 var comicpages = [
-    ["redbidd",[15,13,17,17,17,18,15,21,31]],
+    ["redbidd",[15,13,17,17,17,18,15,21,31,32]],
     ["dh",[4,5,4,8,8,14,17,22]],
     ["jimmy",[14,13,14,14,10,12,18,18,20,14]],
     ["vegg",[4,4,4,4]],
@@ -34,7 +34,8 @@ var comicjson = {
             "download": ["/pdf/redbidd1.pdf","redbidd1.pdf | 4.04 MB","https://drive.google.com/file/d/1MeiXYzwbdCsk_l23zKakNdgEz7FSXXXV/view?usp=sharing","redbiddcomic-1"],
             "date": "October 6, 2023",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic2": {
             "thumb": "rb_2.png",
@@ -45,7 +46,8 @@ var comicjson = {
             "download": ["/pdf/redbidd2.pdf","redbidd2.pdf | 3.69 MB","https://drive.google.com/file/d/1YmEWDi5supEjnTX_1UTBWZTWWfAiwaYM/view?usp=sharing","redbiddcomic-2"],
             "date": "October 12, 2023",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic3": {
             "thumb": "rb_3.png",
@@ -56,7 +58,8 @@ var comicjson = {
             "download": ["/pdf/redbidd3.pdf","redbidd3.pdf | 4.83 MB","https://drive.google.com/file/d/1nQ_xqd19_D4ZZk1etPReJUvCHVN6wDYR/view?usp=sharing","redbiddcomic-3"],
             "date": "October 21, 2023",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic4": {
             "thumb": "rb_4.png",
@@ -67,7 +70,8 @@ var comicjson = {
             "download": ["/pdf/redbidd4.pdf","redbidd4.pdf | 5.14 MB","https://drive.google.com/file/d/16N_gcWQcrkZ91C3QDiOjNK5zsFNo-C2F/view?usp=sharing","redbiddcomic-4"],
             "date": "November 11, 2023",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic5": {
             "thumb": "rb_5.png",
@@ -78,7 +82,8 @@ var comicjson = {
             "download": ["/pdf/redbidd5.pdf","redbidd5.pdf | 5.07 MB","https://drive.google.com/file/d/1IXhHTB-8ISkxfQitYC_ddAtGJIFIB8LE/view?usp=sharing","redbiddcomic-5"],
             "date": "December 9, 2023",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic6": {
             "thumb": "rb_6.png",
@@ -89,7 +94,8 @@ var comicjson = {
             "download": ["/pdf/redbidd6.pdf","redbidd6.pdf | 5.48 MB","https://drive.google.com/file/d/1ZxqVP6VXPS9JehMYCRINmOwsVYe_lP8U/view?usp=sharing","redbiddcomic-6"],
             "date": "February 14, 2024",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic7": {
             "thumb": "rb_7.png",
@@ -100,7 +106,8 @@ var comicjson = {
             "download": ["/pdf/redbidd7.pdf","redbidd7.pdf | 6.86 MB","https://drive.google.com/file/d/15MSzZDq_4CNg8SVlFg5roeFGyX-wfS3s/view?usp=sharing","redbiddcomic-7"],
             "date": "August 15, 2024",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic8": {
             "thumb": "rb_8.png",
@@ -111,7 +118,8 @@ var comicjson = {
             "download": ["/pdf/redbidd8.pdf","redbidd8.pdf | 5.45 MB","https://drive.google.com/file/d/1LHLAUbfxouRr9_MlSxcyUJCRoN1HGBzR/view?usp=sharing","redbiddcomic-8"],
             "date": "November 5, 2024",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
 		"comic9": {
             "thumb": "rb_9.png",
@@ -122,7 +130,20 @@ var comicjson = {
             "download": ["/pdf/redbidd9.pdf","redbidd9.pdf | 7.96 MB","https://drive.google.com/file/d/1p7bZUCTjBm6vjP6krQ6oV6Zz_swBPPXb/view?usp=sharing","redbiddcomic-9"],
             "date": "February 21, 2025",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
+        },
+		"comic10": {
+            "thumb": "rb_10.png",
+            "series": "The RedBidd Comics",
+            "title": "BEELAND",
+            "pages": (comicpages[0][1][ 9 ]).toString(),
+            "desc": "WELCOME TO BEE LAND! Take a trip down the bee road, visit the bee store, find yourself immersed in the wonderful world of worker bees... NOT! HEY... WAKE UP!! MISTERIO IS AFTER YOU! RedBidd & pals better make it, otherwise things will conclude in a rabbit stew.",
+            "download": ["/pdf/redbidd10.pdf","redbidd10.pdf | 8.16 MB","https://drive.google.com/file/d/1OqRRUtdR6tXQfSWisK8wKWRXMfLgwxrI/view?usp=sharing","redbiddcomic-10"],
+            "date": "June 26, 2026",
+            "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
+			"timelapse": "",
+			"lang": [],
         }
     },
     "dh": {
@@ -135,7 +156,9 @@ var comicjson = {
             "download": ["/pdf/dhcomic1.pdf","dhcomic1.pdf | 1.17 MB","https://drive.google.com/file/d/1S5dbRpg7AaaMZyarzaBV03cfPGs9DZwK/view?usp=sharing","dhcomic"],
             "date": "December 30, 2023",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": ["eng","rus"],
+			"lang_credits": {"rus": ["Toki, Darklet: Translation"]},
         },
         "comic2": {
             "thumb": "dh_2.png",
@@ -146,7 +169,9 @@ var comicjson = {
             "download": ["/pdf/dhcomic2.pdf","dhcomic2.pdf | 1.21 MB","https://drive.google.com/file/d/1MJXQIVePe76Vj_u__H21XWbg7CfAPvmI/view?usp=sharing","dhcomic2"],
             "date": "March 16, 2024",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": ["eng","rus"],
+			"lang_credits": {"rus": ["Toki, Darklet: Translation"]},
         },
         "comic3": {
             "thumb": "dh_3.png",
@@ -157,7 +182,9 @@ var comicjson = {
             "download": ["/pdf/dhcomic3.pdf","dhcomic3.pdf | 1.08 MB","https://drive.google.com/file/d/1O2WF_bkjIK5cAguxjfWJnPLXXdJ-9iKg/view?usp=sharing","dhcomic3"],
             "date": "April 9, 2024",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": ["eng","rus"],
+			"lang_credits": {"rus": ["Toki, Darklet: Translation"]},
         },
         "comic4": {
             "thumb": "dh_4.png",
@@ -168,7 +195,9 @@ var comicjson = {
             "download": ["/pdf/dhcomic4.pdf","dhcomic4.pdf | 4.25 MB","https://drive.google.com/file/d/1PiCx-QNleCZyXtXcqmkF98eKogE7hwk0/view?usp=sharing","dhcomic4"],
             "date": "July 2, 2024",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": ["eng","rus"],
+			"lang_credits": {"rus": ["Toki, Darklet: Translation"]},
         },
         "comic5": {
             "thumb": "dh_5.png",
@@ -179,7 +208,9 @@ var comicjson = {
             "download": ["/pdf/dhcomic5.pdf","dhcomic5.pdf | 1.90 MB","https://drive.google.com/file/d/13DJq9Nel27So-rrHU_Nwash0qwOu5KjR/view?usp=sharing","dhcomic5"],
             "date": "October 8, 2024",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": ["eng","rus"],
+			"lang_credits": {"rus": ["Toki, Darklet: Translation"]},
         },
 		"comic6": {
             "thumb": "dh_6.png",
@@ -190,7 +221,9 @@ var comicjson = {
             "download": ["/pdf/dhcomic6.pdf","dhcomic6.pdf | 2.97 MB","https://drive.google.com/file/d/15hWxy58yyVeJEeFW13nO8dKsOxexdzNS/view?usp=sharing","dhcomic6"],
             "date": "May 4, 2025",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": '<iframe width="560" height="315" src="https://www.youtube.com/embed/_qhzPazdwLM?si=S9TIigh4PXoo0_18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+			"timelapse": '<iframe width="560" height="315" src="https://www.youtube.com/embed/_qhzPazdwLM?si=S9TIigh4PXoo0_18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+			"lang": ["eng","rus"],
+			"lang_credits": {"rus": ["Toki, Darklet: Translation"]},
         },
 		"comic7": {
             "thumb": "dh_7.png",
@@ -201,7 +234,9 @@ var comicjson = {
             "download": ["/pdf/dhcomic7.pdf","dhcomic7.pdf | 3.10 MB","https://drive.google.com/file/d/1pKuHt2VLmBVAhCknamqJPucb3jyAN-Yt/view?usp=sharing","dhcomic7"],
             "date": "December 25, 2025",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ''
+			"timelapse": '',
+			"lang": ["eng","rus"],
+			"lang_credits": {"rus": ["Toki, Darklet: Translation","Fixel: FX"]},
         },
 		"comic8": {
             "thumb": "dh_8.png",
@@ -212,7 +247,9 @@ var comicjson = {
             "download": ["/pdf/dhcomic8.pdf","dhcomic8.pdf | 4.51 MB","https://drive.google.com/file/d/1dSrxvEoImZjINZxKmzq9B3ER_Cgxr4ll/view?usp=sharing","dhcomic8"],
             "date": "April 24, 2026",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": ''
+			"timelapse": '',
+			"lang": ["eng","rus"],
+			"lang_credits": {"rus": ["Toki, Darklet: Translation","Fixel: FX"]},
         }
     },
     "jimmy": {
@@ -225,7 +262,8 @@ var comicjson = {
             "download": ["/pdf/jimmy1.pdf","jimmy1.pdf | 3.04 MB","https://drive.google.com/file/d/1-PypJYeH4d-fkG80xSrRk9zOyHdTIISj/view?usp=sharing","jimmy-comic1"],
             "date": "September 14, 2021",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic2": {
             "thumb": "jim_2.png",
@@ -236,7 +274,8 @@ var comicjson = {
             "download": ["/pdf/jimmy2.pdf","jimmy2.pdf | 2.87 MB","https://drive.google.com/file/d/1JFOhixO2BlDcqxCmHNZJeL9fSAlZdxeq/view?usp=sharing","jimmy-comic2"],
             "date": "March 31, 2022",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic3": {
             "thumb": "jim_3.png",
@@ -247,7 +286,8 @@ var comicjson = {
             "download": ["/pdf/jimmy3.pdf","jimmy3.pdf | 2.90 MB","https://drive.google.com/file/d/1zAC5k-PRa1bIQjZefrjN_Ga_TMxgH-67/view?usp=sharing","jimmy-comic3"],
             "date": "April 7, 2022",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic4": {
             "thumb": "jim_4.png",
@@ -258,7 +298,8 @@ var comicjson = {
             "download": ["/pdf/jimmy4.pdf","jimmy4.pdf | 4.22 MB","https://drive.google.com/file/d/1XZoWJpSrYBcpRweqXGQGP9jCpyj2sLKu/view?usp=sharing","jimmy-comic4"],
             "date": "August 4, 2022",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic5": {
             "thumb": "jim_5.png",
@@ -269,7 +310,8 @@ var comicjson = {
             "download": ["/pdf/jimmy5.pdf","jimmy5.pdf | 2.40 MB","",""],
             "date": "September 25, 2022",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic6": {
             "thumb": "jim_6.png",
@@ -280,7 +322,8 @@ var comicjson = {
             "download": ["/pdf/jimmy6.pdf","jimmy6.pdf | 2.82 MB","https://drive.google.com/file/d/1fdi1Bu7nhOAAtnYtpu3pLjB4xQjZIxqH/view?usp=sharing","jimmy-comic6"],
             "date": "October 15, 2022",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic7": {
             "thumb": "jim_7.png",
@@ -291,7 +334,8 @@ var comicjson = {
             "download": ["/pdf/jimmy7.pdf","jimmy7.pdf | 3.28 MB","https://drive.google.com/file/d/1HNaaHdRQiH6a6OtsPMpzi2VD23ezK05m/view?usp=sharing","jimmy-comic7"],
             "date": "February 16, 2023",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic8": {
             "thumb": "jim_8.png",
@@ -302,7 +346,8 @@ var comicjson = {
             "download": ["/pdf/jimmy8.pdf","jimmy8.pdf | 3.89 MB","https://drive.google.com/file/d/1GyCkgy63R4QEfcxeP6g7-CTCuZiVB1TE/view?usp=sharing","jimmy-comic8"],
             "date": "August 11, 2023",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic9": {
             "thumb": "jim_9.png",
@@ -313,7 +358,8 @@ var comicjson = {
             "download": ["/pdf/jimmy9.pdf","jimmy9.pdf | 5.08 MB","https://drive.google.com/file/d/15mCNdQE5Zm50O2JyW2AuNLC9xzBOg3I7/view?usp=sharing","jimmy-comic9"],
             "date": "September 2, 2023",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic10": {
             "thumb": "jim_10.png",
@@ -324,7 +370,8 @@ var comicjson = {
             "download": ["/pdf/jimmy10.pdf","jimmy10.pdf | 3.75 MB","https://drive.google.com/file/d/1qfeFXbUfYpw_vTmef3JMuzjx-5XQn453/view?usp=sharing","jimmy1comic_remake"],
             "date": "January 11, 2024",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         }
     },
     "vegg": {
@@ -337,7 +384,8 @@ var comicjson = {
             "download": ["/pdf/vegg1.pdf","vegg1.pdf | 912 KB","https://drive.google.com/file/d/1WQKmRsLTxmD029iTSWO0Kb-4MCM49rSV/view?usp=sharing","veggcomic1"],
             "date": "April 15, 2023",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic2": {
             "thumb": "vg_2.png",
@@ -348,7 +396,8 @@ var comicjson = {
             "download": ["/pdf/vegg2.pdf","vegg2.pdf | 863 KB","https://drive.google.com/file/d/1x1z_rm-3gaw46ZEmyMHeFy2hP8trcLIR/view?usp=sharing","veggcomic2"],
             "date": "June 29, 2023",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic3": {
             "thumb": "vg_3.png",
@@ -359,7 +408,8 @@ var comicjson = {
             "download": ["/pdf/vegg3.pdf","vegg3.pdf | 975 KB","",""],
             "date": "August 3, 2023",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         },
         "comic4": {
             "thumb": "vg_4.png",
@@ -370,7 +420,8 @@ var comicjson = {
             "download": ["/pdf/vegg4.pdf","vegg4.pdf | 876 KB","https://drive.google.com/file/d/1yauHoZmpBI2P3ow80cR-JA6jGRWy0kOH/view?usp=sharing","veggcomic4"],
             "date": "September 16, 2023",
             "font": ["SF Cartoonist Hand","/font/SFCartoonistHand.rar",_font[0]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": [],
         }
     },
 	"swackzards": {
@@ -383,7 +434,9 @@ var comicjson = {
             "download": ["/pdf/wizards1.pdf","wizards1.pdf | 3.63 MB","https://drive.google.com/file/d/1E8LUK948P4N3KePhtV1OJjJ6K-4s4dnS/view?usp=sharing","wizardcomic1"],
             "date": "November 18, 2024",
             "font": ["Next Sunday","/font/Next Sunday.rar",_font[2]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": ["eng","rus"],
+			"lang_credits": {"rus": ["Toki, Darklet: Translation"]},
         },
 		"comic2": {
             "thumb": "wiz_2.png",
@@ -394,7 +447,9 @@ var comicjson = {
             "download": ["/pdf/wizards2.pdf","wizards2.pdf | 4.71 MB","https://drive.google.com/file/d/1EWGHLKpUJZH0_il25Ya1QM7B1injDRQf/view?usp=sharing","wizardcomic2"],
             "date": "February 21, 2025",
             "font": ["Next Sunday","/font/Next Sunday.rar",_font[2]],
-			"timelapse": '<iframe width="560" height="315" src="https://www.youtube.com/embed/iM5NMnb8aEI?si=Qhj1-oxUSL4-E6rz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+			"timelapse": '<iframe width="560" height="315" src="https://www.youtube.com/embed/iM5NMnb8aEI?si=Qhj1-oxUSL4-E6rz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+			"lang": ["eng","rus"],
+			"lang_credits": {"rus": ["Toki, Darklet: Translation"]},
         },
 		"comic3": {
             "thumb": "wiz_3.png",
@@ -405,7 +460,9 @@ var comicjson = {
             "download": ["/pdf/wizards3.pdf","wizards3.pdf | 3.78 MB","https://drive.google.com/file/d/1fzaNhd8SfZEsqcVapAmuUHkExrM8kekg/view?usp=sharing","wizardcomic3"],
             "date": "January 12, 2026",
             "font": ["Next Sunday","/font/Next Sunday.rar",_font[2]],
-			"timelapse": ""
+			"timelapse": "",
+			"lang": ["eng","rus"],
+			"lang_credits": {"rus": ["Toki, Darklet: Translation"]},
         }
 	}
 }

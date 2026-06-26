@@ -1,5 +1,29 @@
 var artdata = [
 	{
+		img: "swackdoodles.png",
+		date: "June 11, 2026",
+		desc: "The Swack Doodles",
+		category: 7
+	},
+	{
+		img: "futuresplash_dh.png",
+		date: "May 30, 2026",
+		desc: "A FutureSplash Animator artwork",
+		category: 7
+	},
+	{
+		img: "badhead.png",
+		date: "May 27, 2026",
+		desc: "BadHead",
+		category: 7
+	},
+	{
+		img: "TheRealBidd.png",
+		date: "May 23, 2026",
+		desc: "REALISTIC REDBIDD",
+		category: 7
+	},
+	{
 		img: "usxdgn.png",
 		date: "May 7, 2026",
 		desc: "Ultimate Super_XDGuy Night",

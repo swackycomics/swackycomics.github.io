@@ -21,6 +21,8 @@ document.write( '<link rel="preload" as="image" href="/img/arrowright-on.png">')
 document.write( '<link rel="preload" as="image" href="/img/nextcomic-on.png">');
 document.write( '<link rel="preload" as="image" href="/img/prevcomic-on.png">');
 
+document.write( '<link rel="preload" as="image" href="/img/kofi-on.png">');
+
 document.write('			<div id="comics_download" class="align-center" onclick="document.getElementById(\'download-popup\').style.display = \'block\';">');
 document.write('				<p id="downloadinfo_comic" style="left: 55%;">'+linkarray.join(" | ")+'</p>');
 document.write('			</div>');
@@ -32,10 +34,107 @@ document.write( '<div class="align-center">\n' );
 document.write( '                <p>Creation date: '+comic_.date+'</p> <p>'+comic_.pages+' pages.</p> <p class="medium-text _comicdesc" style=\"margin-top: 48px; margin-bottom:64px; margin-left: auto; margin-right: auto;\">' +comic_.desc+ '</p>\n' );
 document.write( '            </div>' );
 
+//languages
+var langs = [["eng","English","mainfont"], ["rus","Русский","comicrelief"]];
+
+var cur_lang = "";
+
+if(comic_.lang.length > 0){
+	var curselect = 0;
+	var url = window.location;
+	var addclass = [];
+	var id = [];
+	var url_array = [];
+	
+	for(var i = 0; i < comic_.lang.length; i++){
+		addclass[i] = "";
+		id[i] = '';
+		url_array[i] = url.href;
+	}
+	
+	if(url.search == ""){
+		curselect = 0;
+	}
+	var params = url.href.split("?");
+	
+	if(params.length > 1){
+		var params_array = params[1].split("&");
+		for(var i = 0; i < comic_.lang.length; i++){
+			var cur_param = params_array[0].split("=");
+			if(cur_param.length > 1){
+				if(cur_param[1] == langs[i][0]){
+					curselect = i;
+					cur_lang = langs[i][0]+"/";
+				}
+			}
+		}
+	}
+	
+	for(var i = 0; i < addclass.length; i++){
+		if(i == curselect){
+			addclass[i] = "selected";
+		} else {
+			var clean_url = "";
+			
+			var params = url.href.split("?");
+			if(params.length > 1){
+				clean_url = params[0];
+			} else {
+				clean_url = url.href;
+			}
+			
+			if(langs[i][0] != "eng"){
+				url_array[i] = clean_url+"?lang="+langs[i][0];
+			} else {
+				url_array[i] = clean_url;
+			}
+			id[i] = 'id="lang_btn"';
+		}
+	}
+	
+	document.write( '<p>Choose a language!<\p>\n' );
+	document.write( '<div class="align-center lang-div">\n' );
+	for(var i = 0; i < comic_.lang.length; i++){
+		document.write( '<div '+id[i]+' class="align-center '+addclass[i]+'">\n' );
+		document.write( '<p style="font-family: '+langs[i][2]+'">'+langs[i][1]+'<\p>\n' );
+		document.write( '</div>\n' );
+	}
+	document.write( '</div>\n' );
+	
+	//interact
+	var lang_btn = document.getElementById("lang_btn");
+	lang_btn.addEventListener("click", () => {
+		var lang_name = lang_btn.querySelector('p').textContent;
+		var lang_select = 0;
+		for(var i = 0; i < langs.length; i++){
+			if(langs[i][1] == lang_name){
+				lang_select = i;
+			}
+		}
+		window.location.href = url_array[lang_select];
+	});
+	
+	if(cur_lang != ""){
+		var lang_json = cur_lang.slice(0,-1);
+		if(Object.hasOwn(comic_.lang_credits, lang_json)){
+			//credits
+			document.write( '<p style="margin-top: 28px;">Credits:<\p>\n' );
+			document.write( '<div class="align-center lang-credits-div">\n' );
+			for(var i = 0; i < comic_.lang_credits[lang_json].length; i++){
+				document.write( '<p>'+comic_.lang_credits[lang_json][i]+'<\p>\n' );
+				if(i < comic_.lang_credits[lang_json].length-1){
+					document.write( '<hr>' );
+				}
+			}
+			document.write( '</div>\n' );
+		}
+	}
+}
+
 document.write( '<div class=\"align-center comicdiv\">\n' );
 for(var i = 0; i < comicpages[seriesnum][1][episode-1]; i++){
-	document.write('			<a href="/comics/'+comic+'_comics/ep'+episode+'/'+(i+1).toString()+'.png" target="_blank">');
-    document.write( '                <img src="/comics/'+comic+'_comics/ep'+episode+'/'+(i+1).toString()+'.png">\n' );
+	document.write('			<a href="/comics/'+comic+'_comics/ep'+episode+'/'+cur_lang+(i+1).toString()+'.png" target="_blank">');
+    document.write( '                <img src="/comics/'+comic+'_comics/ep'+episode+'/'+cur_lang+(i+1).toString()+'.png">\n' );
 	document.write('			</a>');
 }
 document.write( '            </div>' );
@@ -120,3 +219,14 @@ if(comic_.timelapse.length > 0){
 	document.write( '	'+comic_.timelapse);
 	document.write( '</div>' );
 }
+
+//kofi
+document.write( '	<div style="height:28px"></div>' );
+document.write( '<div class="kofi">' );
+document.write( '	<p>Get a comic like this with your characters!</p>' );
+document.write( '	<a href="https://ko-fi.com/swackygcf" target="_blank">' );
+document.write( '		<img src="/img/kofi.png">' );
+document.write( '	</a>' );
+document.write( '	<p style="max-width: 400px;" class="align-center"><a href="/contact/kofi_terms/">MY TERMS OF SERVICE</a></p>' );
+document.write( '	<div style="height:48px"></div>' );
+document.write( '</div>' );
