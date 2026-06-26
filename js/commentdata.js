@@ -1,4 +1,5 @@
 var comment_data = [
+	{ page: "/comics/redbidd_comics/ep10/", user: "16BIRDS", date: "June 26, 2026 at 03:13 PM", comment: "THIS IS REALLY FUCKING COOL", },
 	{ page: "/news/article/the_return_of_the_redbidd_comics/", user: "Hi", date: "June 26, 2026 at 02:24 PM", comment: "Hi", },
 	{ page: "/news/article/comment_section/", user: "Ax.", date: "June 1, 2026 at 07:28 PM", comment: "TF2 is BONK!", },
 	{ page: "/swacktalk/blog/developing_dynamitehead_toxic_demo/", user: "YAYSUU", date: "May 29, 2026 at 03:32 AM", comment: "and don't forget to play yaysuu's- *i am then shot 41808 times*", },
