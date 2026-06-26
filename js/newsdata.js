@@ -29,7 +29,7 @@ var newsdata = [
 	{
 		title: "I'M BROKE. (Let's Change That)",
 		date: "June 26, 2026",
-		shortdesc: "Hello everybody who still visits SWACKYCOMICS from time to time. I'm here to tell you that I am still accepting commissions (Drawings, Animations, COMICS N WHATNOT!!!). And I am still very much a broke bum.",
+		shortdesc: "Hello everybody who still visits SWACKYCOMICS from time to time. I'm here to tell you that I am still accepting commissions (Drawings, Animations, COMICS 'N WHATNOT!!!). And I am still very much a broke bum.",
 		fields: [
 			[
 				"text",
