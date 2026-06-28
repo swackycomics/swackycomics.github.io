@@ -142,7 +142,7 @@ var comicjson = {
             "download": ["/pdf/redbidd10.pdf","redbidd10.pdf | 8.16 MB","https://drive.google.com/file/d/1OqRRUtdR6tXQfSWisK8wKWRXMfLgwxrI/view?usp=sharing","redbiddcomic-10"],
             "date": "June 26, 2026",
             "font": ["Pink Chicken","/font/Pink Chicken.rar",_font[1]],
-			"timelapse": "",
+			"timelapse": '<iframe width="560" height="315" src="https://www.youtube.com/embed/whyYIlZjLuI?si=mxl8e9H-2CbMMLiP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
 			"lang": [],
         }
     },
