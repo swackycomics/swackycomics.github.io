@@ -1,45 +1,119 @@
 var artdata = [
 	{
+		img: "fanart_artfight2026_7.png",
+		date: "July 20, 2026",
+		desc: "AlanaDaMoonDemon - What an heartthrob!",
+		category: 8
+	},
+	{
+		img: "fanart_artfight2026_6.png",
+		date: "July 15, 2026",
+		desc: "KeniPonezh - TNTSON",
+		category: 8
+	},
+	{
+		img: "fanart_artfight2026_5.png",
+		date: "July 14, 2026",
+		desc: "brappah - 2 in 1 Epic Deal!",
+		category: 8
+	},
+	{
+		img: "fanart_artfight2026_4.png",
+		date: "July 13, 2026",
+		desc: "Icie145 - Motor Bish",
+		category: 8
+	},
+	{
+		img: "fanart_artfight2026_3.png",
+		date: "July 4, 2026",
+		desc: "SEKRITARI - Boom",
+		category: 8
+	},
+	{
+		img: "fanart_artfight2026_2.png",
+		date: "July 4, 2026",
+		desc: "MrFreaks - DynamiteHead and The Shadow having a very polite disagreement",
+		category: 8
+	},
+	{
+		img: "fanart_artfight2026_1.png",
+		date: "July 4, 2026",
+		desc: "Toki - Just a quick sketch of these two",
+		category: 8
+	},
+
+	{
 		img: "swackzardsfixel.png",
 		date: "Mar. 11, 2026",
 		desc: "Fixel",
-		category: 6
+		category: 7
 	},
 	{
 		img: "Untitled5082_20260304232807.png",
 		date: "Mar. 5, 2026",
 		desc: "DigitalPOP",
-		category: 6
+		category: 7
 	},
 	{
 		img: "Untitled4764_20260205182536.png",
 		date: "Feb. 6, 2026",
 		desc: "DigitalPOP",
-		category: 6
+		category: 7
 	},
 	{
 		img: "Untitled4696_20260201133953.png",
 		date: "Feb. 1, 2026",
 		desc: "DigitalPOP",
-		category: 6
+		category: 7
 	},
 	{
 		img: "03232805.png",
 		date: "Feb. 1, 2026",
 		desc: "Toki",
-		category: 6
+		category: 7
 	},
 	
 	{
 		img: "4615f41298bcf439.png",
 		date: "Jan. 26, 2026",
 		desc: "romansally",
-		category: 6
+		category: 7
 	},
 	{
 		img: "IMG_4196.png",
 		date: "Jan. 25, 2026",
 		desc: "The Deliverer",
+		category: 7
+	},
+	
+	{
+		img: "fanart_artfight2025_5.jpg",
+		date: "Aug. 1, 2025",
+		desc: "duckduckington (Artfight) - A fisti... plant?",
+		category: 6
+	},
+	{
+		img: "fanart_artfight2025_4.png",
+		date: "Jul. 22, 2025",
+		desc: "Toki_ch (Artfight) - trotyl child",
+		category: 6
+	},
+	{
+		img: "fanart_artfight2025_3.png",
+		date: "Jul. 11, 2025",
+		desc: "aba_ (Artfight) - Thorny",
+		category: 6
+	},
+	{
+		img: "fanart_artfight2025_2.png",
+		date: "Jul. 8, 2025",
+		desc: "ValeryValerie (Artfight)- Punchy",
+		category: 6
+	},
+	{
+		img: "fanart_artfight2025_1.gif",
+		date: "Jul. 3, 2025",
+		desc: "vexiottto (Artfight) - DYNAMITE HEAD!!! >:)",
 		category: 6
 	},
 	
@@ -53,36 +127,6 @@ var artdata = [
 		img: "swack.png",
 		date: "Oct. 20, 2025",
 		desc: "Icie145",
-		category: 5
-	},
-	{
-		img: "fanart_artfight2025_5.jpg",
-		date: "Aug. 1, 2025",
-		desc: "duckduckington (Artfight) - A fisti... plant?",
-		category: 5
-	},
-	{
-		img: "fanart_artfight2025_4.png",
-		date: "Jul. 22, 2025",
-		desc: "Toki_ch (Artfight) - trotyl child",
-		category: 5
-	},
-	{
-		img: "fanart_artfight2025_3.png",
-		date: "Jul. 11, 2025",
-		desc: "aba_ (Artfight) - Thorny",
-		category: 5
-	},
-	{
-		img: "fanart_artfight2025_2.png",
-		date: "Jul. 8, 2025",
-		desc: "ValeryValerie (Artfight)- Punchy",
-		category: 5
-	},
-	{
-		img: "fanart_artfight2025_1.gif",
-		date: "Jul. 3, 2025",
-		desc: "vexiottto (Artfight) - DYNAMITE HEAD!!! >:)",
 		category: 5
 	},
 	{

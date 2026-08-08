@@ -1,6 +1,29 @@
 //shortdesc length of string = 200
 var newsdata = [
 	{
+		title: "BEST OF ARTFIGHT (2026)",
+		date: "August 8, 2026",
+		shortdesc: "BEST OF ARTFIGHT! YEAH! Best of artfight... How's it goin', swack fans and not swack fans? Been awhile since I've posted here. AS ALWAYS. Of course it's been awhile I ALWAYS FORGET THIS WEBSITE EXISTS. Anyway. Artfight, huh?",
+		fields: [
+			[
+				"text",
+				[
+					"<p>BEST OF ARTFIGHT! YEAH! Best of artfight... How's it goin', swack fans and not swack fans? Been awhile since I've posted here. AS ALWAYS. Of course it's been awhile I ALWAYS FORGET THIS WEBSITE EXISTS. Anyway. Artfight, huh?</p>",
+					"<br/>",
+					"<p>This july sure has been an artful month. The beast of art has possessed my mind for the entirety of July and it REFUSED to let go. You want proofs, silly boy? I mean, have you seen the gallery? You better check it. It's full of arts and fanarts. All kinds of drawings in there that you better have your eyes in \"SEEN THAT ALREADY\" mode.</p>",
+					"<br/>",
+					"<p>In all seriousness, though. This was another fun year of drawing other people's wacky dudes and getting my wacky dudes drawn by other wacky dudes. I'm gonna miss you, artfight... UNTIL NEXT YEAR, PAL!</p>",
+					"<br/>",
+					"<p><a target=\"_blank\" href=\"/art_showcase/\">My drawings</a></p>",
+					"<p><a target=\"_blank\" href=\"/fan_art_corner/\">Other's drawings</a></p>",
+				]
+			],
+			["image","/news/img/news13.png"]
+		],
+		id: "13",
+		href: "/news/article/best_of_artfight_2026/",
+	},
+	{
 		title: "The RETURN of The RedBidd Comics + Fan Translations",
 		date: "June 26, 2026",
 		shortdesc: "HEY, SWACK FANS! How's it going? I've just finished working on the NEW RedBidd Comic. This one's all about bees. Bees everywhere.",

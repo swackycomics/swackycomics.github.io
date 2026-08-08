@@ -1,116 +1,230 @@
 var artdata = [
 	{
+		img: "artfight2026_9.png",
+		date: "July 26, 2026",
+		desc: "Purpalien",
+		category: 9
+	},
+	{
+		img: "artfight2026_8.png",
+		date: "July 19, 2026",
+		desc: "That's Edward!",
+		category: 9
+	},
+	{
+		img: "artfight2026_7.png",
+		date: "July 14, 2026",
+		desc: "Crazy Reese",
+		category: 9
+	},
+	{
+		img: "artfight2026_6.png",
+		date: "July 12, 2026",
+		desc: "Spaghetti-O!",
+		category: 9
+	},
+	{
+		img: "artfight2026_5.png",
+		date: "July 9, 2026",
+		desc: "Three Of 'Em",
+		category: 9
+	},
+	{
+		img: "artfight2026_4.png",
+		date: "July 7, 2026",
+		desc: "Rick Comic",
+		category: 9
+	},
+	{
+		img: "artfight2026_3.png",
+		date: "July 6, 2026",
+		desc: "Quiet city",
+		category: 9
+	},
+	{
+		img: "artfight2026_2.png",
+		date: "July 5, 2026",
+		desc: "KRANION!",
+		category: 9
+	},
+	{
+		img: "artfight2026_1.png",
+		date: "July 3, 2026",
+		desc: "Cheese Block!",
+		category: 9
+	},
+	{
 		img: "swackdoodles.png",
 		date: "June 11, 2026",
 		desc: "The Swack Doodles",
-		category: 7
+		category: 8
 	},
 	{
 		img: "futuresplash_dh.png",
 		date: "May 30, 2026",
 		desc: "A FutureSplash Animator artwork",
-		category: 7
+		category: 8
 	},
 	{
 		img: "badhead.png",
 		date: "May 27, 2026",
 		desc: "BadHead",
-		category: 7
+		category: 8
 	},
 	{
 		img: "TheRealBidd.png",
 		date: "May 23, 2026",
 		desc: "REALISTIC REDBIDD",
-		category: 7
+		category: 8
 	},
 	{
 		img: "usxdgn.png",
 		date: "May 7, 2026",
 		desc: "Ultimate Super_XDGuy Night",
-		category: 7
+		category: 8
 	},
 	{
 		img: "groovydemo_gameover1.png",
 		date: "Apr 12, 2026",
 		desc: "Game Over. (No logo)",
-		category: 7
+		category: 8
 	},
 	{
 		img: "enjoylanky.png",
 		date: "Apr 12, 2026",
 		desc: "Lanky Larry's cover. Referencing Enjoy Incubus.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "dhmayhem.png",
 		date: "Apr 12, 2026",
 		desc: "The Stage Surf cover. Referencing Methods of Mayhem.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "styxcriuss.png",
 		date: "Mar. 23, 2026",
 		desc: "Styx & Crius SEARCHIN'.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "hairycreature.png",
 		date: "Mar. 10, 2026",
 		desc: "Hairy Creature.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "hotdog.png",
 		date: "Mar. 7, 2026",
 		desc: "Ketchup flavored water.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "renstimpy.png",
 		date: "Feb. 27, 2026",
 		desc: "Ren & Stimpy... AGAIN.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "yolobones3.png",
 		date: "Feb. 19, 2026",
 		desc: "Various Yolo-Bones.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "downsouth.png",
 		date: "Feb. 18, 2026",
 		desc: "Downsouth fanart.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "bugniche.png",
 		date: "Jan. 30, 2026",
 		desc: "The BUG! niche is here.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "dhauraloss.png",
 		date: "Jan. 12, 2026",
 		desc: "The loss of aura.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "alienhominid.png",
 		date: "Jan. 7, 2026",
 		desc: "Alien Hominid.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "primer55head.png",
 		date: "Jan. 5, 2026",
 		desc: "An unused DynamiteHead cover. Referencing the Introduction to Mayhem album.",
-		category: 7
+		category: 8
 	},
 	{
 		img: "dukeyaoican.png",
 		date: "Jan. 3, 2026",
 		desc: "Duke stays hydrated.",
+		category: 8
+	},
+	{
+		img: "artfight2025_10.png",
+		date: "Jul. 30, 2025",
+		desc: "Artfight attack 10. me by SEKRITARI",
+		category: 7
+	},
+	{
+		img: "artfight2025_9.png",
+		date: "Jul. 20, 2025",
+		desc: "Artfight attack 9. Slank & Marx by duckduckington",
+		category: 7
+	},
+	{
+		img: "artfight2025_8.png",
+		date: "Jul. 16, 2025",
+		desc: "Artfight attack 8. A moment of reflection by Toki_ch",
+		category: 7
+	},
+	{
+		img: "artfight2025_7.png",
+		date: "Jul. 14, 2025",
+		desc: "Artfight attack 7. Silvie S. Sylveon & others by Obtuse_Cassierole",
+		category: 7
+	},
+	{
+		img: "artfight2025_6.png",
+		date: "Jul. 11, 2025",
+		desc: "Artfight attack 6. Ben & Jerry by aba_",
+		category: 7
+	},
+	{
+		img: "artfight2025_5.png",
+		date: "Jul. 8, 2025",
+		desc: "Artfight attack 5. Dude by AlexB207",
+		category: 7
+	},
+	{
+		img: "artfight2025_4.png",
+		date: "Jul. 5, 2025",
+		desc: "Artfight attack 4. John Scruffy Super Freaks by SuperFreaksDev",
+		category: 7
+	},
+	{
+		img: "artfight2025_3.png",
+		date: "Jul. 4, 2025",
+		desc: "Artfight attack 3. Hantu by BigBoyBuffBoy",
+		category: 7
+	},
+	{
+		img: "artfight2025_2.png",
+		date: "Jul. 3, 2025",
+		desc: "Artfight attack 2. Mr. Triline by SEKRITARI",
+		category: 7
+	},
+	{
+		img: "artfight2025_1.png",
+		date: "Jul. 2, 2025",
+		desc: "Artfight attack 1. Statail by vexiottto",
 		category: 7
 	},
 	{
@@ -177,66 +291,6 @@ var artdata = [
 		img: "swackzards_whitebg.png",
 		date: "Aug. 15, 2025",
 		desc: "It's SWACKZARDS... AGAIN!",
-		category: 6
-	},
-	{
-		img: "artfight2025_10.png",
-		date: "Jul. 30, 2025",
-		desc: "Artfight attack 10. me by SEKRITARI",
-		category: 6
-	},
-	{
-		img: "artfight2025_9.png",
-		date: "Jul. 20, 2025",
-		desc: "Artfight attack 9. Slank & Marx by duckduckington",
-		category: 6
-	},
-	{
-		img: "artfight2025_8.png",
-		date: "Jul. 16, 2025",
-		desc: "Artfight attack 8. A moment of reflection by Toki_ch",
-		category: 6
-	},
-	{
-		img: "artfight2025_7.png",
-		date: "Jul. 14, 2025",
-		desc: "Artfight attack 7. Silvie S. Sylveon & others by Obtuse_Cassierole",
-		category: 6
-	},
-	{
-		img: "artfight2025_6.png",
-		date: "Jul. 11, 2025",
-		desc: "Artfight attack 6. Ben & Jerry by aba_",
-		category: 6
-	},
-	{
-		img: "artfight2025_5.png",
-		date: "Jul. 8, 2025",
-		desc: "Artfight attack 5. Dude by AlexB207",
-		category: 6
-	},
-	{
-		img: "artfight2025_4.png",
-		date: "Jul. 5, 2025",
-		desc: "Artfight attack 4. John Scruffy Super Freaks by SuperFreaksDev",
-		category: 6
-	},
-	{
-		img: "artfight2025_3.png",
-		date: "Jul. 4, 2025",
-		desc: "Artfight attack 3. Hantu by BigBoyBuffBoy",
-		category: 6
-	},
-	{
-		img: "artfight2025_2.png",
-		date: "Jul. 3, 2025",
-		desc: "Artfight attack 2. Mr. Triline by SEKRITARI",
-		category: 6
-	},
-	{
-		img: "artfight2025_1.png",
-		date: "Jul. 2, 2025",
-		desc: "Artfight attack 1. Statail by vexiottto",
 		category: 6
 	},
 	{
