@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PROGRESS-O-METER</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" href="/img/icon.png">
+		
+		<script src="/js/newsdata.js"></script>
+		<script src="/js/swacktalk.js"></script>
+		
+        <meta name="theme-color" content="#f26411">
+        <meta property="og:type" content="article">
+
+        <meta property="og:title" content="SWACKYCOMICS">
+        <meta property="og:site_name" content="swackycomics.github.io">
+        <meta property="og:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="og:image" content="/img/default.png">
+
+        <meta property="twitter:title" content="SWACKYCOMICS">
+        <meta property="twitter:site" content="swackycomics.github.io">
+        <meta property="twitter:description" content="YEAH! COMICS! Welcome welcome and once again welcome to the swack's comic shack. Here you can see all types of comics, ranging from a guy shooting up spiders.. to some other guy throwing blocks everywhere.">
+        <meta property="twitter:image" content="/img/default.png">
+		<meta property="twitter:card" content="summary_large_image">
+    </head>
+    <body>
+        <script src="/js/generic.js"></script>
+		<script src="/comicdata.js"></script>
+
+        <div class="main align-center" id="content">
+			<div class="align-center" id="prog_page">
+				<p id="prog_page_text">PROGRESS-O-METER STATUS</p>
+				<script>
+					var prog_desc = [
+						"YAY! The comic's currently being sketched! This stage of comic making is usually the most experimental and takes the longest to complete. So call this a rather slow start.",
+						"Great news!! I've moved onto the lineart part of the comic making. HELL YEAH. Let's get this comic off the ground!",
+						"The main lineart's all done. Moving onto coloring this comic piece by piece. Let's bring color into this black and white looking world!",
+						"Wonderful news: The most tedious parts of comic making are left behind! Now I can begin working on real fun stuff like speech bubbles, FX and borders. Let's do this.",
+						"This is the part where I mainly draw backgrounds (Be it a specific setting or just a bunch of random colors) and add some finishing touch ups here and there. The end's in sight... Let's get this comic DONE WITH!",
+					];
+					
+					if(comic_progress > -1){
+						//comic progress
+						document.write('<img src="/img/progress-o-meter/progress_title'+(comic_progress+1).toString()+'.png">');
+						document.write('<img src="/img/progress-o-meter/gif/progress'+(comic_progress+1).toString()+'.gif">');
+						document.write('<img src="/img/progress-o-meter/progress'+(comic_progress+1).toString()+'.png">');
+						document.write('<p id="prog_page_desc">'+prog_desc[comic_progress]+'</p>');
+					} else {
+						document.write('<img src="/img/progress-o-meter/progress_none.png">');
+						document.write('<p style="padding-bottom: 0;" id="prog_page_text">No comic is currently being worked on.</p>');
+						document.write('<p style="padding: 0;" id="prog_page_text">Come back later.</p>');
+					}
+				</script>
+				<div style="height:64px"></div>
+				<a href="/" id="newsback_link"><div id="newsback"></div></a>
+			</div>
+            <script src="/js/footer.js"></script>
+        </div>
+    </body>
+</html>

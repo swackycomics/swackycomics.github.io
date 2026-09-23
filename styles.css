@@ -413,6 +413,56 @@ code {
 	background-image: url("/img/comicframenew-on.png");
 }
 
+#prog {
+	background-color: rgba(0,0,0,0.6);
+	border: 5px solid #ffb812;
+	
+	padding: 12px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	width: 600px;
+	font-size: 30px;
+}
+
+#prog p {
+	text-align: center;
+	width: 100%;
+}
+
+#prog_img {
+	padding-top: 20px;
+	padding-bottom: 12px;
+	width: 80%;
+	height: auto;
+	content: url("/img/progress-o-meter/progress_sign_off.png");
+}
+#prog_img:hover {
+	content: url("/img/progress-o-meter/progress_sign_on.png");
+}
+
+#prog_text_no {
+	color: #E7AF2E;
+	text-decoration: underline;
+}
+#prog_text_yes {
+	color: #73FF00;
+	text-decoration: underline;
+}
+
+#prog_page {
+	width: 820px;
+}
+#prog_page_text {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 35px;
+}
+
+#prog_page img {
+	width: 70%;
+}
+
 /* comic series preview css */
 #comicseries_div {
 	text-decoration: none;
@@ -1539,6 +1589,23 @@ code {
     #new {
         background-size: 50vw 50vw;
     }
+	
+	#prog {
+		width: 90vw;
+		font-size: 50px;
+	}
+	
+	#prog_page {
+		width: 95vw;
+		font-size: 47px;
+	}
+	#prog_page_text {
+		font-size: 64px;
+	}
+	#prog_page img {
+		width: 90%;
+	}
+	
     #pbottom{
         margin-top:-4%;
     }

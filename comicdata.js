@@ -1,3 +1,5 @@
+var comic_progress = 3;
+
 var recent = [
 	{
     "thumb": "rb_10",

@@ -41,6 +41,8 @@ document.write( '<link rel="preload" as="image" href="/img/header/header_news_ho
 document.write( '<link rel="preload" as="image" href="/img/header/header_trivia_hover.png">');
 document.write( '<link rel="preload" as="image" href="/img/header/header_swacktalk_hover.png">');
 
+document.write( '<link rel="preload" as="image" href="/img/progress-o-meter/progress_sign_off.png">');
+
 document.write( '<link rel="preload" as="image" href="/img/download/download-on.png">');
 document.write( '<link rel="preload" as="image" href="/img/back-on.png">');
 
