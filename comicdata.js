@@ -1,4 +1,4 @@
-var comic_progress = 3;
+var comic_progress = 4;
 
 var recent = [
 	{
