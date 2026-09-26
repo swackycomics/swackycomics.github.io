@@ -1,10 +1,10 @@
-var comic_progress = 4;
+var comic_progress = -1;
 
 var recent = [
 	{
-    "thumb": "rb_10",
-    "title": "The RedBidd Comics: BEELAND",
-    "href": "/comics/redbidd_comics/ep10/",
+    "thumb": "wiz_4",
+    "title": "SWACKZARDS!: CHANNEL SURFERS",
+    "href": "/comics/swackzards_comics/ep4/",
 	}
 ];
 
@@ -13,7 +13,7 @@ var comicpages = [
     ["dh",[4,5,4,8,8,14,17,22]],
     ["jimmy",[14,13,14,14,10,12,18,18,20,14]],
     ["vegg",[4,4,4,4]],
-	["swackzards",[16,18,13]],
+	["swackzards",[16,18,13,29]],
 ]
 var comictitles = [
 	"the_redbidd_comics",
@@ -465,6 +465,18 @@ var comicjson = {
 			"timelapse": "",
 			"lang": ["eng","rus"],
 			"lang_credits": {"rus": ["Toki, Darklet: Translation"]},
+        },
+		"comic4": {
+            "thumb": "wiz_4.png",
+            "series": "SWACKZARDS!",
+            "title": "CHANNEL SURFERS",
+            "pages": (comicpages[4][1][ 3 ]).toString(),
+            "desc": "In this episode, Styx and Crius WATCH TV! The only catch here is that the TV they're watching is not one of the... \"normal\" ones. Let's just say these two are in for a real surprise.",
+            "download": ["/pdf/wizards4.pdf","wizards4.pdf | 6.86 MB","https://drive.google.com/file/d/1Ks9_jirYy1kgRnt73eJjrkftsGh8D18q/view?usp=sharing","wizardcomic4"],
+            "date": "September 25, 2026",
+            "font": ["Next Sunday","/font/Next Sunday.rar",_font[2]],
+			"timelapse": "",
+			"lang": [],
         }
 	}
 }

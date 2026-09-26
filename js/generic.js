@@ -46,8 +46,8 @@ document.write( '<link rel="preload" as="image" href="/img/progress-o-meter/prog
 document.write( '<link rel="preload" as="image" href="/img/download/download-on.png">');
 document.write( '<link rel="preload" as="image" href="/img/back-on.png">');
 
-document.write( '<div class=\"side-border left-border align-left on-top\"></div>\n' );
-document.write( '        <div class=\"side-border right-border align-right on-top\"></div>\n' );
+document.write( '<div class=\"side-border left-border align-left\"></div>\n' );
+document.write( '        <div class=\"side-border right-border align-right\"></div>\n' );
 document.write( '        <div class=\"align-center header on-top\" style=\"width:100%;\">\n' );
 
 document.write( '            <a class="header-button" href=\"/\" id=\"header1\"></a>\n' );

@@ -1,7 +1,7 @@
 //recent comic
 	document.write('			<div class="pctable comicborder greenborder">');
-	document.write('				<img id="recent_img1" src="/img/recent/recent7_1.png"/>');
-	document.write('				<img id="recent_img2" src="/img/recent/recent7_2.png"/>');
+	document.write('				<img id="recent_img1" src="/img/recent/recent8_1.png"/>');
+	document.write('				<img id="recent_img2" src="/img/recent/recent8_2.png"/>');
 	
 	var p_text = "No comic is currently being worked on.";
 	var p_id = "prog_text_no";

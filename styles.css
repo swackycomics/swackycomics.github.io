@@ -39,11 +39,6 @@ code {
     min-height: 100vh;
 }
 
-.side-border {
-	width:16.5vh;
-	height:100%;
-}
-
 .left-border {
     background-image: url("/img/borderl.png");
     background-repeat: repeat-y;
@@ -116,6 +111,15 @@ code {
 .not-logo {
 	width: 9vh;
 	background-size: 100% auto;
+}
+
+.side-border {
+	z-index: 99;
+	position: fixed;
+	width: 128px;
+	
+	height: 100%;
+	min-height: 100dvh;
 }
 
 /* tags */

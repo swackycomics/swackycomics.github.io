@@ -1,6 +1,24 @@
 //shortdesc length of string = 200
 var newsdata = [
 	{
+		title: "CHANNEL SURFERS + Website redesign",
+		date: "September 26, 2026",
+		shortdesc: "Yo how's it goin', swack fans? Missed me? No you didn't. THE NEW SWACKZARDS COMIC IS FINALLY OUT! This one's about Styx and Crius watching TV and CHILLING OUT. Nothing but chilling out happening in this episode for sure.",
+		fields: [
+			[
+				"text",
+				[
+					"<p>Yo how's it goin', swack fans? Missed me? No you didn't. THE NEW SWACKZARDS COMIC IS FINALLY OUT! This one's about Styx and Crius watching TV and CHILLING OUT. Nothing but chilling out happening in this episode for sure. In a typical swack fashion, this newest episode is the biggest in the whole series, spanning twenty eight pages of cartoony action. Now THAT'S what I'm talking about! You better not miss out on this one, pal</p>",
+					"<a target=\"_blank\" href=\"/comics/swackzards_comics/ep4/\"><p>SWACKZARDS!: CHANNEL SURFERS</p></a><br/>",
+					"<p>Now, we shall address the elephant in the room... The whole website just got redesigned! I know this kinda stuff usually sparks a discourse, but I genuinely believe this new redesign fits the vibe of swackycomics a lot more than \"graffiti on a wall\". Tell me what you think in the comments.</p>"
+				]
+			],
+			["image","/news/img/news14.png"]
+		],
+		id: "14",
+		href: "/news/article/channel_surfers_plus_website_redesign/",
+	},
+	{
 		title: "BEST OF ARTFIGHT (2026)",
 		date: "August 8, 2026",
 		shortdesc: "BEST OF ARTFIGHT! YEAH! Best of artfight... How's it goin', swack fans and not swack fans? Been awhile since I've posted here. AS ALWAYS. Of course it's been awhile I ALWAYS FORGET THIS WEBSITE EXISTS. Anyway. Artfight, huh?",
