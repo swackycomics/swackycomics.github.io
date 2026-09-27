@@ -1,4 +1,5 @@
 var comment_data = [
+	{ page: "/news/article/channel_surfers_plus_website_redesign/", user: "toki", date: "September 27, 2026 at 11:02 AM", comment: "I think da new website design looks awesome!!!! (but it’ll take some time to get used to it anyway)", },
 	{ page: "/comics/swackzards_comics/ep4/", user: "toki", date: "September 26, 2026 at 04:16 PM", comment: "THIS IS PEEEEEEAAAAAAAAAAAKKKKKKKK, ZEUS IS SO COOL", },
 	{ page: "/news/article/channel_surfers_plus_website_redesign/", user: "GUBBY", date: "September 26, 2026 at 04:02 PM", comment: "Gubby", },
 	{ page: "/news/article/best_of_artfight_2026/", user: "w", date: "August 8, 2026 at 07:58 PM", comment: "holy shit im in the thumbnail", },
