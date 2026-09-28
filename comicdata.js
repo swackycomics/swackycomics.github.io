@@ -475,7 +475,7 @@ var comicjson = {
             "download": ["/pdf/wizards4.pdf","wizards4.pdf | 6.86 MB","https://drive.google.com/file/d/1Ks9_jirYy1kgRnt73eJjrkftsGh8D18q/view?usp=sharing","wizardcomic4"],
             "date": "September 25, 2026",
             "font": ["Next Sunday","/font/Next Sunday.rar",_font[2]],
-			"timelapse": "",
+			"timelapse": '<iframe width="560" height="315" src="https://www.youtube.com/embed/UcJLT84ZwLM?si=9x0ZUBqOAcyvRo8S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
 			"lang": [],
         }
 	}
