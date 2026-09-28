@@ -1,4 +1,5 @@
 var comment_data = [
+	{ page: "/news/article/channel_surfers_plus_website_redesign/", user: "Eddiemancurly", date: "September 28, 2026 at 09:52 PM", comment: "A toggle between new and old would be nice, but its alright i guess.", },
 	{ page: "/news/article/channel_surfers_plus_website_redesign/", user: "A Random Guy", date: "September 27, 2026 at 09:47 PM", comment: "I like the redesign, especially the new logo. Im going to read the new comic now. God bless you swacky", },
 	{ page: "/news/article/channel_surfers_plus_website_redesign/", user: "toki", date: "September 27, 2026 at 11:02 AM", comment: "I think da new website design looks awesome!!!! (but it’ll take some time to get used to it anyway)", },
 	{ page: "/comics/swackzards_comics/ep4/", user: "toki", date: "September 26, 2026 at 04:16 PM", comment: "THIS IS PEEEEEEAAAAAAAAAAAKKKKKKKK, ZEUS IS SO COOL", },
